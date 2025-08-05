@@ -1,0 +1,1006 @@
+{
+  "scale": {
+    "scale_1_2": {
+      "worker_init_time": 15.843,
+      "training_setup_time": 11.026,
+      "avg_time_before_scale": 0.233,
+      "overlapped_scale_time": 3.02,
+      "non_overlapped_scale_time": {
+        "total": 10.895,
+        "setup_graph_and_ddp_group": 10.683,
+        "prepartition_wait_time": 8.422668218612671,
+        "load_prepartition_time": 1.9647314548492432,
+        "graph_data_transfer": 0.138,
+        "ddp_data_transfer": 0.074
+      },
+      "avg_time_after_scale": 0.2229633027522936
+    },
+    "scale_1_3": {
+      "worker_init_time": 14.63,
+      "training_setup_time": 9.728,
+      "avg_time_before_scale": 0.23908333333333331,
+      "overlapped_scale_time": 3.178,
+      "non_overlapped_scale_time": {
+        "total": 10.634,
+        "setup_graph_and_ddp_group": 10.373,
+        "prepartition_wait_time": 8.19433331489563,
+        "load_prepartition_time": 1.8275518417358398,
+        "graph_data_transfer": 0.161,
+        "ddp_data_transfer": 0.1
+      },
+      "avg_time_after_scale": 0.19782113821138217
+    },
+    "scale_1_4": {
+      "worker_init_time": 14.304,
+      "training_setup_time": 9.85,
+      "avg_time_before_scale": 0.2384615384615384,
+      "overlapped_scale_time": 3.148,
+      "non_overlapped_scale_time": {
+        "total": 10.549,
+        "setup_graph_and_ddp_group": 10.267,
+        "prepartition_wait_time": 7.959122657775879,
+        "load_prepartition_time": 1.9778146743774414,
+        "graph_data_transfer": 0.173,
+        "ddp_data_transfer": 0.109
+      },
+      "avg_time_after_scale": 0.1869769230769232
+    },
+    "scale_1_5": {
+      "worker_init_time": 14.565,
+      "training_setup_time": 10.041,
+      "avg_time_before_scale": 0.23927272727272725,
+      "overlapped_scale_time": 3.167,
+      "non_overlapped_scale_time": {
+        "total": 11.06,
+        "setup_graph_and_ddp_group": 10.673,
+        "prepartition_wait_time": 7.9216554164886475,
+        "load_prepartition_time": 2.4096035957336426,
+        "graph_data_transfer": 0.252,
+        "ddp_data_transfer": 0.135
+      },
+      "avg_time_after_scale": 0.21454385964912265
+    },
+    "scale_1_6": {
+      "worker_init_time": 14.354,
+      "training_setup_time": 10.871,
+      "avg_time_before_scale": 0.23844444444444443,
+      "overlapped_scale_time": 3.301,
+      "non_overlapped_scale_time": {
+        "total": 10.608,
+        "setup_graph_and_ddp_group": 10.183,
+        "prepartition_wait_time": 7.3920979499816895,
+        "load_prepartition_time": 2.625110149383545,
+        "graph_data_transfer": 0.259,
+        "ddp_data_transfer": 0.166
+      },
+      "avg_time_after_scale": 0.20590677966101667
+    },
+    "scale_1_7": {
+      "worker_init_time": 14.4,
+      "training_setup_time": 9.891,
+      "avg_time_before_scale": 0.23871428571428568,
+      "overlapped_scale_time": 3.549,
+      "non_overlapped_scale_time": {
+        "total": 10.998,
+        "setup_graph_and_ddp_group": 10.569,
+        "prepartition_wait_time": 7.3739025592803955,
+        "load_prepartition_time": 2.848219871520996,
+        "graph_data_transfer": 0.269,
+        "ddp_data_transfer": 0.16
+      },
+      "avg_time_after_scale": 0.21264912280701745
+    },
+    "scale_1_8": {
+      "worker_init_time": 14.295,
+      "training_setup_time": 10.091,
+      "avg_time_before_scale": 0.23942857142857138,
+      "overlapped_scale_time": 3.681,
+      "non_overlapped_scale_time": {
+        "total": 11.049,
+        "setup_graph_and_ddp_group": 10.528,
+        "prepartition_wait_time": 7.110231637954712,
+        "load_prepartition_time": 3.221433639526367,
+        "graph_data_transfer": 0.323,
+        "ddp_data_transfer": 0.198
+      },
+      "avg_time_after_scale": 0.22145454545454565
+    },
+    "scale_2_1": {
+      "worker_init_time": 14.529,
+      "training_setup_time": 11.847,
+      "avg_time_before_scale": 0.224,
+      "overlapped_scale_time": 3.073,
+      "non_overlapped_scale_time": {
+        "total": 9.522,
+        "setup_graph_and_ddp_group": 9.414,
+        "prepartition_wait_time": 6.9274797439575195,
+        "load_prepartition_time": 2.25532603263855,
+        "graph_data_transfer": 0.056,
+        "ddp_data_transfer": 0.052
+      },
+      "avg_time_after_scale": 0.23800943396226415
+    },
+    "scale_2_3": {
+      "worker_init_time": 14.495,
+      "training_setup_time": 11.994,
+      "avg_time_before_scale": 0.224,
+      "overlapped_scale_time": 3.161,
+      "non_overlapped_scale_time": {
+        "total": 10.564,
+        "setup_graph_and_ddp_group": 10.326,
+        "prepartition_wait_time": 8.265739440917969,
+        "load_prepartition_time": 1.9177007675170898,
+        "graph_data_transfer": 0.155,
+        "ddp_data_transfer": 0.083
+      },
+      "avg_time_after_scale": 0.19768292682926838
+    },
+    "scale_2_4": {
+      "worker_init_time": 14.666,
+      "training_setup_time": 12.076,
+      "avg_time_before_scale": 0.225,
+      "overlapped_scale_time": 3.41,
+      "non_overlapped_scale_time": {
+        "total": 10.413,
+        "setup_graph_and_ddp_group": 10.124,
+        "prepartition_wait_time": 7.9538609981536865,
+        "load_prepartition_time": 2.02524733543396,
+        "graph_data_transfer": 0.178,
+        "ddp_data_transfer": 0.111
+      },
+      "avg_time_after_scale": 0.18716153846153857
+    },
+    "scale_2_5": {
+      "worker_init_time": 14.404,
+      "training_setup_time": 12.104,
+      "avg_time_before_scale": 0.224,
+      "overlapped_scale_time": 3.415,
+      "non_overlapped_scale_time": {
+        "total": 10.867,
+        "setup_graph_and_ddp_group": 10.493,
+        "prepartition_wait_time": 7.829420566558838,
+        "load_prepartition_time": 2.324467420578003,
+        "graph_data_transfer": 0.233,
+        "ddp_data_transfer": 0.141
+      },
+      "avg_time_after_scale": 0.21446902654867234
+    },
+    "scale_2_6": {
+      "worker_init_time": 14.604,
+      "training_setup_time": 12.107,
+      "avg_time_before_scale": 0.224,
+      "overlapped_scale_time": 3.351,
+      "non_overlapped_scale_time": {
+        "total": 10.708,
+        "setup_graph_and_ddp_group": 10.28,
+        "prepartition_wait_time": 7.267127513885498,
+        "load_prepartition_time": 2.688485622406006,
+        "graph_data_transfer": 0.269,
+        "ddp_data_transfer": 0.159
+      },
+      "avg_time_after_scale": 0.20583898305084716
+    },
+    "scale_2_7": {
+      "worker_init_time": 14.774,
+      "training_setup_time": 12.189,
+      "avg_time_before_scale": 0.225,
+      "overlapped_scale_time": 3.626,
+      "non_overlapped_scale_time": {
+        "total": 10.883,
+        "setup_graph_and_ddp_group": 10.437,
+        "prepartition_wait_time": 7.2603161334991455,
+        "load_prepartition_time": 2.848767042160034,
+        "graph_data_transfer": 0.284,
+        "ddp_data_transfer": 0.162
+      },
+      "avg_time_after_scale": 0.21217391304347807
+    },
+    "scale_2_8": {
+      "worker_init_time": 14.536,
+      "training_setup_time": 11.927,
+      "avg_time_before_scale": 0.224,
+      "overlapped_scale_time": 3.581,
+      "non_overlapped_scale_time": {
+        "total": 11.017,
+        "setup_graph_and_ddp_group": 10.502,
+        "prepartition_wait_time": 7.083378314971924,
+        "load_prepartition_time": 3.142578601837158,
+        "graph_data_transfer": 0.321,
+        "ddp_data_transfer": 0.194
+      },
+      "avg_time_after_scale": 0.2212363636363638
+    },
+    "scale_3_1": {
+      "worker_init_time": 14.406,
+      "training_setup_time": 10.776,
+      "avg_time_before_scale": 0.198,
+      "overlapped_scale_time": 1.866,
+      "non_overlapped_scale_time": {
+        "total": 9.464,
+        "setup_graph_and_ddp_group": 9.342,
+        "prepartition_wait_time": 6.897207975387573,
+        "load_prepartition_time": 2.2120862007141113,
+        "graph_data_transfer": 0.071,
+        "ddp_data_transfer": 0.051
+      },
+      "avg_time_after_scale": 0.23817924528301868
+    },
+    "scale_3_2": {
+      "worker_init_time": 14.677,
+      "training_setup_time": 10.725,
+      "avg_time_before_scale": 0.198,
+      "overlapped_scale_time": 2.063,
+      "non_overlapped_scale_time": {
+        "total": 10.819,
+        "setup_graph_and_ddp_group": 10.68,
+        "prepartition_wait_time": 8.523017406463623,
+        "load_prepartition_time": 1.994051218032837,
+        "graph_data_transfer": 0.071,
+        "ddp_data_transfer": 0.068
+      },
+      "avg_time_after_scale": 0.2231327433628319
+    },
+    "scale_3_4": {
+      "worker_init_time": 14.705,
+      "training_setup_time": 10.731,
+      "avg_time_before_scale": 0.19820000000000002,
+      "overlapped_scale_time": 2.895,
+      "non_overlapped_scale_time": {
+        "total": 10.367,
+        "setup_graph_and_ddp_group": 10.078,
+        "prepartition_wait_time": 7.89834189414978,
+        "load_prepartition_time": 2.0651276111602783,
+        "graph_data_transfer": 0.186,
+        "ddp_data_transfer": 0.103
+      },
+      "avg_time_after_scale": 0.1871450381679391
+    },
+    "scale_3_5": {
+      "worker_init_time": 14.766,
+      "training_setup_time": 10.952,
+      "avg_time_before_scale": 0.19860000000000003,
+      "overlapped_scale_time": 3.147,
+      "non_overlapped_scale_time": {
+        "total": 10.839,
+        "setup_graph_and_ddp_group": 10.467,
+        "prepartition_wait_time": 7.819809198379517,
+        "load_prepartition_time": 2.329634428024292,
+        "graph_data_transfer": 0.239,
+        "ddp_data_transfer": 0.133
+      },
+      "avg_time_after_scale": 0.21456140350877181
+    },
+    "scale_3_6": {
+      "worker_init_time": 14.708,
+      "training_setup_time": 10.818,
+      "avg_time_before_scale": 0.19849999999999998,
+      "overlapped_scale_time": 3.16,
+      "non_overlapped_scale_time": {
+        "total": 10.529,
+        "setup_graph_and_ddp_group": 10.093,
+        "prepartition_wait_time": 7.271969318389893,
+        "load_prepartition_time": 2.6635522842407227,
+        "graph_data_transfer": 0.281,
+        "ddp_data_transfer": 0.155
+      },
+      "avg_time_after_scale": 0.2061694915254236
+    },
+    "scale_3_7": {
+      "worker_init_time": 14.521,
+      "training_setup_time": 10.863,
+      "avg_time_before_scale": 0.19837500000000002,
+      "overlapped_scale_time": 3.433,
+      "non_overlapped_scale_time": {
+        "total": 10.884,
+        "setup_graph_and_ddp_group": 10.416,
+        "prepartition_wait_time": 7.268022298812866,
+        "load_prepartition_time": 2.819763660430908,
+        "graph_data_transfer": 0.308,
+        "ddp_data_transfer": 0.16
+      },
+      "avg_time_after_scale": 0.21304385964912284
+    },
+    "scale_3_8": {
+      "worker_init_time": 14.497,
+      "training_setup_time": 11.845,
+      "avg_time_before_scale": 0.19800000000000004,
+      "overlapped_scale_time": 3.372,
+      "non_overlapped_scale_time": {
+        "total": 11.017,
+        "setup_graph_and_ddp_group": 10.506,
+        "prepartition_wait_time": 7.193011045455933,
+        "load_prepartition_time": 3.1301608085632324,
+        "graph_data_transfer": 0.328,
+        "ddp_data_transfer": 0.183
+      },
+      "avg_time_after_scale": 0.22167272727272747
+    },
+    "scale_4_1": {
+      "worker_init_time": 14.583,
+      "training_setup_time": 12.677,
+      "avg_time_before_scale": 0.189,
+      "overlapped_scale_time": 3.943,
+      "non_overlapped_scale_time": {
+        "total": 9.511,
+        "setup_graph_and_ddp_group": 9.381,
+        "prepartition_wait_time": 6.914303302764893,
+        "load_prepartition_time": 2.2302260398864746,
+        "graph_data_transfer": 0.078,
+        "ddp_data_transfer": 0.052
+      },
+      "avg_time_after_scale": 0.23884905660377323
+    },
+    "scale_4_2": {
+      "worker_init_time": 14.853,
+      "training_setup_time": 11.591,
+      "avg_time_before_scale": 0.188,
+      "overlapped_scale_time": 3.123,
+      "non_overlapped_scale_time": {
+        "total": 10.588,
+        "setup_graph_and_ddp_group": 10.437,
+        "prepartition_wait_time": 8.291292428970337,
+        "load_prepartition_time": 1.9952945709228516,
+        "graph_data_transfer": 0.083,
+        "ddp_data_transfer": 0.068
+      },
+      "avg_time_after_scale": 0.2239115044247789
+    },
+    "scale_4_3": {
+      "worker_init_time": 14.492,
+      "training_setup_time": 12.666,
+      "avg_time_before_scale": 0.188,
+      "overlapped_scale_time": 3.829,
+      "non_overlapped_scale_time": {
+        "total": 10.231,
+        "setup_graph_and_ddp_group": 10.058,
+        "prepartition_wait_time": 8.059581518173218,
+        "load_prepartition_time": 1.8677613735198975,
+        "graph_data_transfer": 0.084,
+        "ddp_data_transfer": 0.089
+      },
+      "avg_time_after_scale": 0.1977578125
+    },
+    "scale_4_5": {
+      "worker_init_time": 14.512,
+      "training_setup_time": 11.621,
+      "avg_time_before_scale": 0.188,
+      "overlapped_scale_time": 2.997,
+      "non_overlapped_scale_time": {
+        "total": 10.602,
+        "setup_graph_and_ddp_group": 10.215,
+        "prepartition_wait_time": 7.758882999420166,
+        "load_prepartition_time": 2.334883213043213,
+        "graph_data_transfer": 0.251,
+        "ddp_data_transfer": 0.136
+      },
+      "avg_time_after_scale": 0.21457017543859633
+    },
+    "scale_4_6": {
+      "worker_init_time": 14.604,
+      "training_setup_time": 11.687,
+      "avg_time_before_scale": 0.1875,
+      "overlapped_scale_time": 3.127,
+      "non_overlapped_scale_time": {
+        "total": 10.483,
+        "setup_graph_and_ddp_group": 10.05,
+        "prepartition_wait_time": 7.223996639251709,
+        "load_prepartition_time": 2.6672799587249756,
+        "graph_data_transfer": 0.273,
+        "ddp_data_transfer": 0.16
+      },
+      "avg_time_after_scale": 0.20594915254237267
+    },
+    "scale_4_7": {
+      "worker_init_time": 14.43,
+      "training_setup_time": 11.574,
+      "avg_time_before_scale": 0.18775000000000003,
+      "overlapped_scale_time": 3.253,
+      "non_overlapped_scale_time": {
+        "total": 10.699,
+        "setup_graph_and_ddp_group": 10.211,
+        "prepartition_wait_time": 7.200672149658203,
+        "load_prepartition_time": 2.8383612632751465,
+        "graph_data_transfer": 0.309,
+        "ddp_data_transfer": 0.179
+      },
+      "avg_time_after_scale": 0.21260869565217375
+    },
+    "scale_4_8": {
+      "worker_init_time": 14.927,
+      "training_setup_time": 11.804,
+      "avg_time_before_scale": 0.189,
+      "overlapped_scale_time": 3.391,
+      "non_overlapped_scale_time": {
+        "total": 10.912,
+        "setup_graph_and_ddp_group": 10.368,
+        "prepartition_wait_time": 7.002652168273926,
+        "load_prepartition_time": 3.2231545448303223,
+        "graph_data_transfer": 0.34,
+        "ddp_data_transfer": 0.204
+      },
+      "avg_time_after_scale": 0.2214727272727275
+    },
+    "scale_5_1": {
+      "worker_init_time": 14.875,
+      "training_setup_time": 10.958,
+      "avg_time_before_scale": 0.216,
+      "overlapped_scale_time": 2.612,
+      "non_overlapped_scale_time": {
+        "total": 9.354,
+        "setup_graph_and_ddp_group": 9.17,
+        "prepartition_wait_time": 6.691653251647949,
+        "load_prepartition_time": 2.2428553104400635,
+        "graph_data_transfer": 0.122,
+        "ddp_data_transfer": 0.062
+      },
+      "avg_time_after_scale": 0.2385630252100836
+    },
+    "scale_5_2": {
+      "worker_init_time": 14.61,
+      "training_setup_time": 11.05,
+      "avg_time_before_scale": 0.216,
+      "overlapped_scale_time": 2.41,
+      "non_overlapped_scale_time": {
+        "total": 10.676,
+        "setup_graph_and_ddp_group": 10.458,
+        "prepartition_wait_time": 8.294733047485352,
+        "load_prepartition_time": 2.005204439163208,
+        "graph_data_transfer": 0.144,
+        "ddp_data_transfer": 0.074
+      },
+      "avg_time_after_scale": 0.2235275590551182
+    },
+    "scale_5_3": {
+      "worker_init_time": 14.634,
+      "training_setup_time": 10.979,
+      "avg_time_before_scale": 0.215,
+      "overlapped_scale_time": 2.36,
+      "non_overlapped_scale_time": {
+        "total": 10.44,
+        "setup_graph_and_ddp_group": 10.189,
+        "prepartition_wait_time": 8.182857036590576,
+        "load_prepartition_time": 1.8591177463531494,
+        "graph_data_transfer": 0.151,
+        "ddp_data_transfer": 0.1
+      },
+      "avg_time_after_scale": 0.19793750000000024
+    },
+    "scale_5_4": {
+      "worker_init_time": 14.529,
+      "training_setup_time": 12.001,
+      "avg_time_before_scale": 0.216,
+      "overlapped_scale_time": 3.293,
+      "non_overlapped_scale_time": {
+        "total": 10.395,
+        "setup_graph_and_ddp_group": 10.127,
+        "prepartition_wait_time": 7.979697227478027,
+        "load_prepartition_time": 2.0342373847961426,
+        "graph_data_transfer": 0.158,
+        "ddp_data_transfer": 0.11
+      },
+      "avg_time_after_scale": 0.1869851851851853
+    },
+    "scale_5_6": {
+      "worker_init_time": 14.731,
+      "training_setup_time": 10.887,
+      "avg_time_before_scale": 0.21525,
+      "overlapped_scale_time": 3.045,
+      "non_overlapped_scale_time": {
+        "total": 10.344,
+        "setup_graph_and_ddp_group": 9.924,
+        "prepartition_wait_time": 7.1713502407073975,
+        "load_prepartition_time": 2.644150972366333,
+        "graph_data_transfer": 0.279,
+        "ddp_data_transfer": 0.141
+      },
+      "avg_time_after_scale": 0.20611016949152516
+    },
+    "scale_5_7": {
+      "worker_init_time": 14.684,
+      "training_setup_time": 11.153,
+      "avg_time_before_scale": 0.216,
+      "overlapped_scale_time": 3.271,
+      "non_overlapped_scale_time": {
+        "total": 10.689,
+        "setup_graph_and_ddp_group": 10.211,
+        "prepartition_wait_time": 7.2200798988342285,
+        "load_prepartition_time": 2.825671911239624,
+        "graph_data_transfer": 0.319,
+        "ddp_data_transfer": 0.159
+      },
+      "avg_time_after_scale": 0.2123043478260868
+    },
+    "scale_5_8": {
+      "worker_init_time": 14.588,
+      "training_setup_time": 11.075,
+      "avg_time_before_scale": 0.2156,
+      "overlapped_scale_time": 3.342,
+      "non_overlapped_scale_time": {
+        "total": 10.934,
+        "setup_graph_and_ddp_group": 10.365,
+        "prepartition_wait_time": 7.026188373565674,
+        "load_prepartition_time": 3.1728029251098633,
+        "graph_data_transfer": 0.374,
+        "ddp_data_transfer": 0.195
+      },
+      "avg_time_after_scale": 0.2216909090909093
+    },
+    "scale_6_1": {
+      "worker_init_time": 14.647,
+      "training_setup_time": 12.825,
+      "avg_time_before_scale": 0.207,
+      "overlapped_scale_time": 4.233,
+      "non_overlapped_scale_time": {
+        "total": 9.355,
+        "setup_graph_and_ddp_group": 9.129,
+        "prepartition_wait_time": 6.650478839874268,
+        "load_prepartition_time": 2.240171432495117,
+        "graph_data_transfer": 0.153,
+        "ddp_data_transfer": 0.073
+      },
+      "avg_time_after_scale": 0.23789075630252077
+    },
+    "scale_6_2": {
+      "worker_init_time": 15.0,
+      "training_setup_time": 11.661,
+      "avg_time_before_scale": 0.207,
+      "overlapped_scale_time": 3.43,
+      "non_overlapped_scale_time": {
+        "total": 10.734,
+        "setup_graph_and_ddp_group": 10.48,
+        "prepartition_wait_time": 8.3594651222229,
+        "load_prepartition_time": 1.9536123275756836,
+        "graph_data_transfer": 0.179,
+        "ddp_data_transfer": 0.075
+      },
+      "avg_time_after_scale": 0.2237716535433072
+    },
+    "scale_6_3": {
+      "worker_init_time": 15.19,
+      "training_setup_time": 11.86,
+      "avg_time_before_scale": 0.207,
+      "overlapped_scale_time": 3.811,
+      "non_overlapped_scale_time": {
+        "total": 10.621,
+        "setup_graph_and_ddp_group": 10.349,
+        "prepartition_wait_time": 8.283742427825928,
+        "load_prepartition_time": 1.918790340423584,
+        "graph_data_transfer": 0.18,
+        "ddp_data_transfer": 0.092
+      },
+      "avg_time_after_scale": 0.19784722222222234
+    },
+    "scale_6_4": {
+      "worker_init_time": 14.756,
+      "training_setup_time": 11.827,
+      "avg_time_before_scale": 0.207,
+      "overlapped_scale_time": 3.373,
+      "non_overlapped_scale_time": {
+        "total": 10.32,
+        "setup_graph_and_ddp_group": 10.035,
+        "prepartition_wait_time": 7.860940933227539,
+        "load_prepartition_time": 2.0494861602783203,
+        "graph_data_transfer": 0.181,
+        "ddp_data_transfer": 0.104
+      },
+      "avg_time_after_scale": 0.1869473684210529
+    },
+    "scale_6_5": {
+      "worker_init_time": 14.749,
+      "training_setup_time": 11.83,
+      "avg_time_before_scale": 0.207,
+      "overlapped_scale_time": 3.333,
+      "non_overlapped_scale_time": {
+        "total": 10.682,
+        "setup_graph_and_ddp_group": 10.34,
+        "prepartition_wait_time": 7.817954778671265,
+        "load_prepartition_time": 2.3922007083892822,
+        "graph_data_transfer": 0.21,
+        "ddp_data_transfer": 0.132
+      },
+      "avg_time_after_scale": 0.21504237288135594
+    },
+    "scale_6_7": {
+      "worker_init_time": 14.75,
+      "training_setup_time": 12.834,
+      "avg_time_before_scale": 0.208,
+      "overlapped_scale_time": 4.338,
+      "non_overlapped_scale_time": {
+        "total": 10.745,
+        "setup_graph_and_ddp_group": 10.234,
+        "prepartition_wait_time": 7.243706941604614,
+        "load_prepartition_time": 2.8387255668640137,
+        "graph_data_transfer": 0.35,
+        "ddp_data_transfer": 0.161
+      },
+      "avg_time_after_scale": 0.212591304347826
+    },
+    "scale_6_8": {
+      "worker_init_time": 14.902,
+      "training_setup_time": 10.878,
+      "avg_time_before_scale": 0.2065,
+      "overlapped_scale_time": 3.18,
+      "non_overlapped_scale_time": {
+        "total": 10.81,
+        "setup_graph_and_ddp_group": 10.255,
+        "prepartition_wait_time": 6.9648613929748535,
+        "load_prepartition_time": 3.1116864681243896,
+        "graph_data_transfer": 0.359,
+        "ddp_data_transfer": 0.196
+      },
+      "avg_time_after_scale": 0.2218272727272729
+    },
+    "scale_7_1": {
+      "worker_init_time": 14.66,
+      "training_setup_time": 11.093,
+      "avg_time_before_scale": 0.214,
+      "overlapped_scale_time": 2.569,
+      "non_overlapped_scale_time": {
+        "total": 9.457,
+        "setup_graph_and_ddp_group": 9.199,
+        "prepartition_wait_time": 6.680970668792725,
+        "load_prepartition_time": 2.237086534500122,
+        "graph_data_transfer": 0.175,
+        "ddp_data_transfer": 0.083
+      },
+      "avg_time_after_scale": 0.23857983193277282
+    },
+    "scale_7_2": {
+      "worker_init_time": 14.926,
+      "training_setup_time": 11.115,
+      "avg_time_before_scale": 0.214,
+      "overlapped_scale_time": 2.845,
+      "non_overlapped_scale_time": {
+        "total": 10.977,
+        "setup_graph_and_ddp_group": 10.717,
+        "prepartition_wait_time": 8.345360279083252,
+        "load_prepartition_time": 2.0382750034332275,
+        "graph_data_transfer": 0.175,
+        "ddp_data_transfer": 0.085
+      },
+      "avg_time_after_scale": 0.2236299212598426
+    },
+    "scale_7_3": {
+      "worker_init_time": 15.02,
+      "training_setup_time": 11.968,
+      "avg_time_before_scale": 0.214,
+      "overlapped_scale_time": 3.824,
+      "non_overlapped_scale_time": {
+        "total": 10.581,
+        "setup_graph_and_ddp_group": 10.282,
+        "prepartition_wait_time": 8.127302646636963,
+        "load_prepartition_time": 1.8577637672424316,
+        "graph_data_transfer": 0.207,
+        "ddp_data_transfer": 0.092
+      },
+      "avg_time_after_scale": 0.1978402777777779
+    },
+    "scale_7_4": {
+      "worker_init_time": 14.943,
+      "training_setup_time": 11.04,
+      "avg_time_before_scale": 0.214,
+      "overlapped_scale_time": 2.774,
+      "non_overlapped_scale_time": {
+        "total": 10.449,
+        "setup_graph_and_ddp_group": 10.111,
+        "prepartition_wait_time": 7.87635612487793,
+        "load_prepartition_time": 2.1042051315307617,
+        "graph_data_transfer": 0.231,
+        "ddp_data_transfer": 0.107
+      },
+      "avg_time_after_scale": 0.18733552631578956
+    },
+    "scale_7_5": {
+      "worker_init_time": 14.846,
+      "training_setup_time": 11.205,
+      "avg_time_before_scale": 0.213,
+      "overlapped_scale_time": 2.865,
+      "non_overlapped_scale_time": {
+        "total": 10.829,
+        "setup_graph_and_ddp_group": 10.438,
+        "prepartition_wait_time": 7.787308692932129,
+        "load_prepartition_time": 2.3413496017456055,
+        "graph_data_transfer": 0.245,
+        "ddp_data_transfer": 0.146
+      },
+      "avg_time_after_scale": 0.21500847457627112
+    },
+    "scale_7_6": {
+      "worker_init_time": 14.872,
+      "training_setup_time": 11.13,
+      "avg_time_before_scale": 0.215,
+      "overlapped_scale_time": 2.799,
+      "non_overlapped_scale_time": {
+        "total": 10.531,
+        "setup_graph_and_ddp_group": 10.12,
+        "prepartition_wait_time": 7.358367443084717,
+        "load_prepartition_time": 2.6444239616394043,
+        "graph_data_transfer": 0.242,
+        "ddp_data_transfer": 0.169
+      },
+      "avg_time_after_scale": 0.20622764227642254
+    },
+    "scale_7_8": {
+      "worker_init_time": 14.952,
+      "training_setup_time": 11.123,
+      "avg_time_before_scale": 0.2135,
+      "overlapped_scale_time": 3.136,
+      "non_overlapped_scale_time": {
+        "total": 11.17,
+        "setup_graph_and_ddp_group": 10.571,
+        "prepartition_wait_time": 7.097163200378418,
+        "load_prepartition_time": 3.15328311920166,
+        "graph_data_transfer": 0.397,
+        "ddp_data_transfer": 0.202
+      },
+      "avg_time_after_scale": 0.2216727272727275
+    },
+    "scale_8_1": {
+      "worker_init_time": 14.98,
+      "training_setup_time": 12.133,
+      "avg_time_before_scale": 0.224,
+      "overlapped_scale_time": 4.003,
+      "non_overlapped_scale_time": {
+        "total": 9.37,
+        "setup_graph_and_ddp_group": 9.082,
+        "prepartition_wait_time": 6.602630853652954,
+        "load_prepartition_time": 2.2041354179382324,
+        "graph_data_transfer": 0.195,
+        "ddp_data_transfer": 0.093
+      },
+      "avg_time_after_scale": 0.23944067796610138
+    },
+    "scale_8_2": {
+      "worker_init_time": 15.487,
+      "training_setup_time": 11.164,
+      "avg_time_before_scale": 0.224,
+      "overlapped_scale_time": 3.543,
+      "non_overlapped_scale_time": {
+        "total": 10.851,
+        "setup_graph_and_ddp_group": 10.529,
+        "prepartition_wait_time": 8.337607622146606,
+        "load_prepartition_time": 1.996523380279541,
+        "graph_data_transfer": 0.227,
+        "ddp_data_transfer": 0.095
+      },
+      "avg_time_after_scale": 0.2235590551181103
+    },
+    "scale_8_3": {
+      "worker_init_time": 15.056,
+      "training_setup_time": 12.095,
+      "avg_time_before_scale": 0.224,
+      "overlapped_scale_time": 3.99,
+      "non_overlapped_scale_time": {
+        "total": 10.61,
+        "setup_graph_and_ddp_group": 10.3,
+        "prepartition_wait_time": 8.148147821426392,
+        "load_prepartition_time": 1.8683841228485107,
+        "graph_data_transfer": 0.214,
+        "ddp_data_transfer": 0.096
+      },
+      "avg_time_after_scale": 0.19786805555555576
+    },
+    "scale_8_4": {
+      "worker_init_time": 15.074,
+      "training_setup_time": 12.173,
+      "avg_time_before_scale": 0.223,
+      "overlapped_scale_time": 4.119,
+      "non_overlapped_scale_time": {
+        "total": 10.575,
+        "setup_graph_and_ddp_group": 10.265,
+        "prepartition_wait_time": 7.932820796966553,
+        "load_prepartition_time": 2.042571544647217,
+        "graph_data_transfer": 0.206,
+        "ddp_data_transfer": 0.104
+      },
+      "avg_time_after_scale": 0.18718421052631593
+    },
+    "scale_8_5": {
+      "worker_init_time": 15.029,
+      "training_setup_time": 12.051,
+      "avg_time_before_scale": 0.226,
+      "overlapped_scale_time": 3.955,
+      "non_overlapped_scale_time": {
+        "total": 10.809,
+        "setup_graph_and_ddp_group": 10.42,
+        "prepartition_wait_time": 7.765918731689453,
+        "load_prepartition_time": 2.36350417137146,
+        "graph_data_transfer": 0.244,
+        "ddp_data_transfer": 0.145
+      },
+      "avg_time_after_scale": 0.2149999999999999
+    },
+    "scale_8_6": {
+      "worker_init_time": 14.902,
+      "training_setup_time": 12.361,
+      "avg_time_before_scale": 0.224,
+      "overlapped_scale_time": 4.124,
+      "non_overlapped_scale_time": {
+        "total": 10.706,
+        "setup_graph_and_ddp_group": 10.282,
+        "prepartition_wait_time": 7.344812631607056,
+        "load_prepartition_time": 2.6535933017730713,
+        "graph_data_transfer": 0.259,
+        "ddp_data_transfer": 0.165
+      },
+      "avg_time_after_scale": 0.20625203252032506
+    },
+    "scale_8_7": {
+      "worker_init_time": 14.944,
+      "training_setup_time": 13.275,
+      "avg_time_before_scale": 0.224,
+      "overlapped_scale_time": 5.088,
+      "non_overlapped_scale_time": {
+        "total": 10.795,
+        "setup_graph_and_ddp_group": 10.361,
+        "prepartition_wait_time": 7.236480236053467,
+        "load_prepartition_time": 2.81113600730896,
+        "graph_data_transfer": 0.259,
+        "ddp_data_transfer": 0.175
+      },
+      "avg_time_after_scale": 0.21242857142857136
+    }
+  },
+  "no_scale": {
+    "no_scale_1": {
+      "worker_init_time": 14.499,
+      "training_setup_time": 9.745,
+      "graph_related_time": {
+        "prepartition_wait_time": 7.04614520072937,
+        "load_prepartition_time": 2.228609085083008,
+        "transfer_time": 0.439
+      },
+      "avg_time": 0.23543076923076933
+    },
+    "no_scale_2": {
+      "worker_init_time": 14.062,
+      "training_setup_time": 11.96,
+      "graph_related_time": {
+        "prepartition_wait_time": 8.434885501861572,
+        "load_prepartition_time": 2.031858205795288,
+        "transfer_time": 1.394
+      },
+      "avg_time": 0.22232203389830513
+    },
+    "no_scale_3": {
+      "worker_init_time": 14.297,
+      "training_setup_time": 10.698,
+      "graph_related_time": {
+        "prepartition_wait_time": 8.200945615768433,
+        "load_prepartition_time": 1.8776705265045166,
+        "transfer_time": 0.476
+      },
+      "avg_time": 0.19890140845070417
+    },
+    "no_scale_4": {
+      "worker_init_time": 14.505,
+      "training_setup_time": 11.715,
+      "graph_related_time": {
+        "prepartition_wait_time": 8.025413036346436,
+        "load_prepartition_time": 2.0689210891723633,
+        "transfer_time": 1.466
+      },
+      "avg_time": 0.18723188405797092
+    },
+    "no_scale_5": {
+      "worker_init_time": 14.569,
+      "training_setup_time": 10.977,
+      "graph_related_time": {
+        "prepartition_wait_time": 7.814623117446899,
+        "load_prepartition_time": 2.3810577392578125,
+        "transfer_time": 0.572
+      },
+      "avg_time": 0.21369841269841275
+    },
+    "no_scale_6": {
+      "worker_init_time": 14.695,
+      "training_setup_time": 11.823,
+      "graph_related_time": {
+        "prepartition_wait_time": 7.372903823852539,
+        "load_prepartition_time": 2.6819515228271484,
+        "transfer_time": 1.567
+      },
+      "avg_time": 0.20676666666666682
+    },
+    "no_scale_7": {
+      "worker_init_time": 14.568,
+      "training_setup_time": 11.079,
+      "graph_related_time": {
+        "prepartition_wait_time": 7.309881925582886,
+        "load_prepartition_time": 2.890204429626465,
+        "transfer_time": 0.692
+      },
+      "avg_time": 0.21279365079365056
+    },
+    "no_scale_8": {
+      "worker_init_time": 14.845,
+      "training_setup_time": 13.039,
+      "graph_related_time": {
+        "prepartition_wait_time": 7.055234909057617,
+        "load_prepartition_time": 3.165070056915283,
+        "transfer_time": 1.671
+      },
+      "avg_time": 0.2212200000000001
+    },
+    "no_scale_no_micro_1": {
+      "worker_init_time": 14.895,
+      "training_setup_time": 10.054,
+      "graph_related_time": {
+        "prepartition_wait_time": 7.35193657875061,
+        "load_prepartition_time": 2.2511496543884277,
+        "transfer_time": 0.422
+      },
+      "avg_time": 0.23884523809523794
+    },
+    "no_scale_no_micro_2": {
+      "worker_init_time": 14.479,
+      "training_setup_time": 16.581,
+      "graph_related_time": {
+        "prepartition_wait_time": 14.225428104400635,
+        "load_prepartition_time": 1.826204538345337,
+        "transfer_time": 0.484
+      },
+      "avg_time": 0.1912676056338029
+    },
+    "no_scale_no_micro_3": {
+      "worker_init_time": 14.641,
+      "training_setup_time": 20.602,
+      "graph_related_time": {
+        "prepartition_wait_time": 18.120067358016968,
+        "load_prepartition_time": 1.7669477462768555,
+        "transfer_time": 0.521
+      },
+      "avg_time": 0.17342592592592596
+    },
+    "no_scale_no_micro_4": {
+      "worker_init_time": 14.682,
+      "training_setup_time": 22.617,
+      "graph_related_time": {
+        "prepartition_wait_time": 19.19957447052002,
+        "load_prepartition_time": 1.8327555656433105,
+        "transfer_time": 1.468
+      },
+      "avg_time": 0.173952380952381
+    },
+    "no_scale_no_micro_5": {
+      "worker_init_time": 14.742,
+      "training_setup_time": 24.48,
+      "graph_related_time": {
+        "prepartition_wait_time": 21.47409677505493,
+        "load_prepartition_time": 2.201087236404419,
+        "transfer_time": 0.584
+      },
+      "avg_time": 0.17816666666666667
+    },
+    "no_scale_no_micro_6": {
+      "worker_init_time": 14.616,
+      "training_setup_time": 25.271,
+      "graph_related_time": {
+        "prepartition_wait_time": 22.184155464172363,
+        "load_prepartition_time": 2.30027174949646,
+        "transfer_time": 0.651
+      },
+      "avg_time": 0.1534
+    },
+    "no_scale_no_micro_7": {
+      "worker_init_time": 14.607,
+      "training_setup_time": 25.618,
+      "graph_related_time": {
+        "prepartition_wait_time": 22.34285020828247,
+        "load_prepartition_time": 2.461672306060791,
+        "transfer_time": 0.664
+      },
+      "avg_time": 0.15371428571428566
+    },
+    "no_scale_no_micro_8": {
+      "worker_init_time": 15.051,
+      "training_setup_time": 26.769,
+      "graph_related_time": {
+        "prepartition_wait_time": 23.089369773864746,
+        "load_prepartition_time": 2.758282423019409,
+        "transfer_time": 0.733
+      },
+      "avg_time": 0.14755555555555552
+    }
+  }
+}

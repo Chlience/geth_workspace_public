@@ -1,0 +1,976 @@
+2025-07-11 09:39:39.018 | INFO     | __main__:main:25 - GethHub starting...
+2025-07-11 09:39:39.018 | INFO     | geth.base.zmq_link:__init__:15 - ZmqServer started on tcp://*:8900
+2025-07-11 09:39:39.028 | INFO     | __main__:main:43 - Agent [1] starting
+2025-07-11 09:39:39.028 | INFO     | __main__:main:43 - Agent [3] starting
+2025-07-11 09:39:39.028 | INFO     | __main__:main:43 - Agent [4] starting
+2025-07-11 09:39:39.028 | INFO     | __main__:main:45 - Zmq Endpoint at tcp://localhost:8900
+2025-07-11 09:39:39.028 | INFO     | __main__:main:45 - Zmq Endpoint at tcp://localhost:8900
+2025-07-11 09:39:39.028 | INFO     | __main__:main:45 - Zmq Endpoint at tcp://localhost:8900
+2025-07-11 09:39:39.028 | INFO     | __main__:main:43 - Agent [2] starting
+2025-07-11 09:39:39.028 | INFO     | __main__:main:43 - Agent [6] starting
+2025-07-11 09:39:39.028 | INFO     | __main__:main:43 - Agent [5] starting
+2025-07-11 09:39:39.028 | INFO     | __main__:main:45 - Zmq Endpoint at tcp://localhost:8900
+2025-07-11 09:39:39.028 | INFO     | __main__:main:45 - Zmq Endpoint at tcp://localhost:8900
+2025-07-11 09:39:39.028 | INFO     | __main__:main:45 - Zmq Endpoint at tcp://localhost:8900
+2025-07-11 09:39:39.028 | INFO     | __main__:main:43 - Agent [7] starting
+2025-07-11 09:39:39.028 | INFO     | __main__:main:45 - Zmq Endpoint at tcp://localhost:8900
+2025-07-11 09:39:39.031 | INFO     | __main__:main:43 - Agent [0] starting
+2025-07-11 09:39:39.031 | INFO     | __main__:main:45 - Zmq Endpoint at tcp://localhost:8900
+2025-07-11 09:39:39.031 | INFO     | __main__:main:48 - IP Address: 10.119.0.71
+2025-07-11 09:39:39.031 | INFO     | __main__:main:48 - IP Address: 10.119.0.71
+2025-07-11 09:39:39.031 | INFO     | __main__:main:48 - IP Address: 10.119.0.71
+2025-07-11 09:39:39.031 | INFO     | __main__:main:48 - IP Address: 10.119.0.71
+2025-07-11 09:39:39.031 | INFO     | __main__:main:48 - IP Address: 10.119.0.71
+2025-07-11 09:39:39.031 | INFO     | __main__:main:48 - IP Address: 10.119.0.71
+2025-07-11 09:39:39.031 | INFO     | __main__:main:48 - IP Address: 10.119.0.71
+2025-07-11 09:39:39.031 | INFO     | geth.agent.agent:__init__:36 - Agent 3 created with device 3 on 10.119.0.71:8907
+2025-07-11 09:39:39.031 | INFO     | geth.agent.agent:__init__:36 - Agent 2 created with device 2 on 10.119.0.71:8905
+2025-07-11 09:39:39.031 | INFO     | geth.agent.agent:__init__:36 - Agent 6 created with device 6 on 10.119.0.71:8913
+2025-07-11 09:39:39.031 | INFO     | geth.agent.agent:__init__:36 - Agent 5 created with device 5 on 10.119.0.71:8911
+2025-07-11 09:39:39.031 | INFO     | geth.agent.agent:__init__:36 - Agent 7 created with device 7 on 10.119.0.71:8915
+2025-07-11 09:39:39.031 | INFO     | geth.agent.agent:__init__:36 - Agent 1 created with device 1 on 10.119.0.71:8903
+2025-07-11 09:39:39.031 | INFO     | geth.agent.agent:__init__:36 - Agent 4 created with device 4 on 10.119.0.71:8909
+2025-07-11 09:39:39.032 | DEBUG    | geth.hub.hub:execute:29 - Hub received operation from b'2': <class 'geth.base.operation.AgentOperation'>(OpCode.RegisterAgent, (2, '10.119.0.71', 8905))
+2025-07-11 09:39:39.032 | INFO     | geth.hub.agent_manager:register_agent:19 - Registered agent AgentInfo[agent_id=2, agent_device=2, ip_address=10.119.0.71, status=AgentStatus.IDLE, task_id=-1]
+2025-07-11 09:39:39.032 | DEBUG    | geth.hub.hub:execute:29 - Hub received operation from b'4': <class 'geth.base.operation.AgentOperation'>(OpCode.RegisterAgent, (4, '10.119.0.71', 8909))
+2025-07-11 09:39:39.032 | INFO     | geth.hub.agent_manager:register_agent:19 - Registered agent AgentInfo[agent_id=4, agent_device=4, ip_address=10.119.0.71, status=AgentStatus.IDLE, task_id=-1]
+2025-07-11 09:39:39.032 | DEBUG    | geth.agent.agent:register:52 - Registration response: <class 'geth.base.operation.HubOperation'>(OpCode.Acknowledge, (True, None))
+2025-07-11 09:39:39.032 | INFO     | geth.agent.agent:register:57 - Registered with hub successfully.
+2025-07-11 09:39:39.032 | DEBUG    | geth.hub.hub:execute:29 - Hub received operation from b'3': <class 'geth.base.operation.AgentOperation'>(OpCode.RegisterAgent, (3, '10.119.0.71', 8907))
+2025-07-11 09:39:39.032 | INFO     | geth.hub.agent_manager:register_agent:19 - Registered agent AgentInfo[agent_id=3, agent_device=3, ip_address=10.119.0.71, status=AgentStatus.IDLE, task_id=-1]
+2025-07-11 09:39:39.032 | DEBUG    | geth.agent.agent:register:52 - Registration response: <class 'geth.base.operation.HubOperation'>(OpCode.Acknowledge, (True, None))
+2025-07-11 09:39:39.032 | DEBUG    | geth.hub.hub:execute:29 - Hub received operation from b'6': <class 'geth.base.operation.AgentOperation'>(OpCode.RegisterAgent, (6, '10.119.0.71', 8913))
+2025-07-11 09:39:39.032 | INFO     | geth.agent.agent:register:57 - Registered with hub successfully.
+2025-07-11 09:39:39.032 | INFO     | __main__:main:48 - IP Address: 10.119.0.71
+2025-07-11 09:39:39.032 | INFO     | geth.hub.agent_manager:register_agent:19 - Registered agent AgentInfo[agent_id=6, agent_device=6, ip_address=10.119.0.71, status=AgentStatus.IDLE, task_id=-1]
+2025-07-11 09:39:39.032 | DEBUG    | geth.agent.agent:register:52 - Registration response: <class 'geth.base.operation.HubOperation'>(OpCode.Acknowledge, (True, None))
+2025-07-11 09:39:39.032 | INFO     | geth.agent.agent:register:57 - Registered with hub successfully.
+2025-07-11 09:39:39.032 | DEBUG    | geth.hub.hub:execute:29 - Hub received operation from b'1': <class 'geth.base.operation.AgentOperation'>(OpCode.RegisterAgent, (1, '10.119.0.71', 8903))
+2025-07-11 09:39:39.032 | INFO     | geth.hub.agent_manager:register_agent:19 - Registered agent AgentInfo[agent_id=1, agent_device=1, ip_address=10.119.0.71, status=AgentStatus.IDLE, task_id=-1]
+2025-07-11 09:39:39.032 | DEBUG    | geth.agent.agent:register:52 - Registration response: <class 'geth.base.operation.HubOperation'>(OpCode.Acknowledge, (True, None))
+2025-07-11 09:39:39.032 | INFO     | geth.agent.agent:register:57 - Registered with hub successfully.
+2025-07-11 09:39:39.032 | DEBUG    | geth.hub.hub:execute:29 - Hub received operation from b'7': <class 'geth.base.operation.AgentOperation'>(OpCode.RegisterAgent, (7, '10.119.0.71', 8915))
+2025-07-11 09:39:39.032 | INFO     | geth.hub.agent_manager:register_agent:19 - Registered agent AgentInfo[agent_id=7, agent_device=7, ip_address=10.119.0.71, status=AgentStatus.IDLE, task_id=-1]
+2025-07-11 09:39:39.032 | DEBUG    | geth.hub.hub:execute:29 - Hub received operation from b'5': <class 'geth.base.operation.AgentOperation'>(OpCode.RegisterAgent, (5, '10.119.0.71', 8911))
+2025-07-11 09:39:39.032 | DEBUG    | geth.agent.agent:register:52 - Registration response: <class 'geth.base.operation.HubOperation'>(OpCode.Acknowledge, (True, None))
+2025-07-11 09:39:39.032 | INFO     | geth.hub.agent_manager:register_agent:19 - Registered agent AgentInfo[agent_id=5, agent_device=5, ip_address=10.119.0.71, status=AgentStatus.IDLE, task_id=-1]
+2025-07-11 09:39:39.032 | INFO     | geth.agent.agent:register:57 - Registered with hub successfully.
+2025-07-11 09:39:39.032 | DEBUG    | geth.agent.agent:register:52 - Registration response: <class 'geth.base.operation.HubOperation'>(OpCode.Acknowledge, (True, None))
+2025-07-11 09:39:39.033 | INFO     | geth.agent.agent:register:57 - Registered with hub successfully.
+2025-07-11 09:39:39.033 | INFO     | geth.agent.agent:__init__:36 - Agent 0 created with device 0 on 10.119.0.71:8901
+2025-07-11 09:39:39.033 | DEBUG    | geth.agent.agent:register:52 - Registration response: <class 'geth.base.operation.HubOperation'>(OpCode.Acknowledge, (True, None))
+2025-07-11 09:39:39.033 | INFO     | geth.agent.agent:register:57 - Registered with hub successfully.
+2025-07-11 09:39:39.033 | DEBUG    | geth.hub.hub:execute:29 - Hub received operation from b'0': <class 'geth.base.operation.AgentOperation'>(OpCode.RegisterAgent, (0, '10.119.0.71', 8901))
+2025-07-11 09:39:39.033 | INFO     | geth.hub.agent_manager:register_agent:19 - Registered agent AgentInfo[agent_id=0, agent_device=0, ip_address=10.119.0.71, status=AgentStatus.IDLE, task_id=-1]
+2025-07-11 09:39:39.033 | DEBUG    | geth.agent.agent:register:52 - Registration response: <class 'geth.base.operation.HubOperation'>(OpCode.Acknowledge, (True, None))
+2025-07-11 09:39:39.033 | INFO     | geth.agent.agent:register:57 - Registered with hub successfully.
+2025-07-11 09:39:39.868 | INFO     | __main__:<module>:62 - Client connect to GethHub
+2025-07-11 09:39:39.868 | INFO     | __main__:<module>:71 - Requesting: <class 'geth.base.operation.SystemOperation'>(OpCode.CreateTask, ('/workspace/geth/examples/sage_reddit.py', [0, 1, 2]))
+2025-07-11 09:39:39.868 | DEBUG    | geth.hub.hub:execute:29 - Hub received operation from b'client-system': <class 'geth.base.operation.SystemOperation'>(OpCode.CreateTask, ('/workspace/geth/examples/sage_reddit.py', [0, 1, 2]))
+2025-07-11 09:39:39.868 | INFO     | geth.hub.task_manager:create_task:22 - Created task: Task[task_id=0, task_file=/workspace/geth/examples/sage_reddit.py, agents_num=3, agent_ids=[0, 1, 2], status=TaskStatus.WAITING, epoch=0, step=0]
+2025-07-11 09:39:39.868 | DEBUG    | geth.hub.task:_handle_stage_0:218 - Init task for agent 0
+2025-07-11 09:39:39.868 | DEBUG    | geth.hub.task:_handle_stage_0:218 - Init task for agent 1
+2025-07-11 09:39:39.868 | DEBUG    | geth.hub.task:_handle_stage_0:218 - Init task for agent 2
+2025-07-11 09:39:39.868 | INFO     | __main__:<module>:74 - Response from hub: <class 'geth.base.operation.HubOperation'>(OpCode.Acknowledge, (True, None))
+2025-07-11 09:39:39.883 | INFO     | geth.agent.agent:handle_message:126 - Agent[2] received hub operation: <class 'geth.base.operation.HubOperation'>(OpCode.InitWorker, ('task_0', '/workspace/geth/examples/sage_reddit.py', DistInfo(master_addr=10.119.0.71, master_port=8901, rank=2, world_size=3, master_worker_id=0), False))
+2025-07-11 09:39:39.884 | INFO     | geth.agent.agent:handle_message:126 - Agent[1] received hub operation: <class 'geth.base.operation.HubOperation'>(OpCode.InitWorker, ('task_0', '/workspace/geth/examples/sage_reddit.py', DistInfo(master_addr=10.119.0.71, master_port=8901, rank=1, world_size=3, master_worker_id=0), False))
+2025-07-11 09:39:39.884 | INFO     | geth.agent.agent:handle_message:126 - Agent[0] received hub operation: <class 'geth.base.operation.HubOperation'>(OpCode.InitWorker, ('task_0', '/workspace/geth/examples/sage_reddit.py', DistInfo(master_addr=10.119.0.71, master_port=8901, rank=0, world_size=3, master_worker_id=0), False))
+/home/wpb/.local/lib/python3.10/site-packages/torchdata/datapipes/__init__.py:18: UserWarning: 
+################################################################################
+WARNING!
+The 'datapipes', 'dataloader2' modules are deprecated and will be removed in a
+future torchdata release! Please see https://github.com/pytorch/data/issues/1196
+to learn more and leave feedback.
+################################################################################
+
+  deprecation_warning()
+/home/wpb/.local/lib/python3.10/site-packages/torchdata/datapipes/__init__.py:18: UserWarning: 
+################################################################################
+WARNING!
+The 'datapipes', 'dataloader2' modules are deprecated and will be removed in a
+future torchdata release! Please see https://github.com/pytorch/data/issues/1196
+to learn more and leave feedback.
+################################################################################
+
+  deprecation_warning()
+/home/wpb/.local/lib/python3.10/site-packages/torchdata/datapipes/__init__.py:18: UserWarning: 
+################################################################################
+WARNING!
+The 'datapipes', 'dataloader2' modules are deprecated and will be removed in a
+future torchdata release! Please see https://github.com/pytorch/data/issues/1196
+to learn more and leave feedback.
+################################################################################
+
+  deprecation_warning()
+2025-07-11 09:39:41.547 | DEBUG    | geth.agent.worker:module_from_file:22 - load client module <module 'task_0' from '/workspace/geth/examples/sage_reddit.py'> from file success!
+2025-07-11 09:39:41.549 | DEBUG    | geth.agent.worker:module_from_file:22 - load client module <module 'task_0' from '/workspace/geth/examples/sage_reddit.py'> from file success!
+2025-07-11 09:39:41.550 | DEBUG    | geth.agent.worker:module_from_file:22 - load client module <module 'task_0' from '/workspace/geth/examples/sage_reddit.py'> from file success!
+2025-07-11 09:39:41.766 | DEBUG    | geth.trainer.base_trainer:handle_msg:214 - Trainer Got op: <class 'geth.base.operation.DaemonOperation'>(OpCode.InitWorker, (2, 3, 0))
+2025-07-11 09:39:41.766 | DEBUG    | geth.trainer.base_trainer:handle_msg:214 - Trainer Got op: <class 'geth.base.operation.DaemonOperation'>(OpCode.InitWorker, (0, 3, 0))
+2025-07-11 09:39:41.766 | DEBUG    | geth.trainer.elastic_ddp_gnn_trainer:init_worker:231 - Start loading full graph data
+2025-07-11 09:39:41.767 | DEBUG    | geth.trainer.base_trainer:handle_msg:214 - Trainer Got op: <class 'geth.base.operation.DaemonOperation'>(OpCode.InitWorker, (1, 3, 0))
+2025-07-11 09:39:42.375 | DEBUG    | geth.agent.agent:handle_message:144 - Trainer response for init task: <class 'geth.base.operation.TrainerOperation'>(OpCode.TrainingInited, ())
+2025-07-11 09:39:42.375 | DEBUG    | geth.hub.hub:execute:29 - Hub received operation from b'2': <class 'geth.base.operation.AgentOperation'>(OpCode.ReportAgentWorkerInitEvent, ())
+2025-07-11 09:39:42.377 | DEBUG    | geth.agent.agent:handle_message:144 - Trainer response for init task: <class 'geth.base.operation.TrainerOperation'>(OpCode.TrainingInited, ())
+2025-07-11 09:39:42.377 | DEBUG    | geth.hub.hub:execute:29 - Hub received operation from b'1': <class 'geth.base.operation.AgentOperation'>(OpCode.ReportAgentWorkerInitEvent, ())
+2025-07-11 09:39:42.413 | INFO     | geth.agent.agent:waiting_for_device:280 - GPU 2: Utilization=0%, Memory Used=525MB
+2025-07-11 09:39:42.413 | INFO     | geth.agent.agent:waiting_for_device:286 - GPU 2 is idle. Proceeding...
+2025-07-11 09:39:42.413 | DEBUG    | geth.trainer.base_trainer:handle_msg:214 - Trainer Got op: <class 'geth.base.operation.DaemonOperation'>(OpCode.StartTraining, (False, None, DistInfo(master_addr=10.119.0.71, master_port=8901, rank=2, world_size=3, master_worker_id=0)))
+2025-07-11 09:39:42.414 | INFO     | geth.agent.agent:waiting_for_device:280 - GPU 1: Utilization=0%, Memory Used=525MB
+2025-07-11 09:39:42.414 | INFO     | geth.agent.agent:waiting_for_device:286 - GPU 1 is idle. Proceeding...
+2025-07-11 09:39:42.414 | DEBUG    | geth.trainer.base_trainer:handle_msg:214 - Trainer Got op: <class 'geth.base.operation.DaemonOperation'>(OpCode.StartTraining, (False, None, DistInfo(master_addr=10.119.0.71, master_port=8901, rank=1, world_size=3, master_worker_id=0)))
+2025-07-11 09:39:53.228 | DEBUG    | geth.data.graph_dataset:load_mini_graph_info:12 - Loading mini graph info
+2025-07-11 09:39:54.544 | DEBUG    | geth.agent.agent:handle_message:144 - Trainer response for init task: <class 'geth.base.operation.TrainerOperation'>(OpCode.TrainingInited, ())
+2025-07-11 09:39:54.545 | DEBUG    | geth.hub.hub:execute:29 - Hub received operation from b'0': <class 'geth.base.operation.AgentOperation'>(OpCode.ReportAgentWorkerInitEvent, ())
+2025-07-11 09:39:54.545 | DEBUG    | geth.hub.task:_handle_stage_1:245 - All agent inited for task Task[task_id=0, task_file=/workspace/geth/examples/sage_reddit.py, agents_num=3, agent_ids=[0, 1, 2], status=TaskStatus.RUNNING, epoch=0, step=0]
+2025-07-11 09:39:54.557 | INFO     | geth.agent.agent:waiting_for_device:280 - GPU 0: Utilization=0%, Memory Used=525MB
+2025-07-11 09:39:54.557 | INFO     | geth.agent.agent:waiting_for_device:286 - GPU 0 is idle. Proceeding...
+2025-07-11 09:39:54.557 | DEBUG    | geth.trainer.base_trainer:handle_msg:214 - Trainer Got op: <class 'geth.base.operation.DaemonOperation'>(OpCode.StartTraining, (False, None, DistInfo(master_addr=10.119.0.71, master_port=8901, rank=0, world_size=3, master_worker_id=0)))
+2025-07-11 09:39:54.729 | DEBUG    | geth.trainer.elastic_ddp_gnn_trainer:_partation_graph_and_distribute:269 - Try to partition
+ Runtime parameters:
+   Objective type: METIS_OBJTYPE_CUT
+   Coarsening type: METIS_CTYPE_SHEM
+   Initial partitioning type: METIS_IPTYPE_GROW
+   Refinement type: METIS_RTYPE_FM
+   Perform a 2-hop matching: No
+   Number of balancing constraints: 1
+   Number of refinement iterations: 10
+   Random number seed: 1
+   Number of partitions: 3
+   Number of cuts: 1
+   User-supplied ufactor: 5
+   Target partition weights: 
+        0=[3.33e-01]   1=[3.33e-01]   2=[3.33e-01]
+   Allowed maximum load imbalance: 1.005 
+
+
+Timing Information -------------------------------------------------
+ Multilevel: 		   0.215
+     Coarsening: 		   0.143
+            Matching: 			   0.027
+            Contract: 			   0.117
+     Initial Partition: 	   0.001
+     Uncoarsening: 		   0.054
+          Refinement: 			   0.014
+          Projection: 			   0.040
+     Splitting: 		   0.016
+********************************************************************
+
+ gk_mcore statistics
+           coresize:        60172         nmops:         2048  cmop:      0
+        num_callocs:          194   num_hallocs:            3
+       size_callocs:       511000  size_hallocs:        32464
+        cur_callocs:            0   cur_hallocs:            0
+        max_callocs:        60024   max_hallocs:        30008
+ nbrpool statistics
+        nbrpoolsize:            0   nbrpoolcpos:            0
+    nbrpoolreallocs:            0
+
+>>PrePart took 215ms
+	Part 1 (Assign nodes to local partitions): 0 ms
+	Part 2 (Find remote nodes): 614 ms
+	Part 3 (Remove duplicates): 815 ms
+	Part 4 (Build mappings): 45 ms
+Total BuildLocalMappingsInternal time: 1476 ms
+>>PreBuild map took 1509ms
+>>PreBuild request took 1407ms
+[info] edges_chunk finished
+[info] edges insert finished
+[info] graph creation finished
+>>PreBuild subgraph took 3960ms
+Prepartition took7s
+
+Serialize took0s
+
+Prepartition all took8s
+
+2025-07-11 09:40:02.920 | INFO     | geth.trainer.elastic_ddp_gnn_trainer:_partation_graph_and_distribute:294 - Prepartition done, waiting time: 8.190576076507568s
+>>Scatter subgraph took 856ms
+>>Build raw graph took 23ms
+>>Scatter local graph took 0ms
+>>Scatter local_mapping took 55ms
+Using time to allocalte req 73 build allgather comm 112
+Using time for SPST algorithm: 112 ms
+Using time for ScatterCommInfo: 8 ms
+Using time for ScatterCommInfo: 198 ms
+Using time for ScatterCommInfo: 121 ms
+Using time for CommInfoSetupConnection: 50 ms
+Using time for CommInfoSetupConnection: 48 ms
+Using time for CommInfoSetupConnection: 47 ms
+Build part info took1s
+
+Build part info took10s
+
+Build part info took10s
+
+2025-07-11 09:40:04.796 | INFO     | geth.trainer.elastic_ddp_gnn_trainer:_partation_graph_and_distribute:298 - Load prepartition done, time: 1.8758227825164795s
+/home/wpb/.local/lib/python3.10/site-packages/dgl/heterograph.py:92: DGLWarning: Recommend creating graphs by `dgl.graph(data)` instead of `dgl.DGLGraph(data)`.
+  dgl_warning(
+/home/wpb/.local/lib/python3.10/site-packages/dgl/heterograph.py:92: DGLWarning: Recommend creating graphs by `dgl.graph(data)` instead of `dgl.DGLGraph(data)`.
+  dgl_warning(
+/home/wpb/.local/lib/python3.10/site-packages/dgl/heterograph.py:92: DGLWarning: Recommend creating graphs by `dgl.graph(data)` instead of `dgl.DGLGraph(data)`.
+  dgl_warning(
+2025-07-11 09:40:04.869 | DEBUG    | geth.trainer.elastic_ddp_gnn_trainer:handle_start_training:448 - [0] Dist store initialized, master addr: 10.119.0.71, port: 8901
+2025-07-11 09:40:04.892 | INFO     | __main__:<module>:80 - Requesting: <class 'geth.base.operation.SystemOperation'>(OpCode.UpdateTask, (0, [0, 1]))
+2025-07-11 09:40:04.893 | DEBUG    | geth.hub.hub:execute:29 - Hub received operation from b'client-system': <class 'geth.base.operation.SystemOperation'>(OpCode.UpdateTask, (0, [0, 1]))
+2025-07-11 09:40:04.893 | DEBUG    | geth.hub.task:_handle_stage_0:451 - {0: GethDDPRecoveryShedule(recovery_dist_info=DistInfo(master_addr=10.119.0.71, master_port=8902, rank=0, world_size=3, master_worker_id=-1), new_worker_list=[0, 1], rank_map={0: 0, 1: 1, 2: 2}, setup_rank_map={0: {'old': 0, 'new': 0}, 1: {'old': 1, 'new': 1}, 2: {'old': 2, 'new': -1}}, agent_type=DDPRecoveryType.COMMON_AGENTS, should_save_extra_data=True), 1: GethDDPRecoveryShedule(recovery_dist_info=DistInfo(master_addr=10.119.0.71, master_port=8902, rank=1, world_size=3, master_worker_id=-1), new_worker_list=[0, 1], rank_map={0: 0, 1: 1, 2: 2}, setup_rank_map={0: {'old': 0, 'new': 0}, 1: {'old': 1, 'new': 1}, 2: {'old': 2, 'new': -1}}, agent_type=DDPRecoveryType.COMMON_AGENTS, should_save_extra_data=False), 2: GethDDPRecoveryShedule(recovery_dist_info=DistInfo(master_addr=10.119.0.71, master_port=8902, rank=2, world_size=3, master_worker_id=-1), new_worker_list=[0, 1], rank_map={0: 0, 1: 1, 2: 2}, setup_rank_map={0: {'old': 0, 'new': 0}, 1: {'old': 1, 'new': 1}, 2: {'old': 2, 'new': -1}}, agent_type=DDPRecoveryType.DEPREACATED_AGENTS, should_save_extra_data=False)}
+2025-07-11 09:40:04.908 | DEBUG    | geth.trainer.elastic_ddp_gnn_trainer:handle_start_training:448 - [2] Dist store initialized, master addr: 10.119.0.71, port: 8901
+2025-07-11 09:40:04.917 | DEBUG    | geth.trainer.elastic_ddp_gnn_trainer:handle_start_training:448 - [1] Dist store initialized, master addr: 10.119.0.71, port: 8901
+2025-07-11 09:40:04.934 | DEBUG    | geth.trainer.elastic_ddp_gnn_trainer:handle_start_training:460 - Training recovery group setup done
+2025-07-11 09:40:04.934 | DEBUG    | geth.trainer.elastic_ddp_gnn_trainer:handle_start_training:460 - Training recovery group setup done
+2025-07-11 09:40:04.935 | DEBUG    | geth.trainer.elastic_ddp_gnn_trainer:handle_start_training:460 - Training recovery group setup done
+2025-07-11 09:40:04.950 | DEBUG    | geth.trainer.elastic_ddp_gnn_trainer:handle_start_training:497 - Build schedule complete
+2025-07-11 09:40:04.951 | DEBUG    | geth.trainer.elastic_ddp_gnn_trainer:handle_start_training:522 - Get schedule metadata complete
+2025-07-11 09:40:04.951 | DEBUG    | geth.trainer.elastic_ddp_gnn_trainer:handle_start_training:553 - send torch.Size([77679]) to 1, tag 2000
+2025-07-11 09:40:04.951 | DEBUG    | geth.trainer.elastic_ddp_gnn_trainer:handle_start_training:522 - Get schedule metadata complete
+2025-07-11 09:40:04.951 | DEBUG    | geth.trainer.elastic_ddp_gnn_trainer:handle_start_training:572 - setup_rank 1, old_rank_of_me -1, new_rank_of_me 1
+2025-07-11 09:40:04.951 | DEBUG    | geth.trainer.elastic_ddp_gnn_trainer:handle_start_training:522 - Get schedule metadata complete
+2025-07-11 09:40:04.951 | DEBUG    | geth.trainer.elastic_ddp_gnn_trainer:handle_start_training:572 - setup_rank 2, old_rank_of_me -1, new_rank_of_me 2
+2025-07-11 09:40:04.951 | DEBUG    | geth.trainer.elastic_ddp_gnn_trainer:handle_start_training:553 - send torch.Size([77662]) to 2, tag 2000
+2025-07-11 09:40:04.951 | DEBUG    | geth.trainer.elastic_ddp_gnn_trainer:handle_start_training:601 - receive from 0, tag 2000, size 77679
+2025-07-11 09:40:04.952 | DEBUG    | geth.trainer.elastic_ddp_gnn_trainer:handle_start_training:601 - receive from 0, tag 2000, size 77662
+2025-07-11 09:40:05.061 | DEBUG    | geth.trainer.elastic_ddp_gnn_trainer:handle_start_training:617 - Distribute schedule complete
+2025-07-11 09:40:05.061 | DEBUG    | geth.trainer.elastic_ddp_gnn_trainer:handle_start_training:617 - Distribute schedule complete
+2025-07-11 09:40:05.061 | DEBUG    | geth.trainer.elastic_ddp_gnn_trainer:handle_start_training:617 - Distribute schedule complete
+2025-07-11 09:40:05.063 | DEBUG    | geth.trainer.elastic_ddp_gnn_trainer:handle_start_training:684 - 2 receive from 0 0, tag 3000, size 77662
+2025-07-11 09:40:05.063 | DEBUG    | geth.trainer.elastic_ddp_gnn_trainer:handle_start_training:684 - 1 receive from 0 0, tag 3000, size 77679
+2025-07-11 09:40:05.090 | DEBUG    | geth.trainer.elastic_ddp_gnn_trainer:handle_start_training:635 - 0 send torch.Size([77679, 602]) to 1 1, tag 3001
+2025-07-11 09:40:05.119 | DEBUG    | geth.trainer.elastic_ddp_gnn_trainer:handle_start_training:635 - 0 send torch.Size([77662, 602]) to 2 2, tag 3002
+2025-07-11 09:40:05.169 | DEBUG    | geth.trainer.elastic_ddp_gnn_trainer:handle_start_training:761 - Distribute graph data complete
+2025-07-11 09:40:05.169 | DEBUG    | geth.trainer.elastic_ddp_gnn_trainer:handle_start_training:761 - Distribute graph data complete
+2025-07-11 09:40:05.172 | DEBUG    | geth.trainer.elastic_ddp_gnn_trainer:handle_start_training:761 - Distribute graph data complete
+2025-07-11 09:40:05.203 | DEBUG    | geth.trainer.elastic_ddp_gnn_trainer:handle_start_training:818 - Shutting down recovery comm group
+2025-07-11 09:40:05.213 | DEBUG    | geth.trainer.elastic_ddp_gnn_trainer:handle_start_training:818 - Shutting down recovery comm group
+2025-07-11 09:40:05.213 | DEBUG    | geth.trainer.elastic_ddp_gnn_trainer:handle_start_training:818 - Shutting down recovery comm group
+2025-07-11 09:40:05.270 | DEBUG    | geth.agent.agent:handle_message:167 - Trainer response for start task: <class 'geth.base.operation.TrainerOperation'>(OpCode.TrainingUnpaused, ())
+2025-07-11 09:40:05.270 | DEBUG    | geth.agent.agent:handle_message:167 - Trainer response for start task: <class 'geth.base.operation.TrainerOperation'>(OpCode.TrainingUnpaused, ())
+2025-07-11 09:40:05.270 | DEBUG    | geth.agent.agent:handle_message:167 - Trainer response for start task: <class 'geth.base.operation.TrainerOperation'>(OpCode.TrainingUnpaused, ())
+2025-07-11 09:40:05.270 | DEBUG    | geth.hub.hub:execute:29 - Hub received operation from b'0': <class 'geth.base.operation.AgentOperation'>(OpCode.ReportAgentTrainingUnpauseEvent, ())
+2025-07-11 09:40:05.270 | DEBUG    | geth.hub.hub:execute:29 - Hub received operation from b'2': <class 'geth.base.operation.AgentOperation'>(OpCode.ReportAgentTrainingUnpauseEvent, ())
+2025-07-11 09:40:05.271 | DEBUG    | geth.hub.hub:execute:29 - Hub received operation from b'1': <class 'geth.base.operation.AgentOperation'>(OpCode.ReportAgentTrainingUnpauseEvent, ())
+2025-07-11 09:40:06.155 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=1, self.step=1
+2025-07-11 09:40:06.155 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=1, self.step=1
+2025-07-11 09:40:06.155 | DEBUG    | geth.trainer.base_trainer:handle_msg:214 - Trainer Got op: <class 'geth.base.operation.DaemonOperation'>(OpCode.QueryTrainingStatus, ())
+2025-07-11 09:40:06.155 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=2, self.epoch=1, self.step=1
+2025-07-11 09:40:06.155 | DEBUG    | geth.trainer.base_trainer:handle_msg:214 - Trainer Got op: <class 'geth.base.operation.DaemonOperation'>(OpCode.QueryTrainingStatus, ())
+2025-07-11 09:40:06.155 | DEBUG    | geth.trainer.base_trainer:handle_msg:214 - Trainer Got op: <class 'geth.base.operation.DaemonOperation'>(OpCode.QueryTrainingStatus, ())
+2025-07-11 09:40:06.155 | DEBUG    | geth.agent.agent:report_training_status:86 - Training status: TrainingStatus(epoch=1, step=1, running=True, stop_reason=TrainerStopReason.UNKNOWN, prescale_status=False)
+2025-07-11 09:40:06.156 | DEBUG    | geth.agent.agent:report_training_status:86 - Training status: TrainingStatus(epoch=1, step=1, running=True, stop_reason=TrainerStopReason.UNKNOWN, prescale_status=False)
+2025-07-11 09:40:06.156 | INFO     | geth.agent.agent:handle_message:126 - Agent[0] received hub operation: <class 'geth.base.operation.HubOperation'>(OpCode.PauseTask, ())
+2025-07-11 09:40:06.156 | DEBUG    | geth.agent.agent:report_training_status:86 - Training status: TrainingStatus(epoch=1, step=1, running=True, stop_reason=TrainerStopReason.UNKNOWN, prescale_status=False)
+2025-07-11 09:40:06.156 | INFO     | geth.agent.agent:handle_message:126 - Agent[1] received hub operation: <class 'geth.base.operation.HubOperation'>(OpCode.PauseTask, ())
+2025-07-11 09:40:06.156 | DEBUG    | geth.hub.hub:execute:29 - Hub received operation from b'0': <class 'geth.base.operation.AgentOperation'>(OpCode.ReportAgentStatusPeriodic, (TrainingStatus(epoch=1, step=1, running=True, stop_reason=TrainerStopReason.UNKNOWN, prescale_status=False),))
+2025-07-11 09:40:06.156 | INFO     | geth.agent.agent:handle_message:126 - Agent[2] received hub operation: <class 'geth.base.operation.HubOperation'>(OpCode.PauseTask, ())
+2025-07-11 09:40:06.156 | DEBUG    | geth.hub.task:on_report_agent_status_periodic:123 - Agent b'0' reported training status <class 'geth.base.operation.AgentOperation'>(OpCode.ReportAgentStatusPeriodic, (TrainingStatus(epoch=1, step=1, running=True, stop_reason=TrainerStopReason.UNKNOWN, prescale_status=False),))
+2025-07-11 09:40:06.156 | DEBUG    | geth.hub.hub:execute:29 - Hub received operation from b'1': <class 'geth.base.operation.AgentOperation'>(OpCode.ReportAgentStatusPeriodic, (TrainingStatus(epoch=1, step=1, running=True, stop_reason=TrainerStopReason.UNKNOWN, prescale_status=False),))
+2025-07-11 09:40:06.156 | DEBUG    | geth.hub.task:on_report_agent_status_periodic:123 - Agent b'1' reported training status <class 'geth.base.operation.AgentOperation'>(OpCode.ReportAgentStatusPeriodic, (TrainingStatus(epoch=1, step=1, running=True, stop_reason=TrainerStopReason.UNKNOWN, prescale_status=False),))
+2025-07-11 09:40:06.156 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 1
+2025-07-11 09:40:06.156 | DEBUG    | geth.hub.hub:execute:29 - Hub received operation from b'2': <class 'geth.base.operation.AgentOperation'>(OpCode.ReportAgentStatusPeriodic, (TrainingStatus(epoch=1, step=1, running=True, stop_reason=TrainerStopReason.UNKNOWN, prescale_status=False),))
+2025-07-11 09:40:06.156 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 1
+2025-07-11 09:40:06.156 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 1
+2025-07-11 09:40:06.156 | DEBUG    | geth.hub.task:on_report_agent_status_periodic:123 - Agent b'2' reported training status <class 'geth.base.operation.AgentOperation'>(OpCode.ReportAgentStatusPeriodic, (TrainingStatus(epoch=1, step=1, running=True, stop_reason=TrainerStopReason.UNKNOWN, prescale_status=False),))
+2025-07-11 09:40:06.353 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=2, self.step=1
+2025-07-11 09:40:06.353 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=2, self.step=1
+2025-07-11 09:40:06.354 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=2, self.epoch=2, self.step=1
+2025-07-11 09:40:06.354 | DEBUG    | geth.trainer.base_trainer:handle_msg:214 - Trainer Got op: <class 'geth.base.operation.DaemonOperation'>(OpCode.StopTraining, (True,))
+2025-07-11 09:40:06.354 | DEBUG    | geth.trainer.base_trainer:handle_msg:214 - Trainer Got op: <class 'geth.base.operation.DaemonOperation'>(OpCode.StopTraining, (True,))
+2025-07-11 09:40:06.354 | DEBUG    | geth.trainer.base_trainer:handle_msg:214 - Trainer Got op: <class 'geth.base.operation.DaemonOperation'>(OpCode.StopTraining, (True,))
+2025-07-11 09:40:06.906 | INFO     | geth.trainer.base_trainer:after_train:101 - Stopped: self.worker_id=0, self.stop_reason=TrainerStopReason.STOPPED_BY_AGENT
+2025-07-11 09:40:06.906 | DEBUG    | geth.agent.agent:handle_message:182 - Agent[0] got pause resp <class 'geth.base.operation.TrainerOperation'>(OpCode.TrainingPaused, ())
+2025-07-11 09:40:06.906 | DEBUG    | geth.hub.hub:execute:29 - Hub received operation from b'0': <class 'geth.base.operation.AgentOperation'>(OpCode.ReportAgentTrainingPauseEvent, ())
+2025-07-11 09:40:06.916 | INFO     | geth.trainer.base_trainer:after_train:101 - Stopped: self.worker_id=1, self.stop_reason=TrainerStopReason.STOPPED_BY_AGENT
+2025-07-11 09:40:06.916 | INFO     | geth.trainer.base_trainer:after_train:101 - Stopped: self.worker_id=2, self.stop_reason=TrainerStopReason.STOPPED_BY_AGENT
+2025-07-11 09:40:06.916 | DEBUG    | geth.agent.agent:handle_message:182 - Agent[1] got pause resp <class 'geth.base.operation.TrainerOperation'>(OpCode.TrainingPaused, ())
+2025-07-11 09:40:06.916 | DEBUG    | geth.agent.agent:handle_message:182 - Agent[2] got pause resp <class 'geth.base.operation.TrainerOperation'>(OpCode.TrainingPaused, ())
+2025-07-11 09:40:06.916 | DEBUG    | geth.hub.hub:execute:29 - Hub received operation from b'1': <class 'geth.base.operation.AgentOperation'>(OpCode.ReportAgentTrainingPauseEvent, ())
+2025-07-11 09:40:06.916 | DEBUG    | geth.hub.hub:execute:29 - Hub received operation from b'2': <class 'geth.base.operation.AgentOperation'>(OpCode.ReportAgentTrainingPauseEvent, ())
+2025-07-11 09:40:06.956 | INFO     | geth.agent.agent:handle_message:126 - Agent[0] received hub operation: <class 'geth.base.operation.HubOperation'>(OpCode.UnpauseTask, (True, GethDDPRecoveryShedule(recovery_dist_info=DistInfo(master_addr=10.119.0.71, master_port=8902, rank=0, world_size=3, master_worker_id=-1), new_worker_list=[0, 1], rank_map={0: 0, 1: 1, 2: 2}, setup_rank_map={0: {'old': 0, 'new': 0}, 1: {'old': 1, 'new': 1}, 2: {'old': 2, 'new': -1}}, agent_type=DDPRecoveryType.COMMON_AGENTS, should_save_extra_data=True), DistInfo(master_addr=10.119.0.71, master_port=8901, rank=0, world_size=2, master_worker_id=-1), False))
+2025-07-11 09:40:06.957 | DEBUG    | geth.trainer.base_trainer:handle_msg:214 - Trainer Got op: <class 'geth.base.operation.DaemonOperation'>(OpCode.StartTraining, (True, GethDDPRecoveryShedule(recovery_dist_info=DistInfo(master_addr=10.119.0.71, master_port=8902, rank=0, world_size=3, master_worker_id=-1), new_worker_list=[0, 1], rank_map={0: 0, 1: 1, 2: 2}, setup_rank_map={0: {'old': 0, 'new': 0}, 1: {'old': 1, 'new': 1}, 2: {'old': 2, 'new': -1}}, agent_type=DDPRecoveryType.COMMON_AGENTS, should_save_extra_data=True), DistInfo(master_addr=10.119.0.71, master_port=8901, rank=0, world_size=2, master_worker_id=-1)))
+2025-07-11 09:40:06.967 | INFO     | geth.agent.agent:handle_message:126 - Agent[1] received hub operation: <class 'geth.base.operation.HubOperation'>(OpCode.UnpauseTask, (True, GethDDPRecoveryShedule(recovery_dist_info=DistInfo(master_addr=10.119.0.71, master_port=8902, rank=1, world_size=3, master_worker_id=-1), new_worker_list=[0, 1], rank_map={0: 0, 1: 1, 2: 2}, setup_rank_map={0: {'old': 0, 'new': 0}, 1: {'old': 1, 'new': 1}, 2: {'old': 2, 'new': -1}}, agent_type=DDPRecoveryType.COMMON_AGENTS, should_save_extra_data=False), DistInfo(master_addr=10.119.0.71, master_port=8901, rank=1, world_size=2, master_worker_id=-1), False))
+2025-07-11 09:40:06.967 | INFO     | geth.agent.agent:handle_message:126 - Agent[2] received hub operation: <class 'geth.base.operation.HubOperation'>(OpCode.UnpauseTask, (True, GethDDPRecoveryShedule(recovery_dist_info=DistInfo(master_addr=10.119.0.71, master_port=8902, rank=2, world_size=3, master_worker_id=-1), new_worker_list=[0, 1], rank_map={0: 0, 1: 1, 2: 2}, setup_rank_map={0: {'old': 0, 'new': 0}, 1: {'old': 1, 'new': 1}, 2: {'old': 2, 'new': -1}}, agent_type=DDPRecoveryType.DEPREACATED_AGENTS, should_save_extra_data=False), DistInfo(master_addr=10.119.0.71, master_port=8905, rank=-1, world_size=0, master_worker_id=-1), False))
+2025-07-11 09:40:06.967 | DEBUG    | geth.trainer.base_trainer:handle_msg:214 - Trainer Got op: <class 'geth.base.operation.DaemonOperation'>(OpCode.StartTraining, (True, GethDDPRecoveryShedule(recovery_dist_info=DistInfo(master_addr=10.119.0.71, master_port=8902, rank=1, world_size=3, master_worker_id=-1), new_worker_list=[0, 1], rank_map={0: 0, 1: 1, 2: 2}, setup_rank_map={0: {'old': 0, 'new': 0}, 1: {'old': 1, 'new': 1}, 2: {'old': 2, 'new': -1}}, agent_type=DDPRecoveryType.COMMON_AGENTS, should_save_extra_data=False), DistInfo(master_addr=10.119.0.71, master_port=8901, rank=1, world_size=2, master_worker_id=-1)))
+2025-07-11 09:40:06.967 | DEBUG    | geth.trainer.base_trainer:handle_msg:214 - Trainer Got op: <class 'geth.base.operation.DaemonOperation'>(OpCode.StartTraining, (True, GethDDPRecoveryShedule(recovery_dist_info=DistInfo(master_addr=10.119.0.71, master_port=8902, rank=2, world_size=3, master_worker_id=-1), new_worker_list=[0, 1], rank_map={0: 0, 1: 1, 2: 2}, setup_rank_map={0: {'old': 0, 'new': 0}, 1: {'old': 1, 'new': 1}, 2: {'old': 2, 'new': -1}}, agent_type=DDPRecoveryType.DEPREACATED_AGENTS, should_save_extra_data=False), DistInfo(master_addr=10.119.0.71, master_port=8905, rank=-1, world_size=0, master_worker_id=-1)))
+2025-07-11 09:40:06.968 | DEBUG    | geth.trainer.elastic_ddp_gnn_trainer:_partation_graph_and_distribute:269 - Try to partition
+prevgmini: 0
+ Runtime parameters:
+   Objective type: METIS_OBJTYPE_CUT
+   Coarsening type: METIS_CTYPE_SHEM
+   Initial partitioning type: METIS_IPTYPE_GROW
+   Refinement type: METIS_RTYPE_FM
+   Perform a 2-hop matching: No
+   Number of balancing constraints: 1
+   Number of refinement iterations: 10
+   Random number seed: 1
+   Number of partitions: 2
+   Number of cuts: 1
+   User-supplied ufactor: 5
+   Target partition weights: 
+        0=[5.00e-01]   1=[5.00e-01]
+   Allowed maximum load imbalance: 1.005 
+
+
+Timing Information -------------------------------------------------
+ Multilevel: 		   0.122
+     Coarsening: 		   0.087
+            Matching: 			   0.017
+            Contract: 			   0.069
+     Initial Partition: 	   0.000
+     Uncoarsening: 		   0.035
+          Refinement: 			   0.009
+          Projection: 			   0.026
+     Splitting: 		   0.000
+********************************************************************
+
+ gk_mcore statistics
+           coresize:        60132         nmops:         2048  cmop:      0
+        num_callocs:           91   num_hallocs:            3
+       size_callocs:       279200  size_hallocs:        32464
+        cur_callocs:            0   cur_hallocs:            0
+        max_callocs:        60008   max_hallocs:        30008
+ nbrpool statistics
+        nbrpoolsize:            0   nbrpoolcpos:            0
+    nbrpoolreallocs:            0
+
+>>PrePart took 122ms
+	Part 1 (Assign nodes to local partitions): 0 ms
+	Part 2 (Find remote nodes): 553 ms
+	Part 3 (Remove duplicates): 576 ms
+	Part 4 (Build mappings): 28 ms
+Total BuildLocalMappingsInternal time: 1158 ms
+>>PreBuild map took 1185ms
+>>PreBuild request took 1135ms
+[info] edges_chunk finished
+[info] edges insert finished
+[info] graph creation finished
+>>PreBuild subgraph took 5026ms
+Prepartition took7s
+
+Serialize took0s
+
+Prepartition all took8s
+
+2025-07-11 09:40:15.491 | INFO     | geth.trainer.elastic_ddp_gnn_trainer:_partation_graph_and_distribute:294 - Prepartition done, waiting time: 8.523017406463623s
+>>Scatter subgraph took 1031ms
+>>Build raw graph took 54ms
+>>Scatter local graph took 0ms
+>>Scatter local_mapping took 45ms
+Using time to allocalte req 67 build allgather comm 92
+Using time for SPST algorithm: 92 ms
+Using time for ScatterCommInfo: 4 ms
+Using time for ScatterCommInfo: 163 ms
+Using time for CommInfoSetupConnection: 18 ms
+Using time for CommInfoSetupConnection: 16 ms
+Build part info took1s
+
+Build part info took10s
+
+2025-07-11 09:40:17.486 | INFO     | geth.trainer.elastic_ddp_gnn_trainer:_partation_graph_and_distribute:298 - Load prepartition done, time: 1.994051218032837s
+2025-07-11 09:40:17.636 | DEBUG    | geth.trainer.elastic_ddp_gnn_trainer:handle_start_training:460 - Training recovery group setup done
+2025-07-11 09:40:17.636 | DEBUG    | geth.trainer.elastic_ddp_gnn_trainer:handle_start_training:460 - Training recovery group setup done
+2025-07-11 09:40:17.636 | DEBUG    | geth.trainer.elastic_ddp_gnn_trainer:handle_start_training:460 - Training recovery group setup done
+2025-07-11 09:40:17.654 | DEBUG    | geth.trainer.elastic_ddp_gnn_trainer:handle_start_training:497 - Build schedule complete
+2025-07-11 09:40:17.654 | DEBUG    | geth.trainer.elastic_ddp_gnn_trainer:handle_start_training:522 - Get schedule metadata complete
+2025-07-11 09:40:17.654 | DEBUG    | geth.trainer.elastic_ddp_gnn_trainer:handle_start_training:535 - send torch.Size([70081]) to 1, tag 1000
+2025-07-11 09:40:17.654 | DEBUG    | geth.trainer.elastic_ddp_gnn_trainer:handle_start_training:522 - Get schedule metadata complete
+2025-07-11 09:40:17.654 | DEBUG    | geth.trainer.elastic_ddp_gnn_trainer:handle_start_training:572 - setup_rank 1, old_rank_of_me 1, new_rank_of_me 1
+2025-07-11 09:40:17.654 | DEBUG    | geth.trainer.elastic_ddp_gnn_trainer:handle_start_training:522 - Get schedule metadata complete
+2025-07-11 09:40:17.655 | DEBUG    | geth.trainer.elastic_ddp_gnn_trainer:handle_start_training:572 - setup_rank 2, old_rank_of_me 2, new_rank_of_me -1
+2025-07-11 09:40:17.655 | DEBUG    | geth.trainer.elastic_ddp_gnn_trainer:handle_start_training:535 - send torch.Size([7598]) to 1, tag 1001
+2025-07-11 09:40:17.655 | DEBUG    | geth.trainer.elastic_ddp_gnn_trainer:handle_start_training:535 - send torch.Size([42165]) to 2, tag 1000
+2025-07-11 09:40:17.655 | DEBUG    | geth.trainer.elastic_ddp_gnn_trainer:handle_start_training:584 - receive from 0, tag 1000
+2025-07-11 09:40:17.655 | DEBUG    | geth.trainer.elastic_ddp_gnn_trainer:handle_start_training:584 - receive from 0, tag 1001
+2025-07-11 09:40:17.655 | DEBUG    | geth.trainer.elastic_ddp_gnn_trainer:handle_start_training:535 - send torch.Size([35497]) to 2, tag 1001
+2025-07-11 09:40:17.655 | DEBUG    | geth.trainer.elastic_ddp_gnn_trainer:handle_start_training:584 - receive from 0, tag 1000
+2025-07-11 09:40:17.655 | DEBUG    | geth.trainer.elastic_ddp_gnn_trainer:handle_start_training:553 - send torch.Size([73379]) to 1, tag 2000
+2025-07-11 09:40:17.655 | DEBUG    | geth.trainer.elastic_ddp_gnn_trainer:handle_start_training:601 - receive from 0, tag 2000, size 73379
+2025-07-11 09:40:17.655 | DEBUG    | geth.trainer.elastic_ddp_gnn_trainer:handle_start_training:601 - receive from 0, tag 2001, size 7598
+2025-07-11 09:40:17.655 | DEBUG    | geth.trainer.elastic_ddp_gnn_trainer:handle_start_training:601 - receive from 0, tag 2002, size 35497
+2025-07-11 09:40:17.655 | DEBUG    | geth.trainer.elastic_ddp_gnn_trainer:handle_start_training:553 - send torch.Size([7598]) to 1, tag 2001
+2025-07-11 09:40:17.655 | DEBUG    | geth.trainer.elastic_ddp_gnn_trainer:handle_start_training:553 - send torch.Size([35497]) to 1, tag 2002
+2025-07-11 09:40:17.655 | DEBUG    | geth.trainer.elastic_ddp_gnn_trainer:handle_start_training:584 - receive from 0, tag 1001
+2025-07-11 09:40:17.689 | DEBUG    | geth.trainer.elastic_ddp_gnn_trainer:handle_start_training:617 - Distribute schedule complete
+2025-07-11 09:40:17.689 | DEBUG    | geth.trainer.elastic_ddp_gnn_trainer:handle_start_training:617 - Distribute schedule complete
+2025-07-11 09:40:17.689 | DEBUG    | geth.trainer.elastic_ddp_gnn_trainer:handle_start_training:617 - Distribute schedule complete
+2025-07-11 09:40:17.689 | DEBUG    | geth.trainer.elastic_ddp_gnn_trainer:handle_start_training:635 - 2 send torch.Size([42165, 602]) to 0 0, tag 3000
+2025-07-11 09:40:17.690 | DEBUG    | geth.trainer.elastic_ddp_gnn_trainer:handle_start_training:635 - 1 send torch.Size([70081, 602]) to 0 0, tag 3000
+2025-07-11 09:40:17.690 | DEBUG    | geth.trainer.elastic_ddp_gnn_trainer:handle_start_training:635 - 2 send torch.Size([35497, 602]) to 1 1, tag 3001
+2025-07-11 09:40:17.690 | DEBUG    | geth.trainer.elastic_ddp_gnn_trainer:handle_start_training:635 - 0 send torch.Size([73379, 602]) to 1 1, tag 3001
+2025-07-11 09:40:17.690 | DEBUG    | geth.trainer.elastic_ddp_gnn_trainer:handle_start_training:684 - 1 receive from 0 0, tag 3000, size 73379
+2025-07-11 09:40:17.690 | DEBUG    | geth.trainer.elastic_ddp_gnn_trainer:handle_start_training:684 - 1 receive from 2 2, tag 3000, size 35497
+2025-07-11 09:40:17.691 | DEBUG    | geth.trainer.elastic_ddp_gnn_trainer:handle_start_training:684 - 0 receive from 1 1, tag 3000, size 70081
+2025-07-11 09:40:17.691 | DEBUG    | geth.trainer.elastic_ddp_gnn_trainer:handle_start_training:684 - 0 receive from 2 2, tag 3000, size 42165
+2025-07-11 09:40:17.694 | DEBUG    | geth.trainer.elastic_ddp_gnn_trainer:handle_start_training:761 - Distribute graph data complete
+2025-07-11 09:40:17.695 | DEBUG    | geth.trainer.elastic_ddp_gnn_trainer:recover_training:179 - Start recovery of DDP Part
+2025-07-11 09:40:17.695 | DEBUG    | geth.trainer.elastic_ddp_gnn_trainer:handle_start_training:761 - Distribute graph data complete
+2025-07-11 09:40:17.695 | DEBUG    | geth.trainer.elastic_ddp_gnn_trainer:recover_training:179 - Start recovery of DDP Part
+2025-07-11 09:40:17.707 | DEBUG    | geth.trainer.elastic_ddp_gnn_trainer:handle_start_training:761 - Distribute graph data complete
+2025-07-11 09:40:17.707 | DEBUG    | geth.trainer.elastic_ddp_gnn_trainer:recover_training:179 - Start recovery of DDP Part
+2025-07-11 09:40:17.711 | DEBUG    | geth.trainer.elastic_ddp_gnn_trainer:recover_training:204 - Finished transfer of DDP recovery data
+2025-07-11 09:40:17.710 | DEBUG    | geth.trainer.elastic_ddp_gnn_trainer:recover_training:204 - Finished transfer of DDP recovery data
+2025-07-11 09:40:17.711 | DEBUG    | geth.trainer.elastic_ddp_gnn_trainer:recover_training:204 - Finished transfer of DDP recovery data
+2025-07-11 09:40:17.741 | DEBUG    | geth.trainer.elastic_ddp_gnn_trainer:handle_start_training:818 - Shutting down recovery comm group
+2025-07-11 09:40:17.751 | DEBUG    | geth.trainer.elastic_ddp_gnn_trainer:handle_start_training:818 - Shutting down recovery comm group
+2025-07-11 09:40:17.751 | DEBUG    | geth.trainer.elastic_ddp_gnn_trainer:handle_start_training:818 - Shutting down recovery comm group
+2025-07-11 09:40:17.751 | DEBUG    | geth.agent.agent:handle_message:213 - Trainer response for recovery: <class 'geth.base.operation.TrainerOperation'>(OpCode.TrainingUnpaused, ())
+2025-07-11 09:40:17.752 | DEBUG    | geth.hub.hub:execute:29 - Hub received operation from b'2': <class 'geth.base.operation.AgentOperation'>(OpCode.ReportAgentTrainingUnpauseEvent, (True,))
+2025-07-11 09:40:17.775 | DEBUG    | geth.agent.agent:handle_message:213 - Trainer response for recovery: <class 'geth.base.operation.TrainerOperation'>(OpCode.TrainingUnpaused, ())
+2025-07-11 09:40:17.775 | DEBUG    | geth.agent.agent:handle_message:213 - Trainer response for recovery: <class 'geth.base.operation.TrainerOperation'>(OpCode.TrainingUnpaused, ())
+2025-07-11 09:40:17.776 | DEBUG    | geth.hub.hub:execute:29 - Hub received operation from b'0': <class 'geth.base.operation.AgentOperation'>(OpCode.ReportAgentTrainingUnpauseEvent, (True,))
+2025-07-11 09:40:17.776 | DEBUG    | geth.hub.hub:execute:29 - Hub received operation from b'1': <class 'geth.base.operation.AgentOperation'>(OpCode.ReportAgentTrainingUnpauseEvent, (True,))
+2025-07-11 09:40:18.290 | INFO     | geth.trainer.base_trainer:after_train:101 - Stopped: self.worker_id=2, self.stop_reason=TrainerStopReason.STOPPED_BY_AGENT
+2025-07-11 09:40:18.290 | DEBUG    | geth.trainer.base_trainer:handle_msg:214 - Trainer Got op: <class 'geth.base.operation.DaemonOperation'>(OpCode.QueryTrainingStatus, ())
+2025-07-11 09:40:18.290 | DEBUG    | geth.agent.agent:report_training_status:86 - Training status: TrainingStatus(epoch=2, step=1, running=False, stop_reason=TrainerStopReason.STOPPED_BY_AGENT, prescale_status=False)
+2025-07-11 09:40:18.290 | INFO     | geth.trainer.base_trainer:after_train:101 - Stopped: self.worker_id=2, self.stop_reason=TrainerStopReason.STOPPED_BY_AGENT
+2025-07-11 09:40:18.290 | DEBUG    | geth.hub.hub:execute:29 - Hub received operation from b'2': <class 'geth.base.operation.AgentOperation'>(OpCode.ReportAgentStatusPeriodic, (TrainingStatus(epoch=2, step=1, running=False, stop_reason=TrainerStopReason.STOPPED_BY_AGENT, prescale_status=False),))
+2025-07-11 09:40:18.290 | DEBUG    | geth.hub.task:on_report_agent_status_periodic:123 - Agent b'2' reported training status <class 'geth.base.operation.AgentOperation'>(OpCode.ReportAgentStatusPeriodic, (TrainingStatus(epoch=2, step=1, running=False, stop_reason=TrainerStopReason.STOPPED_BY_AGENT, prescale_status=False),))
+2025-07-11 09:40:18.290 | DEBUG    | geth.hub.task:on_report_agent_status_periodic:625 - Agent b'2' reported training finished
+2025-07-11 09:40:18.340 | INFO     | geth.agent.agent:handle_message:126 - Agent[2] received hub operation: <class 'geth.base.operation.HubOperation'>(OpCode.TerminateWorker, ())
+2025-07-11 09:40:18.340 | DEBUG    | geth.trainer.base_trainer:handle_msg:214 - Trainer Got op: <class 'geth.base.operation.DaemonOperation'>(OpCode.FiniWorker, ())
+2025-07-11 09:40:18.340 | DEBUG    | geth.agent.agent:handle_message:240 - Agent[2] got fini resp <class 'geth.base.operation.TrainerOperation'>(OpCode.TrainingTerminated, ())
+2025-07-11 09:40:18.340 | INFO     | geth.trainer.base_trainer:after_train:101 - Stopped: self.worker_id=2, self.stop_reason=TrainerStopReason.STOPPED_BY_AGENT
+so path is  /data/caohongliang/geth/workspace/ragdoll/ragdoll/ragdoll_torch_ops.cpython-310-x86_64-linux-gnu.so
+Subgraph nodes: 229977 local nodes 77662 edges: 39343229
+Finished converting to numpy
+Building csr matrix
+Build csr matrix done
+2025-07-11 09:40:18.421 | DEBUG    | geth.agent.worker:stop:99 - Worker finished with ret_code = 0
+2025-07-11 09:40:18.422 | DEBUG    | geth.hub.hub:execute:29 - Hub received operation from b'2': <class 'geth.base.operation.AgentOperation'>(OpCode.ReportAgentWorkerTerminateEvent, ())
+2025-07-11 09:40:18.555 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=3, self.step=1
+2025-07-11 09:40:18.555 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=3, self.step=1
+2025-07-11 09:40:18.555 | DEBUG    | geth.trainer.base_trainer:handle_msg:214 - Trainer Got op: <class 'geth.base.operation.DaemonOperation'>(OpCode.QueryTrainingStatus, ())
+2025-07-11 09:40:18.555 | DEBUG    | geth.trainer.base_trainer:handle_msg:214 - Trainer Got op: <class 'geth.base.operation.DaemonOperation'>(OpCode.QueryTrainingStatus, ())
+2025-07-11 09:40:18.555 | DEBUG    | geth.agent.agent:report_training_status:86 - Training status: TrainingStatus(epoch=3, step=1, running=True, stop_reason=TrainerStopReason.UNKNOWN, prescale_status=False)
+2025-07-11 09:40:18.555 | DEBUG    | geth.agent.agent:report_training_status:86 - Training status: TrainingStatus(epoch=3, step=1, running=True, stop_reason=TrainerStopReason.UNKNOWN, prescale_status=False)
+2025-07-11 09:40:18.556 | DEBUG    | geth.hub.hub:execute:29 - Hub received operation from b'0': <class 'geth.base.operation.AgentOperation'>(OpCode.ReportAgentStatusPeriodic, (TrainingStatus(epoch=3, step=1, running=True, stop_reason=TrainerStopReason.UNKNOWN, prescale_status=False),))
+2025-07-11 09:40:18.556 | DEBUG    | geth.hub.task:on_report_agent_status_periodic:123 - Agent b'0' reported training status <class 'geth.base.operation.AgentOperation'>(OpCode.ReportAgentStatusPeriodic, (TrainingStatus(epoch=3, step=1, running=True, stop_reason=TrainerStopReason.UNKNOWN, prescale_status=False),))
+2025-07-11 09:40:18.556 | DEBUG    | geth.hub.hub:execute:29 - Hub received operation from b'1': <class 'geth.base.operation.AgentOperation'>(OpCode.ReportAgentStatusPeriodic, (TrainingStatus(epoch=3, step=1, running=True, stop_reason=TrainerStopReason.UNKNOWN, prescale_status=False),))
+2025-07-11 09:40:18.556 | DEBUG    | geth.hub.task:on_report_agent_status_periodic:123 - Agent b'1' reported training status <class 'geth.base.operation.AgentOperation'>(OpCode.ReportAgentStatusPeriodic, (TrainingStatus(epoch=3, step=1, running=True, stop_reason=TrainerStopReason.UNKNOWN, prescale_status=False),))
+2025-07-11 09:40:18.556 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 3
+2025-07-11 09:40:18.556 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 3
+2025-07-11 09:40:18.556 | INFO     | __main__:<module>:83 - Response from hub: <class 'geth.base.operation.HubOperation'>(OpCode.Acknowledge, (True, 'At stage 3: '))
+2025-07-11 09:40:18.778 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=4, self.step=1
+2025-07-11 09:40:18.778 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=4, self.step=1
+2025-07-11 09:40:18.779 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 4
+2025-07-11 09:40:18.779 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 4
+2025-07-11 09:40:19.000 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=5, self.step=1
+2025-07-11 09:40:19.000 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=5, self.step=1
+2025-07-11 09:40:19.001 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 5
+2025-07-11 09:40:19.001 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 5
+2025-07-11 09:40:19.223 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=6, self.step=1
+2025-07-11 09:40:19.223 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=6, self.step=1
+2025-07-11 09:40:19.223 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 6
+2025-07-11 09:40:19.223 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 6
+2025-07-11 09:40:19.446 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=7, self.step=1
+2025-07-11 09:40:19.446 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=7, self.step=1
+2025-07-11 09:40:19.446 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 7
+2025-07-11 09:40:19.446 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 7
+2025-07-11 09:40:19.668 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=8, self.step=1
+2025-07-11 09:40:19.669 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=8, self.step=1
+2025-07-11 09:40:19.669 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 8
+2025-07-11 09:40:19.669 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 8
+2025-07-11 09:40:19.892 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=9, self.step=1
+2025-07-11 09:40:19.892 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=9, self.step=1
+2025-07-11 09:40:19.893 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 9
+2025-07-11 09:40:19.893 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 9
+2025-07-11 09:40:20.116 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=10, self.step=1
+2025-07-11 09:40:20.117 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=10, self.step=1
+2025-07-11 09:40:20.117 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 10
+2025-07-11 09:40:20.117 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 10
+2025-07-11 09:40:20.339 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=11, self.step=1
+2025-07-11 09:40:20.339 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=11, self.step=1
+2025-07-11 09:40:20.339 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 11
+2025-07-11 09:40:20.340 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 11
+2025-07-11 09:40:20.562 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=12, self.step=1
+2025-07-11 09:40:20.562 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=12, self.step=1
+2025-07-11 09:40:20.562 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 12
+2025-07-11 09:40:20.562 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 12
+2025-07-11 09:40:20.788 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=13, self.step=1
+2025-07-11 09:40:20.788 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=13, self.step=1
+2025-07-11 09:40:20.788 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 13
+2025-07-11 09:40:20.788 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 13
+2025-07-11 09:40:21.011 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=14, self.step=1
+2025-07-11 09:40:21.011 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=14, self.step=1
+2025-07-11 09:40:21.012 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 14
+2025-07-11 09:40:21.012 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 14
+2025-07-11 09:40:21.235 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=15, self.step=1
+2025-07-11 09:40:21.235 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=15, self.step=1
+2025-07-11 09:40:21.236 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 15
+2025-07-11 09:40:21.236 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 15
+2025-07-11 09:40:21.458 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=16, self.step=1
+2025-07-11 09:40:21.458 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=16, self.step=1
+2025-07-11 09:40:21.459 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 16
+2025-07-11 09:40:21.459 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 16
+2025-07-11 09:40:21.680 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=17, self.step=1
+2025-07-11 09:40:21.680 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=17, self.step=1
+2025-07-11 09:40:21.680 | DEBUG    | geth.trainer.base_trainer:handle_msg:214 - Trainer Got op: <class 'geth.base.operation.DaemonOperation'>(OpCode.QueryTrainingStatus, ())
+2025-07-11 09:40:21.680 | DEBUG    | geth.trainer.base_trainer:handle_msg:214 - Trainer Got op: <class 'geth.base.operation.DaemonOperation'>(OpCode.QueryTrainingStatus, ())
+2025-07-11 09:40:21.681 | DEBUG    | geth.agent.agent:report_training_status:86 - Training status: TrainingStatus(epoch=17, step=1, running=True, stop_reason=TrainerStopReason.UNKNOWN, prescale_status=False)
+2025-07-11 09:40:21.681 | DEBUG    | geth.agent.agent:report_training_status:86 - Training status: TrainingStatus(epoch=17, step=1, running=True, stop_reason=TrainerStopReason.UNKNOWN, prescale_status=False)
+2025-07-11 09:40:21.681 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 17
+2025-07-11 09:40:21.681 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 17
+2025-07-11 09:40:21.681 | DEBUG    | geth.hub.hub:execute:29 - Hub received operation from b'0': <class 'geth.base.operation.AgentOperation'>(OpCode.ReportAgentStatusPeriodic, (TrainingStatus(epoch=17, step=1, running=True, stop_reason=TrainerStopReason.UNKNOWN, prescale_status=False),))
+2025-07-11 09:40:21.681 | DEBUG    | geth.hub.task:on_report_agent_status_periodic:123 - Agent b'0' reported training status <class 'geth.base.operation.AgentOperation'>(OpCode.ReportAgentStatusPeriodic, (TrainingStatus(epoch=17, step=1, running=True, stop_reason=TrainerStopReason.UNKNOWN, prescale_status=False),))
+2025-07-11 09:40:21.681 | DEBUG    | geth.hub.hub:execute:29 - Hub received operation from b'1': <class 'geth.base.operation.AgentOperation'>(OpCode.ReportAgentStatusPeriodic, (TrainingStatus(epoch=17, step=1, running=True, stop_reason=TrainerStopReason.UNKNOWN, prescale_status=False),))
+2025-07-11 09:40:21.681 | DEBUG    | geth.hub.task:on_report_agent_status_periodic:123 - Agent b'1' reported training status <class 'geth.base.operation.AgentOperation'>(OpCode.ReportAgentStatusPeriodic, (TrainingStatus(epoch=17, step=1, running=True, stop_reason=TrainerStopReason.UNKNOWN, prescale_status=False),))
+2025-07-11 09:40:21.903 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=18, self.step=1
+2025-07-11 09:40:21.903 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=18, self.step=1
+2025-07-11 09:40:21.903 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 18
+2025-07-11 09:40:21.903 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 18
+2025-07-11 09:40:22.127 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=19, self.step=1
+2025-07-11 09:40:22.127 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=19, self.step=1
+2025-07-11 09:40:22.128 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 19
+2025-07-11 09:40:22.128 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 19
+2025-07-11 09:40:22.351 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=20, self.step=1
+2025-07-11 09:40:22.351 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=20, self.step=1
+2025-07-11 09:40:22.351 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 20
+2025-07-11 09:40:22.351 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 20
+2025-07-11 09:40:22.575 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=21, self.step=1
+2025-07-11 09:40:22.575 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=21, self.step=1
+2025-07-11 09:40:22.575 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 21
+2025-07-11 09:40:22.575 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 21
+2025-07-11 09:40:22.797 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=22, self.step=1
+2025-07-11 09:40:22.797 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=22, self.step=1
+2025-07-11 09:40:22.798 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 22
+2025-07-11 09:40:22.798 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 22
+2025-07-11 09:40:23.019 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=23, self.step=1
+2025-07-11 09:40:23.019 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=23, self.step=1
+2025-07-11 09:40:23.019 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 23
+2025-07-11 09:40:23.019 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 23
+2025-07-11 09:40:23.242 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=24, self.step=1
+2025-07-11 09:40:23.243 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=24, self.step=1
+2025-07-11 09:40:23.243 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 24
+2025-07-11 09:40:23.243 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 24
+2025-07-11 09:40:23.465 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=25, self.step=1
+2025-07-11 09:40:23.465 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=25, self.step=1
+2025-07-11 09:40:23.465 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 25
+2025-07-11 09:40:23.465 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 25
+2025-07-11 09:40:23.688 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=26, self.step=1
+2025-07-11 09:40:23.688 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=26, self.step=1
+2025-07-11 09:40:23.689 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 26
+2025-07-11 09:40:23.689 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 26
+2025-07-11 09:40:23.912 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=27, self.step=1
+2025-07-11 09:40:23.912 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=27, self.step=1
+2025-07-11 09:40:23.912 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 27
+2025-07-11 09:40:23.912 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 27
+2025-07-11 09:40:24.136 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=28, self.step=1
+2025-07-11 09:40:24.136 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=28, self.step=1
+2025-07-11 09:40:24.136 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 28
+2025-07-11 09:40:24.136 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 28
+2025-07-11 09:40:24.358 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=29, self.step=1
+2025-07-11 09:40:24.358 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=29, self.step=1
+2025-07-11 09:40:24.359 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 29
+2025-07-11 09:40:24.359 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 29
+2025-07-11 09:40:24.582 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=30, self.step=1
+2025-07-11 09:40:24.582 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=30, self.step=1
+2025-07-11 09:40:24.582 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 30
+2025-07-11 09:40:24.582 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 30
+2025-07-11 09:40:24.802 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=31, self.step=1
+2025-07-11 09:40:24.802 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=31, self.step=1
+2025-07-11 09:40:24.802 | DEBUG    | geth.trainer.base_trainer:handle_msg:214 - Trainer Got op: <class 'geth.base.operation.DaemonOperation'>(OpCode.QueryTrainingStatus, ())
+2025-07-11 09:40:24.802 | DEBUG    | geth.trainer.base_trainer:handle_msg:214 - Trainer Got op: <class 'geth.base.operation.DaemonOperation'>(OpCode.QueryTrainingStatus, ())
+2025-07-11 09:40:24.802 | DEBUG    | geth.agent.agent:report_training_status:86 - Training status: TrainingStatus(epoch=31, step=1, running=True, stop_reason=TrainerStopReason.UNKNOWN, prescale_status=False)
+2025-07-11 09:40:24.802 | DEBUG    | geth.agent.agent:report_training_status:86 - Training status: TrainingStatus(epoch=31, step=1, running=True, stop_reason=TrainerStopReason.UNKNOWN, prescale_status=False)
+2025-07-11 09:40:24.803 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 31
+2025-07-11 09:40:24.803 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 31
+2025-07-11 09:40:24.803 | DEBUG    | geth.hub.hub:execute:29 - Hub received operation from b'0': <class 'geth.base.operation.AgentOperation'>(OpCode.ReportAgentStatusPeriodic, (TrainingStatus(epoch=31, step=1, running=True, stop_reason=TrainerStopReason.UNKNOWN, prescale_status=False),))
+2025-07-11 09:40:24.803 | DEBUG    | geth.hub.task:on_report_agent_status_periodic:123 - Agent b'0' reported training status <class 'geth.base.operation.AgentOperation'>(OpCode.ReportAgentStatusPeriodic, (TrainingStatus(epoch=31, step=1, running=True, stop_reason=TrainerStopReason.UNKNOWN, prescale_status=False),))
+2025-07-11 09:40:24.803 | DEBUG    | geth.hub.hub:execute:29 - Hub received operation from b'1': <class 'geth.base.operation.AgentOperation'>(OpCode.ReportAgentStatusPeriodic, (TrainingStatus(epoch=31, step=1, running=True, stop_reason=TrainerStopReason.UNKNOWN, prescale_status=False),))
+2025-07-11 09:40:24.803 | DEBUG    | geth.hub.task:on_report_agent_status_periodic:123 - Agent b'1' reported training status <class 'geth.base.operation.AgentOperation'>(OpCode.ReportAgentStatusPeriodic, (TrainingStatus(epoch=31, step=1, running=True, stop_reason=TrainerStopReason.UNKNOWN, prescale_status=False),))
+2025-07-11 09:40:25.025 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=32, self.step=1
+2025-07-11 09:40:25.025 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=32, self.step=1
+2025-07-11 09:40:25.025 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 32
+2025-07-11 09:40:25.025 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 32
+2025-07-11 09:40:25.248 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=33, self.step=1
+2025-07-11 09:40:25.248 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=33, self.step=1
+2025-07-11 09:40:25.248 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 33
+2025-07-11 09:40:25.248 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 33
+2025-07-11 09:40:25.470 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=34, self.step=1
+2025-07-11 09:40:25.470 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=34, self.step=1
+2025-07-11 09:40:25.470 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 34
+2025-07-11 09:40:25.470 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 34
+2025-07-11 09:40:25.694 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=35, self.step=1
+2025-07-11 09:40:25.694 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=35, self.step=1
+2025-07-11 09:40:25.695 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 35
+2025-07-11 09:40:25.695 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 35
+2025-07-11 09:40:25.917 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=36, self.step=1
+2025-07-11 09:40:25.917 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=36, self.step=1
+2025-07-11 09:40:25.917 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 36
+2025-07-11 09:40:25.917 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 36
+2025-07-11 09:40:26.139 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=37, self.step=1
+2025-07-11 09:40:26.139 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=37, self.step=1
+2025-07-11 09:40:26.139 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 37
+2025-07-11 09:40:26.139 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 37
+2025-07-11 09:40:26.362 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=38, self.step=1
+2025-07-11 09:40:26.362 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=38, self.step=1
+2025-07-11 09:40:26.362 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 38
+2025-07-11 09:40:26.362 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 38
+2025-07-11 09:40:26.585 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=39, self.step=1
+2025-07-11 09:40:26.585 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=39, self.step=1
+2025-07-11 09:40:26.585 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 39
+2025-07-11 09:40:26.585 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 39
+2025-07-11 09:40:26.808 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=40, self.step=1
+2025-07-11 09:40:26.808 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=40, self.step=1
+2025-07-11 09:40:26.808 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 40
+2025-07-11 09:40:26.808 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 40
+2025-07-11 09:40:27.031 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=41, self.step=1
+2025-07-11 09:40:27.031 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=41, self.step=1
+2025-07-11 09:40:27.032 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 41
+2025-07-11 09:40:27.032 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 41
+2025-07-11 09:40:27.255 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=42, self.step=1
+2025-07-11 09:40:27.255 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=42, self.step=1
+2025-07-11 09:40:27.255 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 42
+2025-07-11 09:40:27.255 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 42
+2025-07-11 09:40:27.477 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=43, self.step=1
+2025-07-11 09:40:27.477 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=43, self.step=1
+2025-07-11 09:40:27.477 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 43
+2025-07-11 09:40:27.477 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 43
+2025-07-11 09:40:27.699 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=44, self.step=1
+2025-07-11 09:40:27.699 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=44, self.step=1
+2025-07-11 09:40:27.700 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 44
+2025-07-11 09:40:27.700 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 44
+2025-07-11 09:40:27.923 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=45, self.step=1
+2025-07-11 09:40:27.923 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=45, self.step=1
+2025-07-11 09:40:27.923 | DEBUG    | geth.trainer.base_trainer:handle_msg:214 - Trainer Got op: <class 'geth.base.operation.DaemonOperation'>(OpCode.QueryTrainingStatus, ())
+2025-07-11 09:40:27.923 | DEBUG    | geth.trainer.base_trainer:handle_msg:214 - Trainer Got op: <class 'geth.base.operation.DaemonOperation'>(OpCode.QueryTrainingStatus, ())
+2025-07-11 09:40:27.923 | DEBUG    | geth.agent.agent:report_training_status:86 - Training status: TrainingStatus(epoch=45, step=1, running=True, stop_reason=TrainerStopReason.UNKNOWN, prescale_status=False)
+2025-07-11 09:40:27.923 | DEBUG    | geth.agent.agent:report_training_status:86 - Training status: TrainingStatus(epoch=45, step=1, running=True, stop_reason=TrainerStopReason.UNKNOWN, prescale_status=False)
+2025-07-11 09:40:27.923 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 45
+2025-07-11 09:40:27.923 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 45
+2025-07-11 09:40:27.923 | DEBUG    | geth.hub.hub:execute:29 - Hub received operation from b'1': <class 'geth.base.operation.AgentOperation'>(OpCode.ReportAgentStatusPeriodic, (TrainingStatus(epoch=45, step=1, running=True, stop_reason=TrainerStopReason.UNKNOWN, prescale_status=False),))
+2025-07-11 09:40:27.924 | DEBUG    | geth.hub.task:on_report_agent_status_periodic:123 - Agent b'1' reported training status <class 'geth.base.operation.AgentOperation'>(OpCode.ReportAgentStatusPeriodic, (TrainingStatus(epoch=45, step=1, running=True, stop_reason=TrainerStopReason.UNKNOWN, prescale_status=False),))
+2025-07-11 09:40:27.924 | DEBUG    | geth.hub.hub:execute:29 - Hub received operation from b'0': <class 'geth.base.operation.AgentOperation'>(OpCode.ReportAgentStatusPeriodic, (TrainingStatus(epoch=45, step=1, running=True, stop_reason=TrainerStopReason.UNKNOWN, prescale_status=False),))
+2025-07-11 09:40:27.924 | DEBUG    | geth.hub.task:on_report_agent_status_periodic:123 - Agent b'0' reported training status <class 'geth.base.operation.AgentOperation'>(OpCode.ReportAgentStatusPeriodic, (TrainingStatus(epoch=45, step=1, running=True, stop_reason=TrainerStopReason.UNKNOWN, prescale_status=False),))
+2025-07-11 09:40:28.146 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=46, self.step=1
+2025-07-11 09:40:28.146 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=46, self.step=1
+2025-07-11 09:40:28.146 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 46
+2025-07-11 09:40:28.146 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 46
+2025-07-11 09:40:28.369 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=47, self.step=1
+2025-07-11 09:40:28.369 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=47, self.step=1
+2025-07-11 09:40:28.370 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 47
+2025-07-11 09:40:28.370 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 47
+2025-07-11 09:40:28.594 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=48, self.step=1
+2025-07-11 09:40:28.594 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=48, self.step=1
+2025-07-11 09:40:28.595 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 48
+2025-07-11 09:40:28.595 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 48
+2025-07-11 09:40:28.817 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=49, self.step=1
+2025-07-11 09:40:28.817 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=49, self.step=1
+2025-07-11 09:40:28.818 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 49
+2025-07-11 09:40:28.818 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 49
+2025-07-11 09:40:29.040 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=50, self.step=1
+2025-07-11 09:40:29.040 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=50, self.step=1
+2025-07-11 09:40:29.040 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 50
+2025-07-11 09:40:29.040 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 50
+2025-07-11 09:40:29.263 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=51, self.step=1
+2025-07-11 09:40:29.263 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=51, self.step=1
+2025-07-11 09:40:29.263 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 51
+2025-07-11 09:40:29.263 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 51
+2025-07-11 09:40:29.485 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=52, self.step=1
+2025-07-11 09:40:29.485 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=52, self.step=1
+2025-07-11 09:40:29.486 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 52
+2025-07-11 09:40:29.486 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 52
+2025-07-11 09:40:29.708 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=53, self.step=1
+2025-07-11 09:40:29.708 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=53, self.step=1
+2025-07-11 09:40:29.709 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 53
+2025-07-11 09:40:29.709 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 53
+2025-07-11 09:40:29.932 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=54, self.step=1
+2025-07-11 09:40:29.932 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=54, self.step=1
+2025-07-11 09:40:29.933 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 54
+2025-07-11 09:40:29.933 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 54
+2025-07-11 09:40:30.156 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=55, self.step=1
+2025-07-11 09:40:30.156 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=55, self.step=1
+2025-07-11 09:40:30.156 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 55
+2025-07-11 09:40:30.156 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 55
+2025-07-11 09:40:30.378 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=56, self.step=1
+2025-07-11 09:40:30.378 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=56, self.step=1
+2025-07-11 09:40:30.379 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 56
+2025-07-11 09:40:30.379 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 56
+2025-07-11 09:40:30.601 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=57, self.step=1
+2025-07-11 09:40:30.601 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=57, self.step=1
+2025-07-11 09:40:30.602 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 57
+2025-07-11 09:40:30.602 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 57
+2025-07-11 09:40:30.824 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=58, self.step=1
+2025-07-11 09:40:30.824 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=58, self.step=1
+2025-07-11 09:40:30.825 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 58
+2025-07-11 09:40:30.825 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 58
+2025-07-11 09:40:31.048 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=59, self.step=1
+2025-07-11 09:40:31.048 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=59, self.step=1
+2025-07-11 09:40:31.048 | DEBUG    | geth.trainer.base_trainer:handle_msg:214 - Trainer Got op: <class 'geth.base.operation.DaemonOperation'>(OpCode.QueryTrainingStatus, ())
+2025-07-11 09:40:31.048 | DEBUG    | geth.trainer.base_trainer:handle_msg:214 - Trainer Got op: <class 'geth.base.operation.DaemonOperation'>(OpCode.QueryTrainingStatus, ())
+2025-07-11 09:40:31.048 | DEBUG    | geth.agent.agent:report_training_status:86 - Training status: TrainingStatus(epoch=59, step=1, running=True, stop_reason=TrainerStopReason.UNKNOWN, prescale_status=False)
+2025-07-11 09:40:31.048 | DEBUG    | geth.agent.agent:report_training_status:86 - Training status: TrainingStatus(epoch=59, step=1, running=True, stop_reason=TrainerStopReason.UNKNOWN, prescale_status=False)
+2025-07-11 09:40:31.049 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 59
+2025-07-11 09:40:31.049 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 59
+2025-07-11 09:40:31.049 | DEBUG    | geth.hub.hub:execute:29 - Hub received operation from b'1': <class 'geth.base.operation.AgentOperation'>(OpCode.ReportAgentStatusPeriodic, (TrainingStatus(epoch=59, step=1, running=True, stop_reason=TrainerStopReason.UNKNOWN, prescale_status=False),))
+2025-07-11 09:40:31.049 | DEBUG    | geth.hub.task:on_report_agent_status_periodic:123 - Agent b'1' reported training status <class 'geth.base.operation.AgentOperation'>(OpCode.ReportAgentStatusPeriodic, (TrainingStatus(epoch=59, step=1, running=True, stop_reason=TrainerStopReason.UNKNOWN, prescale_status=False),))
+2025-07-11 09:40:31.049 | DEBUG    | geth.hub.hub:execute:29 - Hub received operation from b'0': <class 'geth.base.operation.AgentOperation'>(OpCode.ReportAgentStatusPeriodic, (TrainingStatus(epoch=59, step=1, running=True, stop_reason=TrainerStopReason.UNKNOWN, prescale_status=False),))
+2025-07-11 09:40:31.049 | DEBUG    | geth.hub.task:on_report_agent_status_periodic:123 - Agent b'0' reported training status <class 'geth.base.operation.AgentOperation'>(OpCode.ReportAgentStatusPeriodic, (TrainingStatus(epoch=59, step=1, running=True, stop_reason=TrainerStopReason.UNKNOWN, prescale_status=False),))
+2025-07-11 09:40:31.273 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=60, self.step=1
+2025-07-11 09:40:31.273 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=60, self.step=1
+2025-07-11 09:40:31.273 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 60
+2025-07-11 09:40:31.273 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 60
+2025-07-11 09:40:31.495 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=61, self.step=1
+2025-07-11 09:40:31.495 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=61, self.step=1
+2025-07-11 09:40:31.496 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 61
+2025-07-11 09:40:31.496 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 61
+2025-07-11 09:40:31.717 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=62, self.step=1
+2025-07-11 09:40:31.717 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=62, self.step=1
+2025-07-11 09:40:31.718 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 62
+2025-07-11 09:40:31.718 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 62
+2025-07-11 09:40:31.940 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=63, self.step=1
+2025-07-11 09:40:31.940 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=63, self.step=1
+2025-07-11 09:40:31.940 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 63
+2025-07-11 09:40:31.940 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 63
+2025-07-11 09:40:32.162 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=64, self.step=1
+2025-07-11 09:40:32.162 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=64, self.step=1
+2025-07-11 09:40:32.163 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 64
+2025-07-11 09:40:32.163 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 64
+2025-07-11 09:40:32.386 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=65, self.step=1
+2025-07-11 09:40:32.386 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=65, self.step=1
+2025-07-11 09:40:32.386 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 65
+2025-07-11 09:40:32.386 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 65
+2025-07-11 09:40:32.609 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=66, self.step=1
+2025-07-11 09:40:32.609 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=66, self.step=1
+2025-07-11 09:40:32.610 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 66
+2025-07-11 09:40:32.610 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 66
+2025-07-11 09:40:32.833 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=67, self.step=1
+2025-07-11 09:40:32.833 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=67, self.step=1
+2025-07-11 09:40:32.834 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 67
+2025-07-11 09:40:32.834 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 67
+2025-07-11 09:40:33.055 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=68, self.step=1
+2025-07-11 09:40:33.055 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=68, self.step=1
+2025-07-11 09:40:33.056 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 68
+2025-07-11 09:40:33.056 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 68
+2025-07-11 09:40:33.278 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=69, self.step=1
+2025-07-11 09:40:33.278 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=69, self.step=1
+2025-07-11 09:40:33.279 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 69
+2025-07-11 09:40:33.279 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 69
+2025-07-11 09:40:33.501 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=70, self.step=1
+2025-07-11 09:40:33.501 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=70, self.step=1
+2025-07-11 09:40:33.501 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 70
+2025-07-11 09:40:33.501 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 70
+2025-07-11 09:40:33.724 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=71, self.step=1
+2025-07-11 09:40:33.724 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=71, self.step=1
+2025-07-11 09:40:33.725 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 71
+2025-07-11 09:40:33.725 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 71
+2025-07-11 09:40:33.948 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=72, self.step=1
+2025-07-11 09:40:33.948 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=72, self.step=1
+2025-07-11 09:40:33.948 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 72
+2025-07-11 09:40:33.948 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 72
+2025-07-11 09:40:34.172 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=73, self.step=1
+2025-07-11 09:40:34.172 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=73, self.step=1
+2025-07-11 09:40:34.172 | DEBUG    | geth.trainer.base_trainer:handle_msg:214 - Trainer Got op: <class 'geth.base.operation.DaemonOperation'>(OpCode.QueryTrainingStatus, ())
+2025-07-11 09:40:34.172 | DEBUG    | geth.trainer.base_trainer:handle_msg:214 - Trainer Got op: <class 'geth.base.operation.DaemonOperation'>(OpCode.QueryTrainingStatus, ())
+2025-07-11 09:40:34.172 | DEBUG    | geth.agent.agent:report_training_status:86 - Training status: TrainingStatus(epoch=73, step=1, running=True, stop_reason=TrainerStopReason.UNKNOWN, prescale_status=False)
+2025-07-11 09:40:34.172 | DEBUG    | geth.agent.agent:report_training_status:86 - Training status: TrainingStatus(epoch=73, step=1, running=True, stop_reason=TrainerStopReason.UNKNOWN, prescale_status=False)
+2025-07-11 09:40:34.172 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 73
+2025-07-11 09:40:34.172 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 73
+2025-07-11 09:40:34.173 | DEBUG    | geth.hub.hub:execute:29 - Hub received operation from b'0': <class 'geth.base.operation.AgentOperation'>(OpCode.ReportAgentStatusPeriodic, (TrainingStatus(epoch=73, step=1, running=True, stop_reason=TrainerStopReason.UNKNOWN, prescale_status=False),))
+2025-07-11 09:40:34.173 | DEBUG    | geth.hub.task:on_report_agent_status_periodic:123 - Agent b'0' reported training status <class 'geth.base.operation.AgentOperation'>(OpCode.ReportAgentStatusPeriodic, (TrainingStatus(epoch=73, step=1, running=True, stop_reason=TrainerStopReason.UNKNOWN, prescale_status=False),))
+2025-07-11 09:40:34.173 | DEBUG    | geth.hub.hub:execute:29 - Hub received operation from b'1': <class 'geth.base.operation.AgentOperation'>(OpCode.ReportAgentStatusPeriodic, (TrainingStatus(epoch=73, step=1, running=True, stop_reason=TrainerStopReason.UNKNOWN, prescale_status=False),))
+2025-07-11 09:40:34.173 | DEBUG    | geth.hub.task:on_report_agent_status_periodic:123 - Agent b'1' reported training status <class 'geth.base.operation.AgentOperation'>(OpCode.ReportAgentStatusPeriodic, (TrainingStatus(epoch=73, step=1, running=True, stop_reason=TrainerStopReason.UNKNOWN, prescale_status=False),))
+2025-07-11 09:40:34.394 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=74, self.step=1
+2025-07-11 09:40:34.394 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=74, self.step=1
+2025-07-11 09:40:34.395 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 74
+2025-07-11 09:40:34.395 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 74
+2025-07-11 09:40:34.617 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=75, self.step=1
+2025-07-11 09:40:34.617 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=75, self.step=1
+2025-07-11 09:40:34.617 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 75
+2025-07-11 09:40:34.617 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 75
+2025-07-11 09:40:34.839 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=76, self.step=1
+2025-07-11 09:40:34.840 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=76, self.step=1
+2025-07-11 09:40:34.840 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 76
+2025-07-11 09:40:34.840 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 76
+2025-07-11 09:40:35.062 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=77, self.step=1
+2025-07-11 09:40:35.062 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=77, self.step=1
+2025-07-11 09:40:35.063 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 77
+2025-07-11 09:40:35.063 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 77
+2025-07-11 09:40:35.287 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=78, self.step=1
+2025-07-11 09:40:35.287 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=78, self.step=1
+2025-07-11 09:40:35.287 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 78
+2025-07-11 09:40:35.287 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 78
+2025-07-11 09:40:35.511 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=79, self.step=1
+2025-07-11 09:40:35.511 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=79, self.step=1
+2025-07-11 09:40:35.511 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 79
+2025-07-11 09:40:35.511 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 79
+2025-07-11 09:40:35.734 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=80, self.step=1
+2025-07-11 09:40:35.734 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=80, self.step=1
+2025-07-11 09:40:35.734 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 80
+2025-07-11 09:40:35.734 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 80
+2025-07-11 09:40:35.957 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=81, self.step=1
+2025-07-11 09:40:35.957 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=81, self.step=1
+2025-07-11 09:40:35.957 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 81
+2025-07-11 09:40:35.957 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 81
+2025-07-11 09:40:36.180 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=82, self.step=1
+2025-07-11 09:40:36.180 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=82, self.step=1
+2025-07-11 09:40:36.181 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 82
+2025-07-11 09:40:36.181 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 82
+2025-07-11 09:40:36.404 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=83, self.step=1
+2025-07-11 09:40:36.404 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=83, self.step=1
+2025-07-11 09:40:36.405 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 83
+2025-07-11 09:40:36.405 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 83
+2025-07-11 09:40:36.628 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=84, self.step=1
+2025-07-11 09:40:36.628 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=84, self.step=1
+2025-07-11 09:40:36.628 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 84
+2025-07-11 09:40:36.628 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 84
+2025-07-11 09:40:36.852 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=85, self.step=1
+2025-07-11 09:40:36.852 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=85, self.step=1
+2025-07-11 09:40:36.853 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 85
+2025-07-11 09:40:36.853 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 85
+2025-07-11 09:40:37.074 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=86, self.step=1
+2025-07-11 09:40:37.074 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=86, self.step=1
+2025-07-11 09:40:37.075 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 86
+2025-07-11 09:40:37.075 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 86
+2025-07-11 09:40:37.297 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=87, self.step=1
+2025-07-11 09:40:37.297 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=87, self.step=1
+2025-07-11 09:40:37.298 | DEBUG    | geth.trainer.base_trainer:handle_msg:214 - Trainer Got op: <class 'geth.base.operation.DaemonOperation'>(OpCode.QueryTrainingStatus, ())
+2025-07-11 09:40:37.298 | DEBUG    | geth.trainer.base_trainer:handle_msg:214 - Trainer Got op: <class 'geth.base.operation.DaemonOperation'>(OpCode.QueryTrainingStatus, ())
+2025-07-11 09:40:37.298 | DEBUG    | geth.agent.agent:report_training_status:86 - Training status: TrainingStatus(epoch=87, step=1, running=True, stop_reason=TrainerStopReason.UNKNOWN, prescale_status=False)
+2025-07-11 09:40:37.298 | DEBUG    | geth.agent.agent:report_training_status:86 - Training status: TrainingStatus(epoch=87, step=1, running=True, stop_reason=TrainerStopReason.UNKNOWN, prescale_status=False)
+2025-07-11 09:40:37.298 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 87
+2025-07-11 09:40:37.298 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 87
+2025-07-11 09:40:37.298 | DEBUG    | geth.hub.hub:execute:29 - Hub received operation from b'1': <class 'geth.base.operation.AgentOperation'>(OpCode.ReportAgentStatusPeriodic, (TrainingStatus(epoch=87, step=1, running=True, stop_reason=TrainerStopReason.UNKNOWN, prescale_status=False),))
+2025-07-11 09:40:37.298 | DEBUG    | geth.hub.task:on_report_agent_status_periodic:123 - Agent b'1' reported training status <class 'geth.base.operation.AgentOperation'>(OpCode.ReportAgentStatusPeriodic, (TrainingStatus(epoch=87, step=1, running=True, stop_reason=TrainerStopReason.UNKNOWN, prescale_status=False),))
+2025-07-11 09:40:37.299 | DEBUG    | geth.hub.hub:execute:29 - Hub received operation from b'0': <class 'geth.base.operation.AgentOperation'>(OpCode.ReportAgentStatusPeriodic, (TrainingStatus(epoch=87, step=1, running=True, stop_reason=TrainerStopReason.UNKNOWN, prescale_status=False),))
+2025-07-11 09:40:37.299 | DEBUG    | geth.hub.task:on_report_agent_status_periodic:123 - Agent b'0' reported training status <class 'geth.base.operation.AgentOperation'>(OpCode.ReportAgentStatusPeriodic, (TrainingStatus(epoch=87, step=1, running=True, stop_reason=TrainerStopReason.UNKNOWN, prescale_status=False),))
+2025-07-11 09:40:37.521 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=88, self.step=1
+2025-07-11 09:40:37.521 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=88, self.step=1
+2025-07-11 09:40:37.521 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 88
+2025-07-11 09:40:37.521 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 88
+2025-07-11 09:40:37.744 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=89, self.step=1
+2025-07-11 09:40:37.744 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=89, self.step=1
+2025-07-11 09:40:37.744 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 89
+2025-07-11 09:40:37.744 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 89
+2025-07-11 09:40:37.968 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=90, self.step=1
+2025-07-11 09:40:37.968 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=90, self.step=1
+2025-07-11 09:40:37.969 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 90
+2025-07-11 09:40:37.969 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 90
+2025-07-11 09:40:38.192 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=91, self.step=1
+2025-07-11 09:40:38.192 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=91, self.step=1
+2025-07-11 09:40:38.193 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 91
+2025-07-11 09:40:38.193 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 91
+2025-07-11 09:40:38.414 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=92, self.step=1
+2025-07-11 09:40:38.414 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=92, self.step=1
+2025-07-11 09:40:38.415 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 92
+2025-07-11 09:40:38.415 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 92
+2025-07-11 09:40:38.637 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=93, self.step=1
+2025-07-11 09:40:38.637 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=93, self.step=1
+2025-07-11 09:40:38.637 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 93
+2025-07-11 09:40:38.637 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 93
+2025-07-11 09:40:38.860 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=94, self.step=1
+2025-07-11 09:40:38.860 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=94, self.step=1
+2025-07-11 09:40:38.860 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 94
+2025-07-11 09:40:38.860 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 94
+2025-07-11 09:40:39.084 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=95, self.step=1
+2025-07-11 09:40:39.084 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=95, self.step=1
+2025-07-11 09:40:39.084 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 95
+2025-07-11 09:40:39.084 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 95
+2025-07-11 09:40:39.307 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=96, self.step=1
+2025-07-11 09:40:39.307 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=96, self.step=1
+2025-07-11 09:40:39.308 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 96
+2025-07-11 09:40:39.308 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 96
+2025-07-11 09:40:39.531 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=97, self.step=1
+2025-07-11 09:40:39.531 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=97, self.step=1
+2025-07-11 09:40:39.532 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 97
+2025-07-11 09:40:39.532 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 97
+2025-07-11 09:40:39.754 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=98, self.step=1
+2025-07-11 09:40:39.754 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=98, self.step=1
+2025-07-11 09:40:39.754 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 98
+2025-07-11 09:40:39.754 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 98
+2025-07-11 09:40:39.977 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=99, self.step=1
+2025-07-11 09:40:39.977 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=99, self.step=1
+2025-07-11 09:40:39.977 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 99
+2025-07-11 09:40:39.977 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 99
+2025-07-11 09:40:40.200 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=100, self.step=1
+2025-07-11 09:40:40.200 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=100, self.step=1
+2025-07-11 09:40:40.200 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 100
+2025-07-11 09:40:40.200 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 100
+2025-07-11 09:40:40.423 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=101, self.step=1
+2025-07-11 09:40:40.423 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=101, self.step=1
+2025-07-11 09:40:40.423 | DEBUG    | geth.trainer.base_trainer:handle_msg:214 - Trainer Got op: <class 'geth.base.operation.DaemonOperation'>(OpCode.QueryTrainingStatus, ())
+2025-07-11 09:40:40.423 | DEBUG    | geth.trainer.base_trainer:handle_msg:214 - Trainer Got op: <class 'geth.base.operation.DaemonOperation'>(OpCode.QueryTrainingStatus, ())
+2025-07-11 09:40:40.423 | DEBUG    | geth.agent.agent:report_training_status:86 - Training status: TrainingStatus(epoch=101, step=1, running=True, stop_reason=TrainerStopReason.UNKNOWN, prescale_status=False)
+2025-07-11 09:40:40.423 | DEBUG    | geth.agent.agent:report_training_status:86 - Training status: TrainingStatus(epoch=101, step=1, running=True, stop_reason=TrainerStopReason.UNKNOWN, prescale_status=False)
+2025-07-11 09:40:40.424 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 101
+2025-07-11 09:40:40.424 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 101
+2025-07-11 09:40:40.424 | DEBUG    | geth.hub.hub:execute:29 - Hub received operation from b'0': <class 'geth.base.operation.AgentOperation'>(OpCode.ReportAgentStatusPeriodic, (TrainingStatus(epoch=101, step=1, running=True, stop_reason=TrainerStopReason.UNKNOWN, prescale_status=False),))
+2025-07-11 09:40:40.424 | DEBUG    | geth.hub.task:on_report_agent_status_periodic:123 - Agent b'0' reported training status <class 'geth.base.operation.AgentOperation'>(OpCode.ReportAgentStatusPeriodic, (TrainingStatus(epoch=101, step=1, running=True, stop_reason=TrainerStopReason.UNKNOWN, prescale_status=False),))
+2025-07-11 09:40:40.424 | DEBUG    | geth.hub.hub:execute:29 - Hub received operation from b'1': <class 'geth.base.operation.AgentOperation'>(OpCode.ReportAgentStatusPeriodic, (TrainingStatus(epoch=101, step=1, running=True, stop_reason=TrainerStopReason.UNKNOWN, prescale_status=False),))
+2025-07-11 09:40:40.424 | DEBUG    | geth.hub.task:on_report_agent_status_periodic:123 - Agent b'1' reported training status <class 'geth.base.operation.AgentOperation'>(OpCode.ReportAgentStatusPeriodic, (TrainingStatus(epoch=101, step=1, running=True, stop_reason=TrainerStopReason.UNKNOWN, prescale_status=False),))
+2025-07-11 09:40:40.647 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=102, self.step=1
+2025-07-11 09:40:40.647 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=102, self.step=1
+2025-07-11 09:40:40.648 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 102
+2025-07-11 09:40:40.648 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 102
+2025-07-11 09:40:40.871 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=103, self.step=1
+2025-07-11 09:40:40.871 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=103, self.step=1
+2025-07-11 09:40:40.871 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 103
+2025-07-11 09:40:40.871 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 103
+2025-07-11 09:40:41.093 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=104, self.step=1
+2025-07-11 09:40:41.093 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=104, self.step=1
+2025-07-11 09:40:41.094 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 104
+2025-07-11 09:40:41.094 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 104
+2025-07-11 09:40:41.316 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=105, self.step=1
+2025-07-11 09:40:41.316 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=105, self.step=1
+2025-07-11 09:40:41.316 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 105
+2025-07-11 09:40:41.316 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 105
+2025-07-11 09:40:41.538 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=106, self.step=1
+2025-07-11 09:40:41.538 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=106, self.step=1
+2025-07-11 09:40:41.539 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 106
+2025-07-11 09:40:41.539 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 106
+2025-07-11 09:40:41.762 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=107, self.step=1
+2025-07-11 09:40:41.762 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=107, self.step=1
+2025-07-11 09:40:41.762 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 107
+2025-07-11 09:40:41.762 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 107
+2025-07-11 09:40:41.986 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=108, self.step=1
+2025-07-11 09:40:41.986 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=108, self.step=1
+2025-07-11 09:40:41.987 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 108
+2025-07-11 09:40:41.987 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 108
+2025-07-11 09:40:42.210 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=109, self.step=1
+2025-07-11 09:40:42.210 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=109, self.step=1
+2025-07-11 09:40:42.211 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 109
+2025-07-11 09:40:42.211 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 109
+2025-07-11 09:40:42.433 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=110, self.step=1
+2025-07-11 09:40:42.433 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=110, self.step=1
+2025-07-11 09:40:42.433 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 110
+2025-07-11 09:40:42.433 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 110
+2025-07-11 09:40:42.656 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=111, self.step=1
+2025-07-11 09:40:42.656 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=111, self.step=1
+2025-07-11 09:40:42.656 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 111
+2025-07-11 09:40:42.656 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 111
+2025-07-11 09:40:42.879 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=112, self.step=1
+2025-07-11 09:40:42.879 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=112, self.step=1
+2025-07-11 09:40:42.880 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 112
+2025-07-11 09:40:42.880 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 112
+2025-07-11 09:40:43.102 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=113, self.step=1
+2025-07-11 09:40:43.102 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=113, self.step=1
+2025-07-11 09:40:43.103 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 113
+2025-07-11 09:40:43.103 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 113
+2025-07-11 09:40:43.327 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=114, self.step=1
+2025-07-11 09:40:43.327 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=114, self.step=1
+2025-07-11 09:40:43.327 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 114
+2025-07-11 09:40:43.327 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 114
+2025-07-11 09:40:43.550 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=115, self.step=1
+2025-07-11 09:40:43.550 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=115, self.step=1
+2025-07-11 09:40:43.550 | DEBUG    | geth.trainer.base_trainer:handle_msg:214 - Trainer Got op: <class 'geth.base.operation.DaemonOperation'>(OpCode.QueryTrainingStatus, ())
+2025-07-11 09:40:43.550 | DEBUG    | geth.trainer.base_trainer:handle_msg:214 - Trainer Got op: <class 'geth.base.operation.DaemonOperation'>(OpCode.QueryTrainingStatus, ())
+2025-07-11 09:40:43.551 | DEBUG    | geth.agent.agent:report_training_status:86 - Training status: TrainingStatus(epoch=115, step=1, running=True, stop_reason=TrainerStopReason.UNKNOWN, prescale_status=False)
+2025-07-11 09:40:43.551 | DEBUG    | geth.agent.agent:report_training_status:86 - Training status: TrainingStatus(epoch=115, step=1, running=True, stop_reason=TrainerStopReason.UNKNOWN, prescale_status=False)
+2025-07-11 09:40:43.551 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 115
+2025-07-11 09:40:43.551 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 115
+2025-07-11 09:40:43.551 | DEBUG    | geth.hub.hub:execute:29 - Hub received operation from b'1': <class 'geth.base.operation.AgentOperation'>(OpCode.ReportAgentStatusPeriodic, (TrainingStatus(epoch=115, step=1, running=True, stop_reason=TrainerStopReason.UNKNOWN, prescale_status=False),))
+2025-07-11 09:40:43.551 | DEBUG    | geth.hub.task:on_report_agent_status_periodic:123 - Agent b'1' reported training status <class 'geth.base.operation.AgentOperation'>(OpCode.ReportAgentStatusPeriodic, (TrainingStatus(epoch=115, step=1, running=True, stop_reason=TrainerStopReason.UNKNOWN, prescale_status=False),))
+2025-07-11 09:40:43.551 | DEBUG    | geth.hub.hub:execute:29 - Hub received operation from b'0': <class 'geth.base.operation.AgentOperation'>(OpCode.ReportAgentStatusPeriodic, (TrainingStatus(epoch=115, step=1, running=True, stop_reason=TrainerStopReason.UNKNOWN, prescale_status=False),))
+2025-07-11 09:40:43.551 | DEBUG    | geth.hub.task:on_report_agent_status_periodic:123 - Agent b'0' reported training status <class 'geth.base.operation.AgentOperation'>(OpCode.ReportAgentStatusPeriodic, (TrainingStatus(epoch=115, step=1, running=True, stop_reason=TrainerStopReason.UNKNOWN, prescale_status=False),))
+2397411
+2397412
+2397413
+2397414
+2397415
+2397416
+2397417
+2397418
+2397410
+2025-07-11 09:40:43.773 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=1, self.epoch=116, self.step=1
+2025-07-11 09:40:43.773 | DEBUG    | geth.trainer.base_trainer:after_step:133 - Stat: self.worker_id=0, self.epoch=116, self.step=1
+2025-07-11 09:40:43.774 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 116
+2025-07-11 09:40:43.774 | DEBUG    | geth.trainer.base_trainer:after_epoch:122 - Epoch: self.epoch = 116
+pkill: killing pid 792908 failed: Operation not permitted
