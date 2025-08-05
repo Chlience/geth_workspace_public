@@ -37,8 +37,10 @@ def run_simulation(scheduler: str = "elastic_pre_sjf", elastic_type: str = "geth
 
 def main():
     parser = argparse.ArgumentParser(description="Run blockchain simulations with different schedulers")
-    parser.add_argument("--start", type=int, default=0, help="Starting seed value")
-    parser.add_argument("--end", type=int, default=100, help="Ending seed value")
+    parser.add_argument("--seed_begin", type=int, default=0, help="Starting seed value")
+    parser.add_argument("--seed_end", type=int, default=100, help="Ending seed value")
+    parser.add_argument("--task_num_begin", type=int, default=None, help="Starting number of tasks to simulate")
+    parser.add_argument("--task_num_end", type=int, default=None, help="Ending number of tasks to simulate")
     parser.add_argument("--log_dir", default="logs", help="Directory to store log files")
     parser.add_argument("--phy", action='store_true', help="Run in physical mode")
     parser.add_argument("--max-workers", type=int, default=None, 
@@ -56,16 +58,19 @@ def main():
     
     task_num_list = [20]
     
+    if args.task_num_begin is not None and args.task_num_end is not None:
+        task_num_list = list(range(args.task_num_begin, args.task_num_end + 1, 10))
+    
     # Track execution time
     start_time = time.time()
-    total_tasks = (args.end - args.start + 1) * len(task_num_list) * len(configurations)
+    total_tasks = (args.seed_end - args.seed_begin + 1) * len(task_num_list) * len(configurations)
     completed_tasks = 0
     
     with ThreadPoolExecutor(max_workers=args.max_workers) as executor:
         futures = []
         
         # Submit all tasks to the executor
-        for seed in range(args.start, args.end + 1):
+        for seed in range(args.seed_begin, args.seed_end + 1):
             for task_num in task_num_list:
                 for scheduler, elastic_type in configurations:
                     future = executor.submit(
