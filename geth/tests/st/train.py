@@ -110,7 +110,7 @@ if __name__ == "__main__":
     num_gpus = 8
     port_per_agent = 2
     # use port + 1 for recover dist group
-    for id, task in enumerate(tasks):
+    for id, (task_name, task) in enumerate(tasks.items()):
         task.update({"port": 8900 + id})
         base_port = 32000 + id * num_gpus * port_per_agent
         task.update({"agent_port": list(range(base_port, base_port + num_gpus * port_per_agent, 2))})
@@ -122,8 +122,8 @@ if __name__ == "__main__":
         
     barrier = threading.Barrier(len(tasks) + 1)
     threads = []
-    for i in range(len(tasks)):
-        t = threading.Thread(target=run_task, args=(tasks[i], ))
+    for task_name, task in tasks.items():
+        t = threading.Thread(target=run_task, args=(task, ))
         t.start()
         threads.append(t)
     barrier.wait()
