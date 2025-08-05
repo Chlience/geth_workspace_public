@@ -12,19 +12,6 @@ from geth.base.zmq_link import ZmqClient
 import threading
 import argparse
 
-def convert_json(data):
-    """Convert string representations of integers in the data to actual integers."""
-    for key, value in data.items():
-        if isinstance(value, str):
-            if value.isnumeric():
-                data[key] = int(value)
-            else:
-                try:
-                    data[key] = float(value)
-                except ValueError:
-                    pass
-    return data
-
 def setup_system(device_num: int, port: int = 8900, agent_port: List[int] = []) -> Tuple[subprocess.Popen, List[subprocess.Popen]]:
     if len(agent_port) == 0:
         agent_port = [port + 1 + i * 2 for i in range(device_num)]
@@ -118,7 +105,7 @@ if __name__ == "__main__":
     
     import json
     with open(args.log_file, 'r') as f:
-        tasks = convert_json(json.load(f))
+        tasks = json.load(f)
     
     num_gpus = 8
     port_per_agent = 2
