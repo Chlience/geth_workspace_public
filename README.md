@@ -27,6 +27,7 @@ cd /workspace/geth && pip install -e .
 ### PAI 数据集实验
 
 ```bash
+cd /workspace/simulator
 python3 examples/run_all_parallel.py --seed_begin 415 --seed_end 415 --task_num_begin 200 --task_num_end 200
 python3 examples/run_all_parallel.py --seed_begin 100 --seed_end 100 --task_num_begin 240 --task_num_end 240
 python3 examples/extract_log_runtime.py
@@ -35,8 +36,9 @@ python3 examples/extract_log_runtime.py
 ### MS 数据集实验
 
 ```bash
+cd /workspace/simulator
+python3 examples/run_all_parallel.py --seed_begin 718 --seed_end 718 --task_num_begin 210 --task_num_end 210
 python3 examples/run_all_parallel.py --seed_begin 300 --seed_end 300 --task_num_begin 170 --task_num_end 170
-python3 examples/run_all_parallel.py --seed_begin 852 --seed_end 852 --task_num_begin 210 --task_num_end 210
 python3 examples/extract_log_runtime.py
 ```
 
