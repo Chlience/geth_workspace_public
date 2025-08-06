@@ -8,10 +8,11 @@ import simpy
 from .base import Scheduler
 from ..jobs.job import Job, JobStatus
 from ..cluster.resource import ClusterState, GPU, get_gpu_ids
+import os
 
 STOP_SCALE_LIMIT = 10
 PRE_START_LIMIT = STOP_SCALE_LIMIT + 5
-BEFORE_SCALE_LIMIT = 20
+BEFORE_SCALE_LIMIT = int(os.getenv('BEFORE_SCALE_LIMIT', '20'))
 
 class ElasticPrestartScheduler(Scheduler):
     def __init__(self, env: simpy.Environment):
