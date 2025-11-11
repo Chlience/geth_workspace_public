@@ -11,8 +11,20 @@ from ..cluster.resource import ClusterState, GPU, get_gpu_ids
 from ..jobs.job import Job, JobStatus
 from ..scheduler.base import Scheduler, SJFScheduler, FIFOScheduler, ElasticScheduler, ElasticPrestartScheduler, SchedulerMetrics, ElasticPrestartSjfScheduler
 
-enable_cluster_info = False
-enable_task_info = False
+import os
+
+# enable_cluster_info = False
+# enable_task_info = False
+
+if os.environ.get('ENABLE_CLUSTER_INFO', '0') == '1':
+    enable_cluster_info = True
+else:
+    enable_cluster_info = False
+
+if os.environ.get('ENABLE_TASK_INFO', '0') == '1':
+    enable_task_info = True
+else:
+    enable_task_info = False
 
 import simpy.rt
 

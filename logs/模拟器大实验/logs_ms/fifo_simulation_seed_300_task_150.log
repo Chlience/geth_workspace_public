@@ -1,0 +1,1057 @@
+2025-11-11 19:40:31.927 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_123 | Name: job_123 | Type: gcn_reddit | Min GPUs: 6 | Max GPUs: 8 | Target epochs: 1500 | Total samples: 1500
+2025-11-11 19:40:31.927 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [43.00]: Job job_123 submitted
+2025-11-11 19:40:31.927 | DEBUG    | geth_si.jobs.job_proc:run:19 - [43.00]: Job job_123 starting job execution, in [(0, 0), (0, 1), (0, 2), (0, 3), (0, 4), (0, 5)]
+2025-11-11 19:40:31.928 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_58 | Name: job_58 | Type: gin_reddit | Min GPUs: 2 | Max GPUs: 8 | Target epochs: 800 | Total samples: 800
+2025-11-11 19:40:31.928 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [51.00]: Job job_58 submitted
+2025-11-11 19:40:31.928 | DEBUG    | geth_si.jobs.job_proc:run:19 - [51.00]: Job job_58 starting job execution, in [(0, 6), (0, 7)]
+2025-11-11 19:40:31.928 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_148 | Name: job_148 | Type: gin_ogbn-products | Min GPUs: 4 | Max GPUs: 8 | Target epochs: 1500 | Total samples: 1500
+2025-11-11 19:40:31.928 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [69.00]: Job job_148 submitted
+2025-11-11 19:40:31.928 | DEBUG    | geth_si.jobs.job_proc:run:19 - [69.00]: Job job_148 starting job execution, in [(1, 0), (1, 1), (1, 2), (1, 3)]
+2025-11-11 19:40:31.928 | DEBUG    | geth_si.jobs.job_proc:run:25 - [69.26]: Job job_123 finished worker initialization
+2025-11-11 19:40:31.928 | DEBUG    | geth_si.jobs.job_proc:run:35 - [69.26]: Job job_123 finished waiting for assigned gpus
+2025-11-11 19:40:31.928 | DEBUG    | geth_si.jobs.job_proc:run:39 - [69.26]: Job job_123 speed calculated: 7.17
+2025-11-11 19:40:31.929 | DEBUG    | geth_si.jobs.job_proc:run:25 - [77.90]: Job job_58 finished worker initialization
+2025-11-11 19:40:31.929 | DEBUG    | geth_si.jobs.job_proc:run:35 - [77.90]: Job job_58 finished waiting for assigned gpus
+2025-11-11 19:40:31.929 | DEBUG    | geth_si.jobs.job_proc:run:39 - [77.90]: Job job_58 speed calculated: 6.54
+2025-11-11 19:40:31.930 | DEBUG    | geth_si.jobs.job_proc:run:25 - [91.80]: Job job_148 finished worker initialization
+2025-11-11 19:40:31.930 | DEBUG    | geth_si.jobs.job_proc:run:35 - [91.80]: Job job_148 finished waiting for assigned gpus
+2025-11-11 19:40:31.930 | DEBUG    | geth_si.jobs.job_proc:run:39 - [91.80]: Job job_148 speed calculated: 17.81
+2025-11-11 19:40:31.933 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_143 | Name: job_143 | Type: sage_ogbn-products | Min GPUs: 8 | Max GPUs: 8 | Target epochs: 800 | Total samples: 800
+2025-11-11 19:40:31.933 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [115.00]: Job job_143 submitted
+2025-11-11 19:40:31.933 | DEBUG    | geth_si.jobs.job_proc:run:19 - [115.00]: Job job_143 starting job execution, in [(2, 0), (2, 1), (2, 2), (2, 3), (2, 4), (2, 5), (2, 6), (2, 7)]
+2025-11-11 19:40:31.935 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_134 | Name: job_134 | Type: gin_yelp | Min GPUs: 4 | Max GPUs: 8 | Target epochs: 1500 | Total samples: 1500
+2025-11-11 19:40:31.935 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [132.00]: Job job_134 submitted
+2025-11-11 19:40:31.935 | DEBUG    | geth_si.jobs.job_proc:run:19 - [132.00]: Job job_134 starting job execution, in [(1, 4), (1, 5), (1, 6), (1, 7)]
+2025-11-11 19:40:31.935 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_37 | Name: job_37 | Type: sage_ogbn-products | Min GPUs: 4 | Max GPUs: 8 | Target epochs: 500 | Total samples: 500
+2025-11-11 19:40:31.935 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [133.00]: Job job_37 submitted
+2025-11-11 19:40:31.935 | DEBUG    | geth_si.jobs.job_proc:run:19 - [133.00]: Job job_37 starting job execution, in [(3, 0), (3, 1), (3, 2), (3, 3)]
+2025-11-11 19:40:31.936 | DEBUG    | geth_si.jobs.job_proc:run:25 - [137.81]: Job job_143 finished worker initialization
+2025-11-11 19:40:31.936 | DEBUG    | geth_si.jobs.job_proc:run:35 - [137.81]: Job job_143 finished waiting for assigned gpus
+2025-11-11 19:40:31.936 | DEBUG    | geth_si.jobs.job_proc:run:39 - [137.81]: Job job_143 speed calculated: 13.14
+2025-11-11 19:40:31.937 | DEBUG    | geth_si.jobs.job_proc:run:25 - [141.50]: Job job_134 finished worker initialization
+2025-11-11 19:40:31.937 | DEBUG    | geth_si.jobs.job_proc:run:35 - [141.50]: Job job_134 finished waiting for assigned gpus
+2025-11-11 19:40:31.937 | DEBUG    | geth_si.jobs.job_proc:run:39 - [141.50]: Job job_134 speed calculated: 5.40
+2025-11-11 19:40:31.939 | DEBUG    | geth_si.jobs.job_proc:run:25 - [156.90]: Job job_37 finished worker initialization
+2025-11-11 19:40:31.939 | DEBUG    | geth_si.jobs.job_proc:run:35 - [156.90]: Job job_37 finished waiting for assigned gpus
+2025-11-11 19:40:31.939 | DEBUG    | geth_si.jobs.job_proc:run:39 - [156.90]: Job job_37 speed calculated: 8.34
+2025-11-11 19:40:31.940 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_2 | Name: job_2 | Type: sage_reddit | Min GPUs: 1 | Max GPUs: 8 | Target epochs: 500 | Total samples: 500
+2025-11-11 19:40:31.940 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [158.00]: Job job_2 submitted
+2025-11-11 19:40:31.940 | DEBUG    | geth_si.jobs.job_proc:run:19 - [158.00]: Job job_2 starting job execution, in [(3, 4)]
+2025-11-11 19:40:31.943 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_132 | Name: job_132 | Type: sage_yelp | Min GPUs: 8 | Max GPUs: 8 | Target epochs: 800 | Total samples: 800
+2025-11-11 19:40:31.943 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [172.00]: Job job_132 submitted
+2025-11-11 19:40:31.943 | DEBUG    | geth_si.jobs.job_proc:run:19 - [172.00]: Job job_132 starting job execution, in [(4, 0), (4, 1), (4, 2), (4, 3), (4, 4), (4, 5), (4, 6), (4, 7)]
+2025-11-11 19:40:31.944 | DEBUG    | geth_si.jobs.job_proc:run:90 - [176.03]: Job job_148 finished
+2025-11-11 19:40:31.945 | DEBUG    | geth_si.jobs.job_proc:run:25 - [182.24]: Job job_2 finished worker initialization
+2025-11-11 19:40:31.945 | DEBUG    | geth_si.jobs.job_proc:run:35 - [182.24]: Job job_2 finished waiting for assigned gpus
+2025-11-11 19:40:31.945 | DEBUG    | geth_si.jobs.job_proc:run:39 - [182.24]: Job job_2 speed calculated: 4.25
+2025-11-11 19:40:31.945 | DEBUG    | geth_si.jobs.job_proc:run:25 - [183.43]: Job job_132 finished worker initialization
+2025-11-11 19:40:31.945 | DEBUG    | geth_si.jobs.job_proc:run:35 - [183.43]: Job job_132 finished waiting for assigned gpus
+2025-11-11 19:40:31.945 | DEBUG    | geth_si.jobs.job_proc:run:39 - [183.43]: Job job_132 speed calculated: 4.14
+2025-11-11 19:40:31.948 | DEBUG    | geth_si.jobs.job_proc:run:90 - [198.68]: Job job_143 finished
+2025-11-11 19:40:31.948 | DEBUG    | geth_si.jobs.job_proc:run:90 - [200.15]: Job job_58 finished
+2025-11-11 19:40:31.950 | DEBUG    | geth_si.jobs.job_proc:run:90 - [216.83]: Job job_37 finished
+2025-11-11 19:40:31.951 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_71 | Name: job_71 | Type: gin_yelp | Min GPUs: 1 | Max GPUs: 8 | Target epochs: 500 | Total samples: 500
+2025-11-11 19:40:31.951 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [234.00]: Job job_71 submitted
+2025-11-11 19:40:31.951 | DEBUG    | geth_si.jobs.job_proc:run:19 - [234.00]: Job job_71 starting job execution, in [(0, 6)]
+2025-11-11 19:40:31.952 | DEBUG    | geth_si.jobs.job_proc:run:25 - [242.12]: Job job_71 finished worker initialization
+2025-11-11 19:40:31.952 | DEBUG    | geth_si.jobs.job_proc:run:35 - [242.12]: Job job_71 finished waiting for assigned gpus
+2025-11-11 19:40:31.952 | DEBUG    | geth_si.jobs.job_proc:run:39 - [242.12]: Job job_71 speed calculated: 2.84
+2025-11-11 19:40:31.955 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_68 | Name: job_68 | Type: sage_reddit | Min GPUs: 6 | Max GPUs: 8 | Target epochs: 800 | Total samples: 800
+2025-11-11 19:40:31.955 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [270.00]: Job job_68 submitted
+2025-11-11 19:40:31.955 | DEBUG    | geth_si.jobs.job_proc:run:19 - [270.00]: Job job_68 starting job execution, in [(2, 0), (2, 1), (2, 2), (2, 3), (2, 4), (2, 5)]
+2025-11-11 19:40:31.956 | DEBUG    | geth_si.jobs.job_proc:run:90 - [278.53]: Job job_123 finished
+2025-11-11 19:40:31.956 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_135 | Name: job_135 | Type: gin_reddit | Min GPUs: 2 | Max GPUs: 8 | Target epochs: 500 | Total samples: 500
+2025-11-11 19:40:31.956 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [284.00]: Job job_135 submitted
+2025-11-11 19:40:31.956 | DEBUG    | geth_si.jobs.job_proc:run:19 - [284.00]: Job job_135 starting job execution, in [(0, 0), (0, 1)]
+2025-11-11 19:40:31.957 | DEBUG    | geth_si.jobs.job_proc:run:25 - [296.52]: Job job_68 finished worker initialization
+2025-11-11 19:40:31.957 | DEBUG    | geth_si.jobs.job_proc:run:35 - [296.52]: Job job_68 finished waiting for assigned gpus
+2025-11-11 19:40:31.957 | DEBUG    | geth_si.jobs.job_proc:run:39 - [296.52]: Job job_68 speed calculated: 4.84
+2025-11-11 19:40:31.957 | DEBUG    | geth_si.jobs.job_proc:run:90 - [299.96]: Job job_2 finished
+2025-11-11 19:40:31.958 | DEBUG    | geth_si.jobs.job_proc:run:25 - [310.90]: Job job_135 finished worker initialization
+2025-11-11 19:40:31.958 | DEBUG    | geth_si.jobs.job_proc:run:35 - [310.90]: Job job_135 finished waiting for assigned gpus
+2025-11-11 19:40:31.958 | DEBUG    | geth_si.jobs.job_proc:run:39 - [310.90]: Job job_135 speed calculated: 6.54
+2025-11-11 19:40:31.959 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_116 | Name: job_116 | Type: gcn_yelp | Min GPUs: 6 | Max GPUs: 8 | Target epochs: 1500 | Total samples: 1500
+2025-11-11 19:40:31.959 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [322.00]: Job job_116 submitted
+2025-11-11 19:40:31.960 | DEBUG    | geth_si.jobs.job_proc:run:19 - [322.00]: Job job_116 starting job execution, in [(3, 0), (3, 1), (3, 2), (3, 3), (3, 4), (3, 5)]
+2025-11-11 19:40:31.960 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_57 | Name: job_57 | Type: gin_ogbn-products | Min GPUs: 2 | Max GPUs: 8 | Target epochs: 800 | Total samples: 800
+2025-11-11 19:40:31.960 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [327.00]: Job job_57 submitted
+2025-11-11 19:40:31.960 | DEBUG    | geth_si.jobs.job_proc:run:19 - [327.00]: Job job_57 starting job execution, in [(0, 2), (0, 3)]
+2025-11-11 19:40:31.961 | DEBUG    | geth_si.jobs.job_proc:run:25 - [331.62]: Job job_116 finished worker initialization
+2025-11-11 19:40:31.961 | DEBUG    | geth_si.jobs.job_proc:run:35 - [331.62]: Job job_116 finished waiting for assigned gpus
+2025-11-11 19:40:31.961 | DEBUG    | geth_si.jobs.job_proc:run:39 - [331.62]: Job job_116 speed calculated: 6.82
+2025-11-11 19:40:31.963 | DEBUG    | geth_si.jobs.job_proc:run:25 - [351.45]: Job job_57 finished worker initialization
+2025-11-11 19:40:31.963 | DEBUG    | geth_si.jobs.job_proc:run:35 - [351.45]: Job job_57 finished waiting for assigned gpus
+2025-11-11 19:40:31.963 | DEBUG    | geth_si.jobs.job_proc:run:39 - [351.45]: Job job_57 speed calculated: 10.20
+2025-11-11 19:40:31.966 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_96 | Name: job_96 | Type: gcn_yelp | Min GPUs: 8 | Max GPUs: 8 | Target epochs: 800 | Total samples: 800
+2025-11-11 19:40:31.966 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [375.00]: Job job_96 submitted
+2025-11-11 19:40:31.967 | DEBUG    | geth_si.jobs.job_proc:run:19 - [375.00]: Job job_96 starting job execution, in [(5, 0), (5, 1), (5, 2), (5, 3), (5, 4), (5, 5), (5, 6), (5, 7)]
+2025-11-11 19:40:31.967 | DEBUG    | geth_si.jobs.job_proc:run:90 - [376.50]: Job job_132 finished
+2025-11-11 19:40:31.968 | DEBUG    | geth_si.jobs.job_proc:run:25 - [387.20]: Job job_96 finished worker initialization
+2025-11-11 19:40:31.968 | DEBUG    | geth_si.jobs.job_proc:run:35 - [387.20]: Job job_96 finished waiting for assigned gpus
+2025-11-11 19:40:31.968 | DEBUG    | geth_si.jobs.job_proc:run:39 - [387.20]: Job job_96 speed calculated: 6.99
+2025-11-11 19:40:31.969 | DEBUG    | geth_si.jobs.job_proc:run:90 - [387.30]: Job job_135 finished
+2025-11-11 19:40:31.969 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_21 | Name: job_21 | Type: gat_reddit | Min GPUs: 2 | Max GPUs: 8 | Target epochs: 1500 | Total samples: 1500
+2025-11-11 19:40:31.969 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [393.00]: Job job_21 submitted
+2025-11-11 19:40:31.970 | DEBUG    | geth_si.jobs.job_proc:run:19 - [393.00]: Job job_21 starting job execution, in [(0, 0), (0, 1)]
+2025-11-11 19:40:31.970 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_131 | Name: job_131 | Type: gin_yelp | Min GPUs: 1 | Max GPUs: 8 | Target epochs: 500 | Total samples: 500
+2025-11-11 19:40:31.970 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [398.00]: Job job_131 submitted
+2025-11-11 19:40:31.970 | DEBUG    | geth_si.jobs.job_proc:run:19 - [398.00]: Job job_131 starting job execution, in [(0, 4)]
+2025-11-11 19:40:31.972 | DEBUG    | geth_si.jobs.job_proc:run:25 - [406.12]: Job job_131 finished worker initialization
+2025-11-11 19:40:31.972 | DEBUG    | geth_si.jobs.job_proc:run:35 - [406.12]: Job job_131 finished waiting for assigned gpus
+2025-11-11 19:40:31.972 | DEBUG    | geth_si.jobs.job_proc:run:39 - [406.12]: Job job_131 speed calculated: 2.84
+2025-11-11 19:40:31.973 | DEBUG    | geth_si.jobs.job_proc:run:90 - [417.88]: Job job_71 finished
+2025-11-11 19:40:31.974 | DEBUG    | geth_si.jobs.job_proc:run:90 - [419.42]: Job job_134 finished
+2025-11-11 19:40:31.974 | DEBUG    | geth_si.jobs.job_proc:run:25 - [419.53]: Job job_21 finished worker initialization
+2025-11-11 19:40:31.974 | DEBUG    | geth_si.jobs.job_proc:run:35 - [419.53]: Job job_21 finished waiting for assigned gpus
+2025-11-11 19:40:31.974 | DEBUG    | geth_si.jobs.job_proc:run:39 - [419.53]: Job job_21 speed calculated: 0.71
+2025-11-11 19:40:31.975 | DEBUG    | geth_si.jobs.job_proc:run:90 - [429.90]: Job job_57 finished
+2025-11-11 19:40:31.978 | DEBUG    | geth_si.jobs.job_proc:run:90 - [461.93]: Job job_68 finished
+2025-11-11 19:40:31.980 | DEBUG    | geth_si.jobs.job_proc:run:90 - [501.68]: Job job_96 finished
+2025-11-11 19:40:31.982 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_50 | Name: job_50 | Type: gcn_yelp | Min GPUs: 1 | Max GPUs: 8 | Target epochs: 800 | Total samples: 800
+2025-11-11 19:40:31.982 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [529.00]: Job job_50 submitted
+2025-11-11 19:40:31.982 | DEBUG    | geth_si.jobs.job_proc:run:19 - [529.00]: Job job_50 starting job execution, in [(0, 2)]
+2025-11-11 19:40:31.982 | DEBUG    | geth_si.jobs.job_proc:run:25 - [536.93]: Job job_50 finished worker initialization
+2025-11-11 19:40:31.982 | DEBUG    | geth_si.jobs.job_proc:run:35 - [536.93]: Job job_50 finished waiting for assigned gpus
+2025-11-11 19:40:31.982 | DEBUG    | geth_si.jobs.job_proc:run:39 - [536.93]: Job job_50 speed calculated: 4.21
+2025-11-11 19:40:31.983 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_115 | Name: job_115 | Type: sage_yelp | Min GPUs: 6 | Max GPUs: 8 | Target epochs: 800 | Total samples: 800
+2025-11-11 19:40:31.983 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [548.00]: Job job_115 submitted
+2025-11-11 19:40:31.983 | DEBUG    | geth_si.jobs.job_proc:run:19 - [548.00]: Job job_115 starting job execution, in [(1, 0), (1, 1), (1, 2), (1, 3), (1, 4), (1, 5)]
+2025-11-11 19:40:31.983 | DEBUG    | geth_si.jobs.job_proc:run:90 - [551.54]: Job job_116 finished
+2025-11-11 19:40:31.984 | DEBUG    | geth_si.jobs.job_proc:run:25 - [557.67]: Job job_115 finished worker initialization
+2025-11-11 19:40:31.984 | DEBUG    | geth_si.jobs.job_proc:run:35 - [557.67]: Job job_115 finished waiting for assigned gpus
+2025-11-11 19:40:31.984 | DEBUG    | geth_si.jobs.job_proc:run:39 - [557.67]: Job job_115 speed calculated: 3.87
+2025-11-11 19:40:31.985 | DEBUG    | geth_si.jobs.job_proc:run:90 - [581.88]: Job job_131 finished
+2025-11-11 19:40:31.986 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_16 | Name: job_16 | Type: gcn_ogbn-products | Min GPUs: 4 | Max GPUs: 8 | Target epochs: 500 | Total samples: 500
+2025-11-11 19:40:31.986 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [616.00]: Job job_16 submitted
+2025-11-11 19:40:31.986 | DEBUG    | geth_si.jobs.job_proc:run:19 - [616.00]: Job job_16 starting job execution, in [(0, 3), (0, 4), (0, 5), (0, 6)]
+2025-11-11 19:40:31.987 | DEBUG    | geth_si.jobs.job_proc:run:25 - [638.62]: Job job_16 finished worker initialization
+2025-11-11 19:40:31.987 | DEBUG    | geth_si.jobs.job_proc:run:35 - [638.62]: Job job_16 finished waiting for assigned gpus
+2025-11-11 19:40:31.988 | DEBUG    | geth_si.jobs.job_proc:run:39 - [638.62]: Job job_16 speed calculated: 16.57
+2025-11-11 19:40:31.990 | DEBUG    | geth_si.jobs.job_proc:run:90 - [668.80]: Job job_16 finished
+2025-11-11 19:40:31.992 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_1 | Name: job_1 | Type: gin_yelp | Min GPUs: 6 | Max GPUs: 8 | Target epochs: 1500 | Total samples: 1500
+2025-11-11 19:40:31.992 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [705.00]: Job job_1 submitted
+2025-11-11 19:40:31.992 | DEBUG    | geth_si.jobs.job_proc:run:19 - [705.00]: Job job_1 starting job execution, in [(2, 0), (2, 1), (2, 2), (2, 3), (2, 4), (2, 5)]
+2025-11-11 19:40:31.992 | DEBUG    | geth_si.jobs.job_proc:run:25 - [714.50]: Job job_1 finished worker initialization
+2025-11-11 19:40:31.992 | DEBUG    | geth_si.jobs.job_proc:run:35 - [714.50]: Job job_1 finished waiting for assigned gpus
+2025-11-11 19:40:31.992 | DEBUG    | geth_si.jobs.job_proc:run:39 - [714.50]: Job job_1 speed calculated: 6.81
+2025-11-11 19:40:31.993 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_103 | Name: job_103 | Type: gat_yelp | Min GPUs: 2 | Max GPUs: 8 | Target epochs: 800 | Total samples: 800
+2025-11-11 19:40:31.993 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [715.00]: Job job_103 submitted
+2025-11-11 19:40:31.993 | DEBUG    | geth_si.jobs.job_proc:run:19 - [715.00]: Job job_103 starting job execution, in [(0, 3), (0, 4)]
+2025-11-11 19:40:31.993 | DEBUG    | geth_si.jobs.job_proc:run:25 - [723.23]: Job job_103 finished worker initialization
+2025-11-11 19:40:31.993 | DEBUG    | geth_si.jobs.job_proc:run:35 - [723.23]: Job job_103 finished waiting for assigned gpus
+2025-11-11 19:40:31.993 | DEBUG    | geth_si.jobs.job_proc:run:39 - [723.23]: Job job_103 speed calculated: 0.80
+2025-11-11 19:40:31.994 | DEBUG    | geth_si.jobs.job_proc:run:90 - [726.95]: Job job_50 finished
+2025-11-11 19:40:31.994 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_7 | Name: job_7 | Type: gcn_yelp | Min GPUs: 4 | Max GPUs: 8 | Target epochs: 1500 | Total samples: 1500
+2025-11-11 19:40:31.994 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [731.00]: Job job_7 submitted
+2025-11-11 19:40:31.994 | DEBUG    | geth_si.jobs.job_proc:run:19 - [731.00]: Job job_7 starting job execution, in [(0, 2), (0, 5), (0, 6), (0, 7)]
+2025-11-11 19:40:31.994 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_133 | Name: job_133 | Type: sage_ogbn-products | Min GPUs: 6 | Max GPUs: 8 | Target epochs: 1500 | Total samples: 1500
+2025-11-11 19:40:31.995 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [735.00]: Job job_133 submitted
+2025-11-11 19:40:31.995 | DEBUG    | geth_si.jobs.job_proc:run:19 - [735.00]: Job job_133 starting job execution, in [(3, 0), (3, 1), (3, 2), (3, 3), (3, 4), (3, 5)]
+2025-11-11 19:40:31.995 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_22 | Name: job_22 | Type: gin_ogbn-products | Min GPUs: 8 | Max GPUs: 8 | Target epochs: 1500 | Total samples: 1500
+2025-11-11 19:40:31.995 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [736.00]: Job job_22 submitted
+2025-11-11 19:40:31.995 | DEBUG    | geth_si.jobs.job_proc:run:19 - [736.00]: Job job_22 starting job execution, in [(4, 0), (4, 1), (4, 2), (4, 3), (4, 4), (4, 5), (4, 6), (4, 7)]
+2025-11-11 19:40:31.995 | DEBUG    | geth_si.jobs.job_proc:run:25 - [740.66]: Job job_7 finished worker initialization
+2025-11-11 19:40:31.995 | DEBUG    | geth_si.jobs.job_proc:run:35 - [740.66]: Job job_7 finished waiting for assigned gpus
+2025-11-11 19:40:31.995 | DEBUG    | geth_si.jobs.job_proc:run:39 - [740.66]: Job job_7 speed calculated: 5.63
+2025-11-11 19:40:31.996 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_26 | Name: job_26 | Type: gcn_reddit | Min GPUs: 2 | Max GPUs: 8 | Target epochs: 500 | Total samples: 500
+2025-11-11 19:40:31.996 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [743.00]: Job job_26 submitted
+2025-11-11 19:40:31.996 | DEBUG    | geth_si.jobs.job_proc:run:19 - [743.00]: Job job_26 starting job execution, in [(1, 6), (1, 7)]
+2025-11-11 19:40:31.997 | DEBUG    | geth_si.jobs.job_proc:run:25 - [756.49]: Job job_133 finished worker initialization
+2025-11-11 19:40:31.997 | DEBUG    | geth_si.jobs.job_proc:run:35 - [756.49]: Job job_133 finished waiting for assigned gpus
+2025-11-11 19:40:31.997 | DEBUG    | geth_si.jobs.job_proc:run:39 - [756.49]: Job job_133 speed calculated: 10.02
+2025-11-11 19:40:31.997 | DEBUG    | geth_si.jobs.job_proc:run:25 - [759.92]: Job job_22 finished worker initialization
+2025-11-11 19:40:31.997 | DEBUG    | geth_si.jobs.job_proc:run:35 - [759.92]: Job job_22 finished waiting for assigned gpus
+2025-11-11 19:40:31.997 | DEBUG    | geth_si.jobs.job_proc:run:39 - [759.92]: Job job_22 speed calculated: 30.59
+2025-11-11 19:40:31.998 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_47 | Name: job_47 | Type: gcn_yelp | Min GPUs: 1 | Max GPUs: 8 | Target epochs: 500 | Total samples: 500
+2025-11-11 19:40:31.998 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [763.00]: Job job_47 submitted
+2025-11-11 19:40:31.998 | DEBUG    | geth_si.jobs.job_proc:run:19 - [763.00]: Job job_47 starting job execution, in [(2, 6)]
+2025-11-11 19:40:31.999 | DEBUG    | geth_si.jobs.job_proc:run:90 - [764.33]: Job job_115 finished
+2025-11-11 19:40:32.000 | DEBUG    | geth_si.jobs.job_proc:run:25 - [769.75]: Job job_26 finished worker initialization
+2025-11-11 19:40:32.000 | DEBUG    | geth_si.jobs.job_proc:run:35 - [769.75]: Job job_26 finished waiting for assigned gpus
+2025-11-11 19:40:32.000 | DEBUG    | geth_si.jobs.job_proc:run:39 - [769.75]: Job job_26 speed calculated: 6.13
+2025-11-11 19:40:32.000 | DEBUG    | geth_si.jobs.job_proc:run:25 - [770.93]: Job job_47 finished worker initialization
+2025-11-11 19:40:32.000 | DEBUG    | geth_si.jobs.job_proc:run:35 - [770.93]: Job job_47 finished waiting for assigned gpus
+2025-11-11 19:40:32.000 | DEBUG    | geth_si.jobs.job_proc:run:39 - [770.93]: Job job_47 speed calculated: 4.21
+2025-11-11 19:40:32.001 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_59 | Name: job_59 | Type: gat_reddit | Min GPUs: 8 | Max GPUs: 8 | Target epochs: 500 | Total samples: 500
+2025-11-11 19:40:32.001 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [774.00]: Job job_59 submitted
+2025-11-11 19:40:32.001 | DEBUG    | geth_si.jobs.job_proc:run:19 - [774.00]: Job job_59 starting job execution, in [(5, 0), (5, 1), (5, 2), (5, 3), (5, 4), (5, 5), (5, 6), (5, 7)]
+2025-11-11 19:40:32.006 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_77 | Name: job_77 | Type: gin_ogbn-products | Min GPUs: 2 | Max GPUs: 8 | Target epochs: 500 | Total samples: 500
+2025-11-11 19:40:32.006 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [794.00]: Job job_77 submitted
+2025-11-11 19:40:32.006 | DEBUG    | geth_si.jobs.job_proc:run:19 - [794.00]: Job job_77 starting job execution, in [(1, 0), (1, 1)]
+2025-11-11 19:40:32.007 | DEBUG    | geth_si.jobs.job_proc:run:25 - [800.02]: Job job_59 finished worker initialization
+2025-11-11 19:40:32.007 | DEBUG    | geth_si.jobs.job_proc:run:35 - [800.02]: Job job_59 finished waiting for assigned gpus
+2025-11-11 19:40:32.007 | DEBUG    | geth_si.jobs.job_proc:run:39 - [800.02]: Job job_59 speed calculated: 1.28
+2025-11-11 19:40:32.009 | DEBUG    | geth_si.jobs.job_proc:run:90 - [808.95]: Job job_22 finished
+2025-11-11 19:40:32.010 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_113 | Name: job_113 | Type: gat_ogbn-products | Min GPUs: 2 | Max GPUs: 8 | Target epochs: 800 | Total samples: 800
+2025-11-11 19:40:32.010 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [817.00]: Job job_113 submitted
+2025-11-11 19:40:32.010 | DEBUG    | geth_si.jobs.job_proc:run:19 - [817.00]: Job job_113 starting job execution, in [(1, 2), (1, 3)]
+2025-11-11 19:40:32.011 | DEBUG    | geth_si.jobs.job_proc:run:25 - [818.45]: Job job_77 finished worker initialization
+2025-11-11 19:40:32.011 | DEBUG    | geth_si.jobs.job_proc:run:35 - [818.45]: Job job_77 finished waiting for assigned gpus
+2025-11-11 19:40:32.011 | DEBUG    | geth_si.jobs.job_proc:run:39 - [818.45]: Job job_77 speed calculated: 10.20
+2025-11-11 19:40:32.014 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_141 | Name: job_141 | Type: gcn_reddit | Min GPUs: 8 | Max GPUs: 8 | Target epochs: 500 | Total samples: 500
+2025-11-11 19:40:32.014 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [839.00]: Job job_141 submitted
+2025-11-11 19:40:32.014 | DEBUG    | geth_si.jobs.job_proc:run:19 - [839.00]: Job job_141 starting job execution, in [(4, 0), (4, 1), (4, 2), (4, 3), (4, 4), (4, 5), (4, 6), (4, 7)]
+2025-11-11 19:40:32.015 | DEBUG    | geth_si.jobs.job_proc:run:25 - [839.97]: Job job_113 finished worker initialization
+2025-11-11 19:40:32.015 | DEBUG    | geth_si.jobs.job_proc:run:35 - [839.97]: Job job_113 finished waiting for assigned gpus
+2025-11-11 19:40:32.015 | DEBUG    | geth_si.jobs.job_proc:run:39 - [839.97]: Job job_113 speed calculated: 1.06
+2025-11-11 19:40:32.017 | DEBUG    | geth_si.jobs.job_proc:run:90 - [851.35]: Job job_26 finished
+2025-11-11 19:40:32.018 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_73 | Name: job_73 | Type: gcn_reddit | Min GPUs: 6 | Max GPUs: 8 | Target epochs: 500 | Total samples: 500
+2025-11-11 19:40:32.019 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [865.00]: Job job_73 submitted
+2025-11-11 19:40:32.019 | DEBUG    | geth_si.jobs.job_proc:run:19 - [865.00]: Job job_73 starting job execution, in [(6, 0), (6, 1), (6, 2), (6, 3), (6, 4), (6, 5)]
+2025-11-11 19:40:32.019 | DEBUG    | geth_si.jobs.job_proc:run:25 - [865.95]: Job job_141 finished worker initialization
+2025-11-11 19:40:32.019 | DEBUG    | geth_si.jobs.job_proc:run:35 - [865.95]: Job job_141 finished waiting for assigned gpus
+2025-11-11 19:40:32.019 | DEBUG    | geth_si.jobs.job_proc:run:39 - [865.95]: Job job_141 speed calculated: 6.53
+2025-11-11 19:40:32.019 | DEBUG    | geth_si.jobs.job_proc:run:90 - [867.48]: Job job_77 finished
+2025-11-11 19:40:32.020 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_8 | Name: job_8 | Type: gcn_reddit | Min GPUs: 8 | Max GPUs: 8 | Target epochs: 500 | Total samples: 500
+2025-11-11 19:40:32.020 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [871.00]: Job job_8 submitted
+2025-11-11 19:40:32.020 | DEBUG    | geth_si.jobs.job_proc:run:19 - [871.00]: Job job_8 starting job execution, in [(7, 0), (7, 1), (7, 2), (7, 3), (7, 4), (7, 5), (7, 6), (7, 7)]
+2025-11-11 19:40:32.022 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_144 | Name: job_144 | Type: gat_yelp | Min GPUs: 4 | Max GPUs: 8 | Target epochs: 800 | Total samples: 800
+2025-11-11 19:40:32.022 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [882.00]: Job job_144 submitted
+2025-11-11 19:40:32.022 | DEBUG    | geth_si.jobs.job_proc:run:19 - [882.00]: Job job_144 starting job execution, in [(1, 0), (1, 1), (1, 4), (1, 5)]
+2025-11-11 19:40:32.023 | DEBUG    | geth_si.jobs.job_proc:run:90 - [889.70]: Job job_47 finished
+2025-11-11 19:40:32.023 | DEBUG    | geth_si.jobs.job_proc:run:25 - [891.26]: Job job_73 finished worker initialization
+2025-11-11 19:40:32.023 | DEBUG    | geth_si.jobs.job_proc:run:35 - [891.26]: Job job_73 finished waiting for assigned gpus
+2025-11-11 19:40:32.023 | DEBUG    | geth_si.jobs.job_proc:run:39 - [891.26]: Job job_73 speed calculated: 7.17
+2025-11-11 19:40:32.023 | DEBUG    | geth_si.jobs.job_proc:run:25 - [891.58]: Job job_144 finished worker initialization
+2025-11-11 19:40:32.023 | DEBUG    | geth_si.jobs.job_proc:run:35 - [891.58]: Job job_144 finished waiting for assigned gpus
+2025-11-11 19:40:32.023 | DEBUG    | geth_si.jobs.job_proc:run:39 - [891.58]: Job job_144 speed calculated: 1.03
+2025-11-11 19:40:32.024 | DEBUG    | geth_si.jobs.job_proc:run:25 - [897.95]: Job job_8 finished worker initialization
+2025-11-11 19:40:32.024 | DEBUG    | geth_si.jobs.job_proc:run:35 - [897.95]: Job job_8 finished waiting for assigned gpus
+2025-11-11 19:40:32.025 | DEBUG    | geth_si.jobs.job_proc:run:39 - [897.95]: Job job_8 speed calculated: 6.53
+2025-11-11 19:40:32.026 | DEBUG    | geth_si.jobs.job_proc:run:90 - [906.15]: Job job_133 finished
+2025-11-11 19:40:32.030 | DEBUG    | geth_si.jobs.job_proc:run:90 - [934.64]: Job job_1 finished
+2025-11-11 19:40:32.031 | DEBUG    | geth_si.jobs.job_proc:run:90 - [942.49]: Job job_141 finished
+2025-11-11 19:40:32.032 | DEBUG    | geth_si.jobs.job_proc:run:90 - [961.02]: Job job_73 finished
+2025-11-11 19:40:32.032 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_15 | Name: job_15 | Type: gat_reddit | Min GPUs: 6 | Max GPUs: 8 | Target epochs: 1500 | Total samples: 1500
+2025-11-11 19:40:32.033 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [964.00]: Job job_15 submitted
+2025-11-11 19:40:32.033 | DEBUG    | geth_si.jobs.job_proc:run:19 - [964.00]: Job job_15 starting job execution, in [(2, 0), (2, 1), (2, 2), (2, 3), (2, 4), (2, 5)]
+2025-11-11 19:40:32.033 | DEBUG    | geth_si.jobs.job_proc:run:90 - [974.49]: Job job_8 finished
+2025-11-11 19:40:32.034 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_118 | Name: job_118 | Type: sage_yelp | Min GPUs: 8 | Max GPUs: 8 | Target epochs: 1500 | Total samples: 1500
+2025-11-11 19:40:32.034 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [979.00]: Job job_118 submitted
+2025-11-11 19:40:32.034 | DEBUG    | geth_si.jobs.job_proc:run:19 - [979.00]: Job job_118 starting job execution, in [(3, 0), (3, 1), (3, 2), (3, 3), (3, 4), (3, 5), (3, 6), (3, 7)]
+2025-11-11 19:40:32.034 | DEBUG    | geth_si.jobs.job_proc:run:25 - [990.43]: Job job_118 finished worker initialization
+2025-11-11 19:40:32.034 | DEBUG    | geth_si.jobs.job_proc:run:35 - [990.43]: Job job_118 finished waiting for assigned gpus
+2025-11-11 19:40:32.035 | DEBUG    | geth_si.jobs.job_proc:run:39 - [990.43]: Job job_118 speed calculated: 4.14
+2025-11-11 19:40:32.035 | DEBUG    | geth_si.jobs.job_proc:run:25 - [990.60]: Job job_15 finished worker initialization
+2025-11-11 19:40:32.035 | DEBUG    | geth_si.jobs.job_proc:run:35 - [990.60]: Job job_15 finished waiting for assigned gpus
+2025-11-11 19:40:32.035 | DEBUG    | geth_si.jobs.job_proc:run:39 - [990.60]: Job job_15 speed calculated: 1.23
+2025-11-11 19:40:32.036 | DEBUG    | geth_si.jobs.job_proc:run:90 - [1006.96]: Job job_7 finished
+2025-11-11 19:40:32.037 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_28 | Name: job_28 | Type: gin_yelp | Min GPUs: 8 | Max GPUs: 8 | Target epochs: 800 | Total samples: 800
+2025-11-11 19:40:32.037 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [1025.00]: Job job_28 submitted
+2025-11-11 19:40:32.037 | DEBUG    | geth_si.jobs.job_proc:run:19 - [1025.00]: Job job_28 starting job execution, in [(4, 0), (4, 1), (4, 2), (4, 3), (4, 4), (4, 5), (4, 6), (4, 7)]
+2025-11-11 19:40:32.037 | DEBUG    | geth_si.jobs.job_proc:run:25 - [1036.72]: Job job_28 finished worker initialization
+2025-11-11 19:40:32.037 | DEBUG    | geth_si.jobs.job_proc:run:35 - [1036.72]: Job job_28 finished waiting for assigned gpus
+2025-11-11 19:40:32.037 | DEBUG    | geth_si.jobs.job_proc:run:39 - [1036.72]: Job job_28 speed calculated: 7.36
+2025-11-11 19:40:32.039 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_12 | Name: job_12 | Type: sage_yelp | Min GPUs: 6 | Max GPUs: 8 | Target epochs: 1500 | Total samples: 1500
+2025-11-11 19:40:32.039 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [1061.00]: Job job_12 submitted
+2025-11-11 19:40:32.039 | DEBUG    | geth_si.jobs.job_proc:run:19 - [1061.00]: Job job_12 starting job execution, in [(6, 0), (6, 1), (6, 2), (6, 3), (6, 4), (6, 5)]
+2025-11-11 19:40:32.040 | DEBUG    | geth_si.jobs.job_proc:run:25 - [1070.67]: Job job_12 finished worker initialization
+2025-11-11 19:40:32.040 | DEBUG    | geth_si.jobs.job_proc:run:35 - [1070.67]: Job job_12 finished waiting for assigned gpus
+2025-11-11 19:40:32.040 | DEBUG    | geth_si.jobs.job_proc:run:39 - [1070.67]: Job job_12 speed calculated: 3.87
+2025-11-11 19:40:32.041 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_93 | Name: job_93 | Type: gcn_yelp | Min GPUs: 8 | Max GPUs: 8 | Target epochs: 1500 | Total samples: 1500
+2025-11-11 19:40:32.041 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [1087.00]: Job job_93 submitted
+2025-11-11 19:40:32.042 | DEBUG    | geth_si.jobs.job_proc:run:19 - [1087.00]: Job job_93 starting job execution, in [(7, 0), (7, 1), (7, 2), (7, 3), (7, 4), (7, 5), (7, 6), (7, 7)]
+2025-11-11 19:40:32.043 | DEBUG    | geth_si.jobs.job_proc:run:25 - [1099.20]: Job job_93 finished worker initialization
+2025-11-11 19:40:32.043 | DEBUG    | geth_si.jobs.job_proc:run:35 - [1099.20]: Job job_93 finished waiting for assigned gpus
+2025-11-11 19:40:32.043 | DEBUG    | geth_si.jobs.job_proc:run:39 - [1099.20]: Job job_93 speed calculated: 6.99
+2025-11-11 19:40:32.043 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_130 | Name: job_130 | Type: sage_ogbn-products | Min GPUs: 8 | Max GPUs: 8 | Target epochs: 500 | Total samples: 500
+2025-11-11 19:40:32.043 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [1105.00]: Job job_130 submitted
+2025-11-11 19:40:32.047 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_31 | Name: job_31 | Type: sage_yelp | Min GPUs: 6 | Max GPUs: 8 | Target epochs: 500 | Total samples: 500
+2025-11-11 19:40:32.047 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [1142.00]: Job job_31 submitted
+2025-11-11 19:40:32.048 | DEBUG    | geth_si.jobs.job_proc:run:90 - [1145.38]: Job job_28 finished
+2025-11-11 19:40:32.048 | DEBUG    | geth_si.jobs.job_proc:run:19 - [1146.00]: Job job_130 starting job execution, in [(4, 0), (4, 1), (4, 2), (4, 3), (4, 4), (4, 5), (4, 6), (4, 7)]
+2025-11-11 19:40:32.050 | DEBUG    | geth_si.jobs.job_proc:run:25 - [1168.81]: Job job_130 finished worker initialization
+2025-11-11 19:40:32.050 | DEBUG    | geth_si.jobs.job_proc:run:35 - [1168.81]: Job job_130 finished waiting for assigned gpus
+2025-11-11 19:40:32.050 | DEBUG    | geth_si.jobs.job_proc:run:39 - [1168.81]: Job job_130 speed calculated: 13.14
+2025-11-11 19:40:32.053 | DEBUG    | geth_si.jobs.job_proc:run:90 - [1191.75]: Job job_59 finished
+2025-11-11 19:40:32.053 | DEBUG    | geth_si.jobs.job_proc:run:19 - [1192.00]: Job job_31 starting job execution, in [(5, 0), (5, 1), (5, 2), (5, 3), (5, 4), (5, 5)]
+2025-11-11 19:40:32.055 | DEBUG    | geth_si.jobs.job_proc:run:25 - [1201.67]: Job job_31 finished worker initialization
+2025-11-11 19:40:32.055 | DEBUG    | geth_si.jobs.job_proc:run:35 - [1201.67]: Job job_31 finished waiting for assigned gpus
+2025-11-11 19:40:32.055 | DEBUG    | geth_si.jobs.job_proc:run:39 - [1201.67]: Job job_31 speed calculated: 3.87
+2025-11-11 19:40:32.055 | DEBUG    | geth_si.jobs.job_proc:run:90 - [1206.86]: Job job_130 finished
+2025-11-11 19:40:32.060 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_137 | Name: job_137 | Type: gcn_ogbn-products | Min GPUs: 6 | Max GPUs: 8 | Target epochs: 1500 | Total samples: 1500
+2025-11-11 19:40:32.060 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [1257.00]: Job job_137 submitted
+2025-11-11 19:40:32.060 | DEBUG    | geth_si.jobs.job_proc:run:19 - [1257.00]: Job job_137 starting job execution, in [(4, 0), (4, 1), (4, 2), (4, 3), (4, 4), (4, 5)]
+2025-11-11 19:40:32.062 | DEBUG    | geth_si.jobs.job_proc:run:25 - [1280.64]: Job job_137 finished worker initialization
+2025-11-11 19:40:32.062 | DEBUG    | geth_si.jobs.job_proc:run:35 - [1280.64]: Job job_137 finished waiting for assigned gpus
+2025-11-11 19:40:32.062 | DEBUG    | geth_si.jobs.job_proc:run:39 - [1280.64]: Job job_137 speed calculated: 20.01
+2025-11-11 19:40:32.063 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_23 | Name: job_23 | Type: gin_reddit | Min GPUs: 6 | Max GPUs: 8 | Target epochs: 800 | Total samples: 800
+2025-11-11 19:40:32.063 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [1288.00]: Job job_23 submitted
+2025-11-11 19:40:32.067 | DEBUG    | geth_si.jobs.job_proc:run:90 - [1313.86]: Job job_93 finished
+2025-11-11 19:40:32.068 | DEBUG    | geth_si.jobs.job_proc:run:19 - [1314.00]: Job job_23 starting job execution, in [(7, 0), (7, 1), (7, 2), (7, 3), (7, 4), (7, 5)]
+2025-11-11 19:40:32.068 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_9 | Name: job_9 | Type: gat_reddit | Min GPUs: 1 | Max GPUs: 8 | Target epochs: 800 | Total samples: 800
+2025-11-11 19:40:32.068 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [1315.00]: Job job_9 submitted
+2025-11-11 19:40:32.068 | DEBUG    | geth_si.jobs.job_proc:run:19 - [1315.00]: Job job_9 starting job execution, in [(0, 2)]
+2025-11-11 19:40:32.069 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_126 | Name: job_126 | Type: sage_reddit | Min GPUs: 2 | Max GPUs: 8 | Target epochs: 800 | Total samples: 800
+2025-11-11 19:40:32.069 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [1319.00]: Job job_126 submitted
+2025-11-11 19:40:32.069 | DEBUG    | geth_si.jobs.job_proc:run:19 - [1319.00]: Job job_126 starting job execution, in [(0, 5), (0, 6)]
+2025-11-11 19:40:32.069 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_128 | Name: job_128 | Type: gcn_ogbn-products | Min GPUs: 1 | Max GPUs: 8 | Target epochs: 500 | Total samples: 500
+2025-11-11 19:40:32.069 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [1320.00]: Job job_128 submitted
+2025-11-11 19:40:32.069 | DEBUG    | geth_si.jobs.job_proc:run:19 - [1320.00]: Job job_128 starting job execution, in [(0, 7)]
+2025-11-11 19:40:32.070 | DEBUG    | geth_si.jobs.job_proc:run:90 - [1330.83]: Job job_31 finished
+2025-11-11 19:40:32.071 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_40 | Name: job_40 | Type: gat_yelp | Min GPUs: 8 | Max GPUs: 8 | Target epochs: 800 | Total samples: 800
+2025-11-11 19:40:32.071 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [1332.00]: Job job_40 submitted
+2025-11-11 19:40:32.071 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_146 | Name: job_146 | Type: gat_reddit | Min GPUs: 2 | Max GPUs: 8 | Target epochs: 500 | Total samples: 500
+2025-11-11 19:40:32.071 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [1332.00]: Job job_146 submitted
+2025-11-11 19:40:32.071 | DEBUG    | geth_si.jobs.job_proc:run:19 - [1332.00]: Job job_40 starting job execution, in [(5, 0), (5, 1), (5, 2), (5, 3), (5, 4), (5, 5), (5, 6), (5, 7)]
+2025-11-11 19:40:32.071 | DEBUG    | geth_si.jobs.job_proc:run:19 - [1332.00]: Job job_146 starting job execution, in [(1, 6), (1, 7)]
+2025-11-11 19:40:32.072 | DEBUG    | geth_si.jobs.job_proc:run:25 - [1339.69]: Job job_23 finished worker initialization
+2025-11-11 19:40:32.072 | DEBUG    | geth_si.jobs.job_proc:run:35 - [1339.69]: Job job_23 finished waiting for assigned gpus
+2025-11-11 19:40:32.072 | DEBUG    | geth_si.jobs.job_proc:run:39 - [1339.69]: Job job_23 speed calculated: 8.04
+2025-11-11 19:40:32.072 | DEBUG    | geth_si.jobs.job_proc:run:25 - [1339.79]: Job job_9 finished worker initialization
+2025-11-11 19:40:32.072 | DEBUG    | geth_si.jobs.job_proc:run:35 - [1339.79]: Job job_9 finished waiting for assigned gpus
+2025-11-11 19:40:32.072 | DEBUG    | geth_si.jobs.job_proc:run:39 - [1339.79]: Job job_9 speed calculated: 0.49
+2025-11-11 19:40:32.073 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_29 | Name: job_29 | Type: gin_reddit | Min GPUs: 4 | Max GPUs: 8 | Target epochs: 800 | Total samples: 800
+2025-11-11 19:40:32.073 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [1344.00]: Job job_29 submitted
+2025-11-11 19:40:32.073 | DEBUG    | geth_si.jobs.job_proc:run:25 - [1344.80]: Job job_128 finished worker initialization
+2025-11-11 19:40:32.073 | DEBUG    | geth_si.jobs.job_proc:run:35 - [1344.80]: Job job_128 finished waiting for assigned gpus
+2025-11-11 19:40:32.073 | DEBUG    | geth_si.jobs.job_proc:run:39 - [1344.80]: Job job_128 speed calculated: 5.28
+2025-11-11 19:40:32.074 | DEBUG    | geth_si.jobs.job_proc:run:25 - [1345.02]: Job job_126 finished worker initialization
+2025-11-11 19:40:32.074 | DEBUG    | geth_si.jobs.job_proc:run:35 - [1345.02]: Job job_126 finished waiting for assigned gpus
+2025-11-11 19:40:32.074 | DEBUG    | geth_si.jobs.job_proc:run:39 - [1345.02]: Job job_126 speed calculated: 4.50
+2025-11-11 19:40:32.074 | DEBUG    | geth_si.jobs.job_proc:run:25 - [1345.03]: Job job_40 finished worker initialization
+2025-11-11 19:40:32.074 | DEBUG    | geth_si.jobs.job_proc:run:35 - [1345.03]: Job job_40 finished waiting for assigned gpus
+2025-11-11 19:40:32.074 | DEBUG    | geth_si.jobs.job_proc:run:39 - [1345.03]: Job job_40 speed calculated: 1.29
+2025-11-11 19:40:32.075 | DEBUG    | geth_si.jobs.job_proc:run:90 - [1352.44]: Job job_118 finished
+2025-11-11 19:40:32.076 | DEBUG    | geth_si.jobs.job_proc:run:19 - [1353.00]: Job job_29 starting job execution, in [(3, 0), (3, 1), (3, 2), (3, 3)]
+2025-11-11 19:40:32.076 | DEBUG    | geth_si.jobs.job_proc:run:90 - [1355.62]: Job job_137 finished
+2025-11-11 19:40:32.076 | DEBUG    | geth_si.jobs.job_proc:run:25 - [1358.53]: Job job_146 finished worker initialization
+2025-11-11 19:40:32.077 | DEBUG    | geth_si.jobs.job_proc:run:35 - [1358.53]: Job job_146 finished waiting for assigned gpus
+2025-11-11 19:40:32.077 | DEBUG    | geth_si.jobs.job_proc:run:39 - [1358.53]: Job job_146 speed calculated: 0.71
+2025-11-11 19:40:32.079 | DEBUG    | geth_si.jobs.job_proc:run:25 - [1379.19]: Job job_29 finished worker initialization
+2025-11-11 19:40:32.079 | DEBUG    | geth_si.jobs.job_proc:run:35 - [1379.19]: Job job_29 finished waiting for assigned gpus
+2025-11-11 19:40:32.079 | DEBUG    | geth_si.jobs.job_proc:run:39 - [1379.19]: Job job_29 speed calculated: 9.09
+2025-11-11 19:40:32.081 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_42 | Name: job_42 | Type: sage_yelp | Min GPUs: 8 | Max GPUs: 8 | Target epochs: 500 | Total samples: 500
+2025-11-11 19:40:32.081 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [1394.00]: Job job_42 submitted
+2025-11-11 19:40:32.081 | DEBUG    | geth_si.jobs.job_proc:run:19 - [1394.00]: Job job_42 starting job execution, in [(4, 0), (4, 1), (4, 2), (4, 3), (4, 4), (4, 5), (4, 6), (4, 7)]
+2025-11-11 19:40:32.082 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_104 | Name: job_104 | Type: sage_ogbn-products | Min GPUs: 4 | Max GPUs: 8 | Target epochs: 500 | Total samples: 500
+2025-11-11 19:40:32.082 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [1403.00]: Job job_104 submitted
+2025-11-11 19:40:32.082 | DEBUG    | geth_si.jobs.job_proc:run:19 - [1403.00]: Job job_104 starting job execution, in [(3, 4), (3, 5), (3, 6), (3, 7)]
+2025-11-11 19:40:32.083 | DEBUG    | geth_si.jobs.job_proc:run:25 - [1405.43]: Job job_42 finished worker initialization
+2025-11-11 19:40:32.083 | DEBUG    | geth_si.jobs.job_proc:run:35 - [1405.43]: Job job_42 finished waiting for assigned gpus
+2025-11-11 19:40:32.083 | DEBUG    | geth_si.jobs.job_proc:run:39 - [1405.43]: Job job_42 speed calculated: 4.14
+2025-11-11 19:40:32.086 | DEBUG    | geth_si.jobs.job_proc:run:25 - [1426.90]: Job job_104 finished worker initialization
+2025-11-11 19:40:32.086 | DEBUG    | geth_si.jobs.job_proc:run:35 - [1426.90]: Job job_104 finished waiting for assigned gpus
+2025-11-11 19:40:32.086 | DEBUG    | geth_si.jobs.job_proc:run:39 - [1426.90]: Job job_104 speed calculated: 8.34
+2025-11-11 19:40:32.088 | DEBUG    | geth_si.jobs.job_proc:run:90 - [1439.21]: Job job_23 finished
+2025-11-11 19:40:32.088 | DEBUG    | geth_si.jobs.job_proc:run:90 - [1439.55]: Job job_128 finished
+2025-11-11 19:40:32.091 | DEBUG    | geth_si.jobs.job_proc:run:90 - [1458.15]: Job job_12 finished
+2025-11-11 19:40:32.091 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_70 | Name: job_70 | Type: gin_yelp | Min GPUs: 4 | Max GPUs: 8 | Target epochs: 1500 | Total samples: 1500
+2025-11-11 19:40:32.091 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [1462.00]: Job job_70 submitted
+2025-11-11 19:40:32.092 | DEBUG    | geth_si.jobs.job_proc:run:19 - [1462.00]: Job job_70 starting job execution, in [(6, 0), (6, 1), (6, 2), (6, 3)]
+2025-11-11 19:40:32.092 | DEBUG    | geth_si.jobs.job_proc:run:90 - [1467.17]: Job job_29 finished
+2025-11-11 19:40:32.093 | DEBUG    | geth_si.jobs.job_proc:run:25 - [1471.50]: Job job_70 finished worker initialization
+2025-11-11 19:40:32.093 | DEBUG    | geth_si.jobs.job_proc:run:35 - [1471.50]: Job job_70 finished waiting for assigned gpus
+2025-11-11 19:40:32.093 | DEBUG    | geth_si.jobs.job_proc:run:39 - [1471.50]: Job job_70 speed calculated: 5.40
+2025-11-11 19:40:32.094 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_76 | Name: job_76 | Type: gin_yelp | Min GPUs: 6 | Max GPUs: 8 | Target epochs: 1500 | Total samples: 1500
+2025-11-11 19:40:32.094 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [1480.00]: Job job_76 submitted
+2025-11-11 19:40:32.094 | DEBUG    | geth_si.jobs.job_proc:run:19 - [1480.00]: Job job_76 starting job execution, in [(7, 0), (7, 1), (7, 2), (7, 3), (7, 4), (7, 5)]
+2025-11-11 19:40:32.095 | DEBUG    | geth_si.jobs.job_proc:run:90 - [1486.83]: Job job_104 finished
+2025-11-11 19:40:32.095 | DEBUG    | geth_si.jobs.job_proc:run:25 - [1489.50]: Job job_76 finished worker initialization
+2025-11-11 19:40:32.095 | DEBUG    | geth_si.jobs.job_proc:run:35 - [1489.50]: Job job_76 finished waiting for assigned gpus
+2025-11-11 19:40:32.095 | DEBUG    | geth_si.jobs.job_proc:run:39 - [1489.50]: Job job_76 speed calculated: 6.81
+2025-11-11 19:40:32.098 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_149 | Name: job_149 | Type: gcn_reddit | Min GPUs: 4 | Max GPUs: 8 | Target epochs: 500 | Total samples: 500
+2025-11-11 19:40:32.098 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [1514.00]: Job job_149 submitted
+2025-11-11 19:40:32.098 | DEBUG    | geth_si.jobs.job_proc:run:19 - [1514.00]: Job job_149 starting job execution, in [(3, 0), (3, 1), (3, 2), (3, 3)]
+2025-11-11 19:40:32.099 | DEBUG    | geth_si.jobs.job_proc:run:90 - [1522.88]: Job job_126 finished
+2025-11-11 19:40:32.099 | DEBUG    | geth_si.jobs.job_proc:run:90 - [1526.10]: Job job_42 finished
+2025-11-11 19:40:32.100 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_27 | Name: job_27 | Type: gcn_reddit | Min GPUs: 6 | Max GPUs: 8 | Target epochs: 500 | Total samples: 500
+2025-11-11 19:40:32.100 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [1539.00]: Job job_27 submitted
+2025-11-11 19:40:32.100 | DEBUG    | geth_si.jobs.job_proc:run:19 - [1539.00]: Job job_27 starting job execution, in [(4, 0), (4, 1), (4, 2), (4, 3), (4, 4), (4, 5)]
+2025-11-11 19:40:32.101 | DEBUG    | geth_si.jobs.job_proc:run:25 - [1540.25]: Job job_149 finished worker initialization
+2025-11-11 19:40:32.101 | DEBUG    | geth_si.jobs.job_proc:run:35 - [1540.25]: Job job_149 finished waiting for assigned gpus
+2025-11-11 19:40:32.101 | DEBUG    | geth_si.jobs.job_proc:run:39 - [1540.25]: Job job_149 speed calculated: 8.29
+2025-11-11 19:40:32.103 | DEBUG    | geth_si.jobs.job_proc:run:25 - [1565.26]: Job job_27 finished worker initialization
+2025-11-11 19:40:32.103 | DEBUG    | geth_si.jobs.job_proc:run:35 - [1565.26]: Job job_27 finished waiting for assigned gpus
+2025-11-11 19:40:32.103 | DEBUG    | geth_si.jobs.job_proc:run:39 - [1565.26]: Job job_27 speed calculated: 7.17
+2025-11-11 19:40:32.104 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_14 | Name: job_14 | Type: gcn_ogbn-products | Min GPUs: 6 | Max GPUs: 8 | Target epochs: 800 | Total samples: 800
+2025-11-11 19:40:32.104 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [1569.00]: Job job_14 submitted
+2025-11-11 19:40:32.105 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_75 | Name: job_75 | Type: gcn_reddit | Min GPUs: 6 | Max GPUs: 8 | Target epochs: 500 | Total samples: 500
+2025-11-11 19:40:32.105 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [1579.00]: Job job_75 submitted
+2025-11-11 19:40:32.107 | DEBUG    | geth_si.jobs.job_proc:run:90 - [1592.32]: Job job_113 finished
+2025-11-11 19:40:32.108 | DEBUG    | geth_si.jobs.job_proc:run:90 - [1600.54]: Job job_149 finished
+2025-11-11 19:40:32.108 | DEBUG    | geth_si.jobs.job_proc:run:19 - [1601.00]: Job job_14 starting job execution, in [(3, 0), (3, 1), (3, 2), (3, 3), (3, 4), (3, 5)]
+2025-11-11 19:40:32.111 | DEBUG    | geth_si.jobs.job_proc:run:25 - [1624.64]: Job job_14 finished worker initialization
+2025-11-11 19:40:32.111 | DEBUG    | geth_si.jobs.job_proc:run:35 - [1624.64]: Job job_14 finished waiting for assigned gpus
+2025-11-11 19:40:32.111 | DEBUG    | geth_si.jobs.job_proc:run:39 - [1624.64]: Job job_14 speed calculated: 20.01
+2025-11-11 19:40:32.113 | DEBUG    | geth_si.jobs.job_proc:run:90 - [1635.02]: Job job_27 finished
+2025-11-11 19:40:32.113 | DEBUG    | geth_si.jobs.job_proc:run:19 - [1636.00]: Job job_75 starting job execution, in [(4, 0), (4, 1), (4, 2), (4, 3), (4, 4), (4, 5)]
+2025-11-11 19:40:32.117 | DEBUG    | geth_si.jobs.job_proc:run:25 - [1662.26]: Job job_75 finished worker initialization
+2025-11-11 19:40:32.117 | DEBUG    | geth_si.jobs.job_proc:run:35 - [1662.26]: Job job_75 finished waiting for assigned gpus
+2025-11-11 19:40:32.117 | DEBUG    | geth_si.jobs.job_proc:run:39 - [1662.26]: Job job_75 speed calculated: 7.17
+2025-11-11 19:40:32.117 | DEBUG    | geth_si.jobs.job_proc:run:90 - [1664.63]: Job job_14 finished
+2025-11-11 19:40:32.117 | DEBUG    | geth_si.jobs.job_proc:run:90 - [1666.17]: Job job_144 finished
+2025-11-11 19:40:32.121 | DEBUG    | geth_si.jobs.job_proc:run:90 - [1709.64]: Job job_76 finished
+2025-11-11 19:40:32.122 | DEBUG    | geth_si.jobs.job_proc:run:90 - [1720.16]: Job job_103 finished
+2025-11-11 19:40:32.122 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_20 | Name: job_20 | Type: gcn_yelp | Min GPUs: 2 | Max GPUs: 8 | Target epochs: 500 | Total samples: 500
+2025-11-11 19:40:32.123 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [1727.00]: Job job_20 submitted
+2025-11-11 19:40:32.123 | DEBUG    | geth_si.jobs.job_proc:run:19 - [1727.00]: Job job_20 starting job execution, in [(0, 3), (0, 4)]
+2025-11-11 19:40:32.123 | DEBUG    | geth_si.jobs.job_proc:run:90 - [1732.02]: Job job_75 finished
+2025-11-11 19:40:32.123 | DEBUG    | geth_si.jobs.job_proc:run:25 - [1735.26]: Job job_20 finished worker initialization
+2025-11-11 19:40:32.123 | DEBUG    | geth_si.jobs.job_proc:run:35 - [1735.26]: Job job_20 finished waiting for assigned gpus
+2025-11-11 19:40:32.123 | DEBUG    | geth_si.jobs.job_proc:run:39 - [1735.26]: Job job_20 speed calculated: 4.41
+2025-11-11 19:40:32.124 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_85 | Name: job_85 | Type: gin_reddit | Min GPUs: 8 | Max GPUs: 8 | Target epochs: 800 | Total samples: 800
+2025-11-11 19:40:32.124 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [1744.00]: Job job_85 submitted
+2025-11-11 19:40:32.124 | DEBUG    | geth_si.jobs.job_proc:run:19 - [1744.00]: Job job_85 starting job execution, in [(3, 0), (3, 1), (3, 2), (3, 3), (3, 4), (3, 5), (3, 6), (3, 7)]
+2025-11-11 19:40:32.124 | DEBUG    | geth_si.jobs.job_proc:run:90 - [1749.42]: Job job_70 finished
+2025-11-11 19:40:32.125 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_13 | Name: job_13 | Type: gat_reddit | Min GPUs: 4 | Max GPUs: 8 | Target epochs: 500 | Total samples: 500
+2025-11-11 19:40:32.125 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [1761.00]: Job job_13 submitted
+2025-11-11 19:40:32.125 | DEBUG    | geth_si.jobs.job_proc:run:19 - [1761.00]: Job job_13 starting job execution, in [(1, 0), (1, 1), (1, 2), (1, 3)]
+2025-11-11 19:40:32.126 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_89 | Name: job_89 | Type: gat_reddit | Min GPUs: 8 | Max GPUs: 8 | Target epochs: 500 | Total samples: 500
+2025-11-11 19:40:32.126 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [1771.00]: Job job_89 submitted
+2025-11-11 19:40:32.126 | DEBUG    | geth_si.jobs.job_proc:run:19 - [1771.00]: Job job_89 starting job execution, in [(4, 0), (4, 1), (4, 2), (4, 3), (4, 4), (4, 5), (4, 6), (4, 7)]
+2025-11-11 19:40:32.126 | DEBUG    | geth_si.jobs.job_proc:run:25 - [1771.18]: Job job_85 finished worker initialization
+2025-11-11 19:40:32.126 | DEBUG    | geth_si.jobs.job_proc:run:35 - [1771.18]: Job job_85 finished waiting for assigned gpus
+2025-11-11 19:40:32.126 | DEBUG    | geth_si.jobs.job_proc:run:39 - [1771.18]: Job job_85 speed calculated: 7.42
+2025-11-11 19:40:32.127 | DEBUG    | geth_si.jobs.job_proc:run:25 - [1788.52]: Job job_13 finished worker initialization
+2025-11-11 19:40:32.127 | DEBUG    | geth_si.jobs.job_proc:run:35 - [1788.52]: Job job_13 finished waiting for assigned gpus
+2025-11-11 19:40:32.127 | DEBUG    | geth_si.jobs.job_proc:run:39 - [1788.52]: Job job_13 speed calculated: 1.16
+2025-11-11 19:40:32.128 | DEBUG    | geth_si.jobs.job_proc:run:25 - [1797.02]: Job job_89 finished worker initialization
+2025-11-11 19:40:32.128 | DEBUG    | geth_si.jobs.job_proc:run:35 - [1797.02]: Job job_89 finished waiting for assigned gpus
+2025-11-11 19:40:32.128 | DEBUG    | geth_si.jobs.job_proc:run:39 - [1797.02]: Job job_89 speed calculated: 1.28
+2025-11-11 19:40:32.130 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_46 | Name: job_46 | Type: gat_yelp | Min GPUs: 6 | Max GPUs: 8 | Target epochs: 800 | Total samples: 800
+2025-11-11 19:40:32.130 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [1827.00]: Job job_46 submitted
+2025-11-11 19:40:32.130 | DEBUG    | geth_si.jobs.job_proc:run:19 - [1827.00]: Job job_46 starting job execution, in [(6, 0), (6, 1), (6, 2), (6, 3), (6, 4), (6, 5)]
+2025-11-11 19:40:32.131 | DEBUG    | geth_si.jobs.job_proc:run:25 - [1836.57]: Job job_46 finished worker initialization
+2025-11-11 19:40:32.131 | DEBUG    | geth_si.jobs.job_proc:run:35 - [1836.57]: Job job_46 finished waiting for assigned gpus
+2025-11-11 19:40:32.131 | DEBUG    | geth_si.jobs.job_proc:run:39 - [1836.57]: Job job_46 speed calculated: 1.22
+2025-11-11 19:40:32.132 | DEBUG    | geth_si.jobs.job_proc:run:90 - [1848.52]: Job job_20 finished
+2025-11-11 19:40:32.132 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_127 | Name: job_127 | Type: gat_yelp | Min GPUs: 6 | Max GPUs: 8 | Target epochs: 800 | Total samples: 800
+2025-11-11 19:40:32.132 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [1849.00]: Job job_127 submitted
+2025-11-11 19:40:32.132 | DEBUG    | geth_si.jobs.job_proc:run:19 - [1849.00]: Job job_127 starting job execution, in [(7, 0), (7, 1), (7, 2), (7, 3), (7, 4), (7, 5)]
+2025-11-11 19:40:32.133 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_97 | Name: job_97 | Type: gcn_ogbn-products | Min GPUs: 4 | Max GPUs: 8 | Target epochs: 800 | Total samples: 800
+2025-11-11 19:40:32.133 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [1856.00]: Job job_97 submitted
+2025-11-11 19:40:32.133 | DEBUG    | geth_si.jobs.job_proc:run:19 - [1856.00]: Job job_97 starting job execution, in [(0, 3), (0, 4), (0, 5), (0, 6)]
+2025-11-11 19:40:32.133 | DEBUG    | geth_si.jobs.job_proc:run:25 - [1858.57]: Job job_127 finished worker initialization
+2025-11-11 19:40:32.133 | DEBUG    | geth_si.jobs.job_proc:run:35 - [1858.57]: Job job_127 finished waiting for assigned gpus
+2025-11-11 19:40:32.133 | DEBUG    | geth_si.jobs.job_proc:run:39 - [1858.57]: Job job_127 speed calculated: 1.22
+2025-11-11 19:40:32.134 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_17 | Name: job_17 | Type: sage_yelp | Min GPUs: 2 | Max GPUs: 8 | Target epochs: 1500 | Total samples: 1500
+2025-11-11 19:40:32.134 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [1872.00]: Job job_17 submitted
+2025-11-11 19:40:32.134 | DEBUG    | geth_si.jobs.job_proc:run:19 - [1872.00]: Job job_17 starting job execution, in [(1, 4), (1, 5)]
+2025-11-11 19:40:32.135 | DEBUG    | geth_si.jobs.job_proc:run:25 - [1878.62]: Job job_97 finished worker initialization
+2025-11-11 19:40:32.135 | DEBUG    | geth_si.jobs.job_proc:run:35 - [1878.62]: Job job_97 finished waiting for assigned gpus
+2025-11-11 19:40:32.135 | DEBUG    | geth_si.jobs.job_proc:run:39 - [1878.62]: Job job_97 speed calculated: 16.57
+2025-11-11 19:40:32.135 | DEBUG    | geth_si.jobs.job_proc:run:90 - [1878.96]: Job job_85 finished
+2025-11-11 19:40:32.135 | DEBUG    | geth_si.jobs.job_proc:run:25 - [1880.21]: Job job_17 finished worker initialization
+2025-11-11 19:40:32.135 | DEBUG    | geth_si.jobs.job_proc:run:35 - [1880.21]: Job job_17 finished waiting for assigned gpus
+2025-11-11 19:40:32.135 | DEBUG    | geth_si.jobs.job_proc:run:39 - [1880.21]: Job job_17 speed calculated: 2.32
+2025-11-11 19:40:32.139 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_6 | Name: job_6 | Type: gat_yelp | Min GPUs: 8 | Max GPUs: 8 | Target epochs: 1500 | Total samples: 1500
+2025-11-11 19:40:32.139 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [1915.00]: Job job_6 submitted
+2025-11-11 19:40:32.139 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_64 | Name: job_64 | Type: gcn_yelp | Min GPUs: 6 | Max GPUs: 8 | Target epochs: 800 | Total samples: 800
+2025-11-11 19:40:32.139 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [1915.00]: Job job_64 submitted
+2025-11-11 19:40:32.139 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_120 | Name: job_120 | Type: gat_reddit | Min GPUs: 8 | Max GPUs: 8 | Target epochs: 800 | Total samples: 800
+2025-11-11 19:40:32.139 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [1915.00]: Job job_120 submitted
+2025-11-11 19:40:32.139 | DEBUG    | geth_si.jobs.job_proc:run:19 - [1915.00]: Job job_6 starting job execution, in [(3, 0), (3, 1), (3, 2), (3, 3), (3, 4), (3, 5), (3, 6), (3, 7)]
+2025-11-11 19:40:32.139 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_10 | Name: job_10 | Type: sage_reddit | Min GPUs: 6 | Max GPUs: 8 | Target epochs: 500 | Total samples: 500
+2025-11-11 19:40:32.140 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [1916.00]: Job job_10 submitted
+2025-11-11 19:40:32.141 | DEBUG    | geth_si.jobs.job_proc:run:90 - [1926.90]: Job job_97 finished
+2025-11-11 19:40:32.141 | DEBUG    | geth_si.jobs.job_proc:run:25 - [1928.03]: Job job_6 finished worker initialization
+2025-11-11 19:40:32.141 | DEBUG    | geth_si.jobs.job_proc:run:35 - [1928.03]: Job job_6 finished waiting for assigned gpus
+2025-11-11 19:40:32.141 | DEBUG    | geth_si.jobs.job_proc:run:39 - [1928.03]: Job job_6 speed calculated: 1.29
+2025-11-11 19:40:32.141 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_129 | Name: job_129 | Type: gin_reddit | Min GPUs: 4 | Max GPUs: 8 | Target epochs: 500 | Total samples: 500
+2025-11-11 19:40:32.141 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [1930.00]: Job job_129 submitted
+2025-11-11 19:40:32.142 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_33 | Name: job_33 | Type: gin_ogbn-products | Min GPUs: 4 | Max GPUs: 8 | Target epochs: 1500 | Total samples: 1500
+2025-11-11 19:40:32.142 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [1932.00]: Job job_33 submitted
+2025-11-11 19:40:32.142 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_108 | Name: job_108 | Type: sage_reddit | Min GPUs: 1 | Max GPUs: 8 | Target epochs: 500 | Total samples: 500
+2025-11-11 19:40:32.142 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [1932.00]: Job job_108 submitted
+2025-11-11 19:40:32.142 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_39 | Name: job_39 | Type: gat_ogbn-products | Min GPUs: 4 | Max GPUs: 8 | Target epochs: 1500 | Total samples: 1500
+2025-11-11 19:40:32.142 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [1935.00]: Job job_39 submitted
+2025-11-11 19:40:32.142 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_0 | Name: job_0 | Type: gin_ogbn-arxiv | Min GPUs: 1 | Max GPUs: 8 | Target epochs: 800 | Total samples: 800
+2025-11-11 19:40:32.143 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [1940.00]: Job job_0 submitted
+2025-11-11 19:40:32.143 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_19 | Name: job_19 | Type: gat_ogbn-products | Min GPUs: 8 | Max GPUs: 8 | Target epochs: 1500 | Total samples: 1500
+2025-11-11 19:40:32.143 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [1943.00]: Job job_19 submitted
+2025-11-11 19:40:32.144 | DEBUG    | geth_si.jobs.job_proc:run:90 - [1963.00]: Job job_40 finished
+2025-11-11 19:40:32.144 | DEBUG    | geth_si.jobs.job_proc:run:19 - [1964.00]: Job job_64 starting job execution, in [(5, 0), (5, 1), (5, 2), (5, 3), (5, 4), (5, 5)]
+2025-11-11 19:40:32.145 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_109 | Name: job_109 | Type: gcn_reddit | Min GPUs: 8 | Max GPUs: 8 | Target epochs: 1500 | Total samples: 1500
+2025-11-11 19:40:32.145 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [1971.00]: Job job_109 submitted
+2025-11-11 19:40:32.145 | DEBUG    | geth_si.jobs.job_proc:run:25 - [1973.62]: Job job_64 finished worker initialization
+2025-11-11 19:40:32.145 | DEBUG    | geth_si.jobs.job_proc:run:35 - [1973.62]: Job job_64 finished waiting for assigned gpus
+2025-11-11 19:40:32.145 | DEBUG    | geth_si.jobs.job_proc:run:39 - [1973.62]: Job job_64 speed calculated: 6.82
+2025-11-11 19:40:32.148 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_45 | Name: job_45 | Type: sage_reddit | Min GPUs: 2 | Max GPUs: 8 | Target epochs: 1500 | Total samples: 1500
+2025-11-11 19:40:32.148 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [2008.00]: Job job_45 submitted
+2025-11-11 19:40:32.150 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_121 | Name: job_121 | Type: sage_ogbn-products | Min GPUs: 1 | Max GPUs: 8 | Target epochs: 500 | Total samples: 500
+2025-11-11 19:40:32.151 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [2040.00]: Job job_121 submitted
+2025-11-11 19:40:32.151 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_119 | Name: job_119 | Type: gcn_yelp | Min GPUs: 6 | Max GPUs: 8 | Target epochs: 800 | Total samples: 800
+2025-11-11 19:40:32.151 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [2049.00]: Job job_119 submitted
+2025-11-11 19:40:32.152 | DEBUG    | geth_si.jobs.job_proc:run:90 - [2058.84]: Job job_146 finished
+2025-11-11 19:40:32.154 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_32 | Name: job_32 | Type: gat_ogbn-products | Min GPUs: 2 | Max GPUs: 8 | Target epochs: 800 | Total samples: 800
+2025-11-11 19:40:32.154 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [2080.00]: Job job_32 submitted
+2025-11-11 19:40:32.155 | DEBUG    | geth_si.jobs.job_proc:run:90 - [2090.91]: Job job_64 finished
+2025-11-11 19:40:32.155 | DEBUG    | geth_si.jobs.job_proc:run:19 - [2091.00]: Job job_120 starting job execution, in [(5, 0), (5, 1), (5, 2), (5, 3), (5, 4), (5, 5), (5, 6), (5, 7)]
+2025-11-11 19:40:32.156 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_82 | Name: job_82 | Type: gcn_reddit | Min GPUs: 6 | Max GPUs: 8 | Target epochs: 1500 | Total samples: 1500
+2025-11-11 19:40:32.156 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [2099.00]: Job job_82 submitted
+2025-11-11 19:40:32.157 | DEBUG    | geth_si.jobs.job_proc:run:25 - [2117.02]: Job job_120 finished worker initialization
+2025-11-11 19:40:32.157 | DEBUG    | geth_si.jobs.job_proc:run:35 - [2117.02]: Job job_120 finished waiting for assigned gpus
+2025-11-11 19:40:32.157 | DEBUG    | geth_si.jobs.job_proc:run:39 - [2117.02]: Job job_120 speed calculated: 1.28
+2025-11-11 19:40:32.157 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_84 | Name: job_84 | Type: gcn_ogbn-products | Min GPUs: 6 | Max GPUs: 8 | Target epochs: 500 | Total samples: 500
+2025-11-11 19:40:32.157 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [2120.00]: Job job_84 submitted
+2025-11-11 19:40:32.158 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_78 | Name: job_78 | Type: gat_yelp | Min GPUs: 2 | Max GPUs: 8 | Target epochs: 500 | Total samples: 500
+2025-11-11 19:40:32.158 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [2130.00]: Job job_78 submitted
+2025-11-11 19:40:32.158 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_88 | Name: job_88 | Type: gcn_reddit | Min GPUs: 1 | Max GPUs: 8 | Target epochs: 1500 | Total samples: 1500
+2025-11-11 19:40:32.158 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [2131.00]: Job job_88 submitted
+2025-11-11 19:40:32.161 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_101 | Name: job_101 | Type: gin_yelp | Min GPUs: 6 | Max GPUs: 8 | Target epochs: 800 | Total samples: 800
+2025-11-11 19:40:32.161 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [2185.00]: Job job_101 submitted
+2025-11-11 19:40:32.161 | DEBUG    | geth_si.jobs.job_proc:run:90 - [2188.75]: Job job_89 finished
+2025-11-11 19:40:32.162 | DEBUG    | geth_si.jobs.job_proc:run:19 - [2189.00]: Job job_10 starting job execution, in [(4, 0), (4, 1), (4, 2), (4, 3), (4, 4), (4, 5)]
+2025-11-11 19:40:32.162 | DEBUG    | geth_si.jobs.job_proc:run:19 - [2189.00]: Job job_129 starting job execution, in [(0, 3), (0, 4), (0, 5), (0, 6)]
+2025-11-11 19:40:32.162 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_34 | Name: job_34 | Type: sage_reddit | Min GPUs: 1 | Max GPUs: 8 | Target epochs: 1500 | Total samples: 1500
+2025-11-11 19:40:32.162 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [2192.00]: Job job_34 submitted
+2025-11-11 19:40:32.162 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_145 | Name: job_145 | Type: gin_reddit | Min GPUs: 8 | Max GPUs: 8 | Target epochs: 1500 | Total samples: 1500
+2025-11-11 19:40:32.162 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [2192.00]: Job job_145 submitted
+2025-11-11 19:40:32.163 | DEBUG    | geth_si.jobs.job_proc:run:90 - [2205.70]: Job job_15 finished
+2025-11-11 19:40:32.163 | DEBUG    | geth_si.jobs.job_proc:run:19 - [2206.00]: Job job_33 starting job execution, in [(2, 0), (2, 1), (2, 2), (2, 3)]
+2025-11-11 19:40:32.163 | DEBUG    | geth_si.jobs.job_proc:run:19 - [2206.00]: Job job_108 starting job execution, in [(0, 7)]
+2025-11-11 19:40:32.163 | DEBUG    | geth_si.jobs.job_proc:run:19 - [2206.00]: Job job_39 starting job execution, in [(2, 4), (2, 5), (2, 6), (2, 7)]
+2025-11-11 19:40:32.163 | DEBUG    | geth_si.jobs.job_proc:run:19 - [2206.00]: Job job_0 starting job execution, in [(1, 6)]
+2025-11-11 19:40:32.164 | DEBUG    | geth_si.jobs.job_proc:run:25 - [2209.02]: Job job_0 finished worker initialization
+2025-11-11 19:40:32.164 | DEBUG    | geth_si.jobs.job_proc:run:35 - [2209.02]: Job job_0 finished waiting for assigned gpus
+2025-11-11 19:40:32.164 | DEBUG    | geth_si.jobs.job_proc:run:39 - [2209.02]: Job job_0 speed calculated: 6.91
+2025-11-11 19:40:32.164 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_5 | Name: job_5 | Type: gin_ogbn-products | Min GPUs: 1 | Max GPUs: 8 | Target epochs: 1500 | Total samples: 1500
+2025-11-11 19:40:32.164 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [2210.00]: Job job_5 submitted
+2025-11-11 19:40:32.164 | DEBUG    | geth_si.jobs.job_proc:run:25 - [2215.19]: Job job_129 finished worker initialization
+2025-11-11 19:40:32.164 | DEBUG    | geth_si.jobs.job_proc:run:35 - [2215.19]: Job job_129 finished waiting for assigned gpus
+2025-11-11 19:40:32.165 | DEBUG    | geth_si.jobs.job_proc:run:39 - [2215.19]: Job job_129 speed calculated: 9.09
+2025-11-11 19:40:32.165 | DEBUG    | geth_si.jobs.job_proc:run:25 - [2215.52]: Job job_10 finished worker initialization
+2025-11-11 19:40:32.165 | DEBUG    | geth_si.jobs.job_proc:run:35 - [2215.52]: Job job_10 finished waiting for assigned gpus
+2025-11-11 19:40:32.165 | DEBUG    | geth_si.jobs.job_proc:run:39 - [2215.52]: Job job_10 speed calculated: 4.84
+2025-11-11 19:40:32.165 | DEBUG    | geth_si.jobs.job_proc:run:90 - [2220.82]: Job job_13 finished
+2025-11-11 19:40:32.166 | DEBUG    | geth_si.jobs.job_proc:run:25 - [2228.80]: Job job_33 finished worker initialization
+2025-11-11 19:40:32.166 | DEBUG    | geth_si.jobs.job_proc:run:35 - [2228.80]: Job job_33 finished waiting for assigned gpus
+2025-11-11 19:40:32.167 | DEBUG    | geth_si.jobs.job_proc:run:39 - [2228.80]: Job job_33 speed calculated: 17.81
+2025-11-11 19:40:32.167 | DEBUG    | geth_si.jobs.job_proc:run:25 - [2229.89]: Job job_39 finished worker initialization
+2025-11-11 19:40:32.167 | DEBUG    | geth_si.jobs.job_proc:run:35 - [2229.89]: Job job_39 finished waiting for assigned gpus
+2025-11-11 19:40:32.167 | DEBUG    | geth_si.jobs.job_proc:run:39 - [2229.89]: Job job_39 speed calculated: 1.98
+2025-11-11 19:40:32.167 | DEBUG    | geth_si.jobs.job_proc:run:25 - [2230.24]: Job job_108 finished worker initialization
+2025-11-11 19:40:32.167 | DEBUG    | geth_si.jobs.job_proc:run:35 - [2230.24]: Job job_108 finished waiting for assigned gpus
+2025-11-11 19:40:32.167 | DEBUG    | geth_si.jobs.job_proc:run:39 - [2230.24]: Job job_108 speed calculated: 4.25
+2025-11-11 19:40:32.170 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_52 | Name: job_52 | Type: gcn_yelp | Min GPUs: 2 | Max GPUs: 8 | Target epochs: 1500 | Total samples: 1500
+2025-11-11 19:40:32.170 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [2245.00]: Job job_52 submitted
+2025-11-11 19:40:32.175 | DEBUG    | geth_si.jobs.job_proc:run:90 - [2270.18]: Job job_129 finished
+2025-11-11 19:40:32.177 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_91 | Name: job_91 | Type: gat_ogbn-products | Min GPUs: 2 | Max GPUs: 8 | Target epochs: 500 | Total samples: 500
+2025-11-11 19:40:32.177 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [2285.00]: Job job_91 submitted
+2025-11-11 19:40:32.179 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_49 | Name: job_49 | Type: gat_ogbn-products | Min GPUs: 6 | Max GPUs: 8 | Target epochs: 1500 | Total samples: 1500
+2025-11-11 19:40:32.179 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [2293.00]: Job job_49 submitted
+2025-11-11 19:40:32.182 | DEBUG    | geth_si.jobs.job_proc:run:90 - [2313.03]: Job job_33 finished
+2025-11-11 19:40:32.183 | DEBUG    | geth_si.jobs.job_proc:run:90 - [2318.90]: Job job_10 finished
+2025-11-11 19:40:32.183 | DEBUG    | geth_si.jobs.job_proc:run:19 - [2319.00]: Job job_19 starting job execution, in [(4, 0), (4, 1), (4, 2), (4, 3), (4, 4), (4, 5), (4, 6), (4, 7)]
+2025-11-11 19:40:32.184 | DEBUG    | geth_si.jobs.job_proc:run:90 - [2324.83]: Job job_0 finished
+2025-11-11 19:40:32.185 | DEBUG    | geth_si.jobs.job_proc:run:25 - [2340.81]: Job job_19 finished worker initialization
+2025-11-11 19:40:32.185 | DEBUG    | geth_si.jobs.job_proc:run:35 - [2340.81]: Job job_19 finished waiting for assigned gpus
+2025-11-11 19:40:32.185 | DEBUG    | geth_si.jobs.job_proc:run:39 - [2340.81]: Job job_19 speed calculated: 3.33
+2025-11-11 19:40:32.185 | DEBUG    | geth_si.jobs.job_proc:run:90 - [2347.96]: Job job_108 finished
+2025-11-11 19:40:32.186 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_72 | Name: job_72 | Type: sage_ogbn-products | Min GPUs: 6 | Max GPUs: 8 | Target epochs: 1500 | Total samples: 1500
+2025-11-11 19:40:32.186 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [2351.00]: Job job_72 submitted
+2025-11-11 19:40:32.188 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_107 | Name: job_107 | Type: gcn_ogbn-products | Min GPUs: 4 | Max GPUs: 8 | Target epochs: 1500 | Total samples: 1500
+2025-11-11 19:40:32.188 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [2382.00]: Job job_107 submitted
+2025-11-11 19:40:32.189 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_43 | Name: job_43 | Type: gcn_yelp | Min GPUs: 2 | Max GPUs: 8 | Target epochs: 500 | Total samples: 500
+2025-11-11 19:40:32.189 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [2400.00]: Job job_43 submitted
+2025-11-11 19:40:32.190 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_53 | Name: job_53 | Type: gat_reddit | Min GPUs: 2 | Max GPUs: 8 | Target epochs: 800 | Total samples: 800
+2025-11-11 19:40:32.190 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [2413.00]: Job job_53 submitted
+2025-11-11 19:40:32.192 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_125 | Name: job_125 | Type: gin_ogbn-products | Min GPUs: 8 | Max GPUs: 8 | Target epochs: 800 | Total samples: 800
+2025-11-11 19:40:32.192 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [2442.00]: Job job_125 submitted
+2025-11-11 19:40:32.193 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_124 | Name: job_124 | Type: gin_ogbn-products | Min GPUs: 4 | Max GPUs: 8 | Target epochs: 1500 | Total samples: 1500
+2025-11-11 19:40:32.193 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [2453.00]: Job job_124 submitted
+2025-11-11 19:40:32.194 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_94 | Name: job_94 | Type: gcn_reddit | Min GPUs: 8 | Max GPUs: 8 | Target epochs: 800 | Total samples: 800
+2025-11-11 19:40:32.194 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [2476.00]: Job job_94 submitted
+2025-11-11 19:40:32.195 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_41 | Name: job_41 | Type: gat_ogbn-products | Min GPUs: 2 | Max GPUs: 8 | Target epochs: 500 | Total samples: 500
+2025-11-11 19:40:32.196 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [2493.00]: Job job_41 submitted
+2025-11-11 19:40:32.196 | DEBUG    | geth_si.jobs.job_proc:run:90 - [2493.85]: Job job_46 finished
+2025-11-11 19:40:32.196 | DEBUG    | geth_si.jobs.job_proc:run:19 - [2494.00]: Job job_109 starting job execution, in [(6, 0), (6, 1), (6, 2), (6, 3), (6, 4), (6, 5), (6, 6), (6, 7)]
+2025-11-11 19:40:32.196 | DEBUG    | geth_si.jobs.job_proc:run:19 - [2494.00]: Job job_45 starting job execution, in [(0, 3), (0, 4)]
+2025-11-11 19:40:32.196 | DEBUG    | geth_si.jobs.job_proc:run:19 - [2494.00]: Job job_121 starting job execution, in [(0, 5)]
+2025-11-11 19:40:32.196 | DEBUG    | geth_si.jobs.job_proc:run:19 - [2494.00]: Job job_119 starting job execution, in [(1, 0), (1, 1), (1, 2), (1, 3), (1, 6), (1, 7)]
+2025-11-11 19:40:32.196 | DEBUG    | geth_si.jobs.job_proc:run:19 - [2494.00]: Job job_32 starting job execution, in [(0, 6), (0, 7)]
+2025-11-11 19:40:32.197 | DEBUG    | geth_si.jobs.job_proc:run:25 - [2503.61]: Job job_119 finished worker initialization
+2025-11-11 19:40:32.197 | DEBUG    | geth_si.jobs.job_proc:run:35 - [2503.61]: Job job_119 finished waiting for assigned gpus
+2025-11-11 19:40:32.197 | DEBUG    | geth_si.jobs.job_proc:run:39 - [2503.61]: Job job_119 speed calculated: 6.82
+2025-11-11 19:40:32.198 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_48 | Name: job_48 | Type: gin_reddit | Min GPUs: 6 | Max GPUs: 8 | Target epochs: 800 | Total samples: 800
+2025-11-11 19:40:32.198 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [2515.00]: Job job_48 submitted
+2025-11-11 19:40:32.198 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_139 | Name: job_139 | Type: gcn_yelp | Min GPUs: 8 | Max GPUs: 8 | Target epochs: 1500 | Total samples: 1500
+2025-11-11 19:40:32.198 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [2515.00]: Job job_139 submitted
+2025-11-11 19:40:32.198 | DEBUG    | geth_si.jobs.job_proc:run:90 - [2515.85]: Job job_127 finished
+2025-11-11 19:40:32.198 | DEBUG    | geth_si.jobs.job_proc:run:19 - [2516.00]: Job job_82 starting job execution, in [(7, 0), (7, 1), (7, 2), (7, 3), (7, 4), (7, 5)]
+2025-11-11 19:40:32.199 | DEBUG    | geth_si.jobs.job_proc:run:25 - [2516.97]: Job job_32 finished worker initialization
+2025-11-11 19:40:32.199 | DEBUG    | geth_si.jobs.job_proc:run:35 - [2516.97]: Job job_32 finished waiting for assigned gpus
+2025-11-11 19:40:32.199 | DEBUG    | geth_si.jobs.job_proc:run:39 - [2516.97]: Job job_32 speed calculated: 1.06
+2025-11-11 19:40:32.199 | DEBUG    | geth_si.jobs.job_proc:run:25 - [2518.70]: Job job_121 finished worker initialization
+2025-11-11 19:40:32.199 | DEBUG    | geth_si.jobs.job_proc:run:35 - [2518.70]: Job job_121 finished waiting for assigned gpus
+2025-11-11 19:40:32.199 | DEBUG    | geth_si.jobs.job_proc:run:39 - [2518.70]: Job job_121 speed calculated: 2.69
+2025-11-11 19:40:32.199 | DEBUG    | geth_si.jobs.job_proc:run:25 - [2520.02]: Job job_45 finished worker initialization
+2025-11-11 19:40:32.199 | DEBUG    | geth_si.jobs.job_proc:run:35 - [2520.02]: Job job_45 finished waiting for assigned gpus
+2025-11-11 19:40:32.199 | DEBUG    | geth_si.jobs.job_proc:run:39 - [2520.02]: Job job_45 speed calculated: 4.50
+2025-11-11 19:40:32.199 | DEBUG    | geth_si.jobs.job_proc:run:90 - [2520.46]: Job job_21 finished
+2025-11-11 19:40:32.200 | DEBUG    | geth_si.jobs.job_proc:run:25 - [2520.95]: Job job_109 finished worker initialization
+2025-11-11 19:40:32.200 | DEBUG    | geth_si.jobs.job_proc:run:35 - [2520.95]: Job job_109 finished waiting for assigned gpus
+2025-11-11 19:40:32.200 | DEBUG    | geth_si.jobs.job_proc:run:39 - [2520.95]: Job job_109 speed calculated: 6.53
+2025-11-11 19:40:32.200 | DEBUG    | geth_si.jobs.job_proc:run:90 - [2526.14]: Job job_17 finished
+2025-11-11 19:40:32.201 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_55 | Name: job_55 | Type: gcn_ogbn-products | Min GPUs: 2 | Max GPUs: 8 | Target epochs: 800 | Total samples: 800
+2025-11-11 19:40:32.201 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [2532.00]: Job job_55 submitted
+2025-11-11 19:40:32.201 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_136 | Name: job_136 | Type: sage_yelp | Min GPUs: 6 | Max GPUs: 8 | Target epochs: 800 | Total samples: 800
+2025-11-11 19:40:32.201 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [2532.00]: Job job_136 submitted
+2025-11-11 19:40:32.203 | DEBUG    | geth_si.jobs.job_proc:run:25 - [2542.26]: Job job_82 finished worker initialization
+2025-11-11 19:40:32.203 | DEBUG    | geth_si.jobs.job_proc:run:35 - [2542.26]: Job job_82 finished waiting for assigned gpus
+2025-11-11 19:40:32.203 | DEBUG    | geth_si.jobs.job_proc:run:39 - [2542.26]: Job job_82 speed calculated: 7.17
+2025-11-11 19:40:32.203 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_100 | Name: job_100 | Type: gin_ogbn-arxiv | Min GPUs: 2 | Max GPUs: 8 | Target epochs: 1500 | Total samples: 1500
+2025-11-11 19:40:32.204 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [2547.00]: Job job_100 submitted
+2025-11-11 19:40:32.206 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_44 | Name: job_44 | Type: gcn_yelp | Min GPUs: 1 | Max GPUs: 8 | Target epochs: 500 | Total samples: 500
+2025-11-11 19:40:32.206 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [2561.00]: Job job_44 submitted
+2025-11-11 19:40:32.214 | DEBUG    | geth_si.jobs.job_proc:run:90 - [2620.91]: Job job_119 finished
+2025-11-11 19:40:32.215 | DEBUG    | geth_si.jobs.job_proc:run:19 - [2621.00]: Job job_84 starting job execution, in [(1, 0), (1, 1), (1, 2), (1, 3), (1, 4), (1, 5)]
+2025-11-11 19:40:32.215 | DEBUG    | geth_si.jobs.job_proc:run:19 - [2621.00]: Job job_78 starting job execution, in [(0, 0), (0, 1)]
+2025-11-11 19:40:32.215 | DEBUG    | geth_si.jobs.job_proc:run:19 - [2621.00]: Job job_88 starting job execution, in [(1, 6)]
+2025-11-11 19:40:32.216 | DEBUG    | geth_si.jobs.job_proc:run:25 - [2629.23]: Job job_78 finished worker initialization
+2025-11-11 19:40:32.216 | DEBUG    | geth_si.jobs.job_proc:run:35 - [2629.23]: Job job_78 finished waiting for assigned gpus
+2025-11-11 19:40:32.216 | DEBUG    | geth_si.jobs.job_proc:run:39 - [2629.23]: Job job_78 speed calculated: 0.80
+2025-11-11 19:40:32.218 | DEBUG    | geth_si.jobs.job_proc:run:25 - [2644.64]: Job job_84 finished worker initialization
+2025-11-11 19:40:32.218 | DEBUG    | geth_si.jobs.job_proc:run:35 - [2644.64]: Job job_84 finished waiting for assigned gpus
+2025-11-11 19:40:32.218 | DEBUG    | geth_si.jobs.job_proc:run:39 - [2644.64]: Job job_84 speed calculated: 20.01
+2025-11-11 19:40:32.218 | DEBUG    | geth_si.jobs.job_proc:run:25 - [2645.38]: Job job_88 finished worker initialization
+2025-11-11 19:40:32.218 | DEBUG    | geth_si.jobs.job_proc:run:35 - [2645.38]: Job job_88 finished waiting for assigned gpus
+2025-11-11 19:40:32.218 | DEBUG    | geth_si.jobs.job_proc:run:39 - [2645.38]: Job job_88 speed calculated: 5.31
+2025-11-11 19:40:32.223 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_87 | Name: job_87 | Type: gat_ogbn-products | Min GPUs: 1 | Max GPUs: 8 | Target epochs: 500 | Total samples: 500
+2025-11-11 19:40:32.223 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [2666.00]: Job job_87 submitted
+2025-11-11 19:40:32.223 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_99 | Name: job_99 | Type: sage_ogbn-products | Min GPUs: 1 | Max GPUs: 8 | Target epochs: 1500 | Total samples: 1500
+2025-11-11 19:40:32.223 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [2668.00]: Job job_99 submitted
+2025-11-11 19:40:32.224 | DEBUG    | geth_si.jobs.job_proc:run:90 - [2669.64]: Job job_84 finished
+2025-11-11 19:40:32.224 | DEBUG    | geth_si.jobs.job_proc:run:19 - [2670.00]: Job job_101 starting job execution, in [(1, 0), (1, 1), (1, 2), (1, 3), (1, 4), (1, 5)]
+2025-11-11 19:40:32.224 | DEBUG    | geth_si.jobs.job_proc:run:19 - [2670.00]: Job job_34 starting job execution, in [(1, 7)]
+2025-11-11 19:40:32.226 | DEBUG    | geth_si.jobs.job_proc:run:25 - [2679.50]: Job job_101 finished worker initialization
+2025-11-11 19:40:32.226 | DEBUG    | geth_si.jobs.job_proc:run:35 - [2679.50]: Job job_101 finished waiting for assigned gpus
+2025-11-11 19:40:32.226 | DEBUG    | geth_si.jobs.job_proc:run:39 - [2679.50]: Job job_101 speed calculated: 6.81
+2025-11-11 19:40:32.228 | DEBUG    | geth_si.jobs.job_proc:run:25 - [2694.24]: Job job_34 finished worker initialization
+2025-11-11 19:40:32.228 | DEBUG    | geth_si.jobs.job_proc:run:35 - [2694.24]: Job job_34 finished waiting for assigned gpus
+2025-11-11 19:40:32.228 | DEBUG    | geth_si.jobs.job_proc:run:39 - [2694.24]: Job job_34 speed calculated: 4.25
+2025-11-11 19:40:32.230 | DEBUG    | geth_si.jobs.job_proc:run:90 - [2704.39]: Job job_121 finished
+2025-11-11 19:40:32.237 | DEBUG    | geth_si.jobs.job_proc:run:90 - [2743.79]: Job job_120 finished
+2025-11-11 19:40:32.237 | DEBUG    | geth_si.jobs.job_proc:run:19 - [2744.00]: Job job_145 starting job execution, in [(5, 0), (5, 1), (5, 2), (5, 3), (5, 4), (5, 5), (5, 6), (5, 7)]
+2025-11-11 19:40:32.237 | DEBUG    | geth_si.jobs.job_proc:run:19 - [2744.00]: Job job_5 starting job execution, in [(0, 5)]
+2025-11-11 19:40:32.237 | DEBUG    | geth_si.jobs.job_proc:run:19 - [2744.00]: Job job_52 starting job execution, in [(2, 0), (2, 1)]
+2025-11-11 19:40:32.237 | DEBUG    | geth_si.jobs.job_proc:run:19 - [2744.00]: Job job_91 starting job execution, in [(2, 2), (2, 3)]
+2025-11-11 19:40:32.239 | DEBUG    | geth_si.jobs.job_proc:run:90 - [2750.58]: Job job_109 finished
+2025-11-11 19:40:32.239 | DEBUG    | geth_si.jobs.job_proc:run:19 - [2751.00]: Job job_49 starting job execution, in [(6, 0), (6, 1), (6, 2), (6, 3), (6, 4), (6, 5)]
+2025-11-11 19:40:32.239 | DEBUG    | geth_si.jobs.job_proc:run:90 - [2751.53]: Job job_82 finished
+2025-11-11 19:40:32.239 | DEBUG    | geth_si.jobs.job_proc:run:19 - [2752.00]: Job job_72 starting job execution, in [(7, 0), (7, 1), (7, 2), (7, 3), (7, 4), (7, 5)]
+2025-11-11 19:40:32.239 | DEBUG    | geth_si.jobs.job_proc:run:25 - [2752.26]: Job job_52 finished worker initialization
+2025-11-11 19:40:32.239 | DEBUG    | geth_si.jobs.job_proc:run:35 - [2752.26]: Job job_52 finished waiting for assigned gpus
+2025-11-11 19:40:32.239 | DEBUG    | geth_si.jobs.job_proc:run:39 - [2752.26]: Job job_52 speed calculated: 4.41
+2025-11-11 19:40:32.241 | DEBUG    | geth_si.jobs.job_proc:run:25 - [2766.97]: Job job_91 finished worker initialization
+2025-11-11 19:40:32.242 | DEBUG    | geth_si.jobs.job_proc:run:35 - [2766.97]: Job job_91 finished waiting for assigned gpus
+2025-11-11 19:40:32.242 | DEBUG    | geth_si.jobs.job_proc:run:39 - [2766.97]: Job job_91 speed calculated: 1.06
+2025-11-11 19:40:32.242 | DEBUG    | geth_si.jobs.job_proc:run:25 - [2768.89]: Job job_5 finished worker initialization
+2025-11-11 19:40:32.242 | DEBUG    | geth_si.jobs.job_proc:run:35 - [2768.89]: Job job_5 finished waiting for assigned gpus
+2025-11-11 19:40:32.242 | DEBUG    | geth_si.jobs.job_proc:run:39 - [2768.89]: Job job_5 speed calculated: 5.48
+2025-11-11 19:40:32.243 | DEBUG    | geth_si.jobs.job_proc:run:25 - [2771.18]: Job job_145 finished worker initialization
+2025-11-11 19:40:32.243 | DEBUG    | geth_si.jobs.job_proc:run:35 - [2771.18]: Job job_145 finished waiting for assigned gpus
+2025-11-11 19:40:32.243 | DEBUG    | geth_si.jobs.job_proc:run:39 - [2771.18]: Job job_145 speed calculated: 7.42
+2025-11-11 19:40:32.243 | DEBUG    | geth_si.jobs.job_proc:run:25 - [2772.69]: Job job_49 finished worker initialization
+2025-11-11 19:40:32.243 | DEBUG    | geth_si.jobs.job_proc:run:35 - [2772.69]: Job job_49 finished waiting for assigned gpus
+2025-11-11 19:40:32.243 | DEBUG    | geth_si.jobs.job_proc:run:39 - [2772.69]: Job job_49 speed calculated: 2.66
+2025-11-11 19:40:32.243 | DEBUG    | geth_si.jobs.job_proc:run:25 - [2773.49]: Job job_72 finished worker initialization
+2025-11-11 19:40:32.243 | DEBUG    | geth_si.jobs.job_proc:run:35 - [2773.49]: Job job_72 finished waiting for assigned gpus
+2025-11-11 19:40:32.244 | DEBUG    | geth_si.jobs.job_proc:run:39 - [2773.49]: Job job_72 speed calculated: 10.02
+2025-11-11 19:40:32.247 | DEBUG    | geth_si.jobs.job_proc:run:90 - [2790.89]: Job job_19 finished
+2025-11-11 19:40:32.248 | DEBUG    | geth_si.jobs.job_proc:run:19 - [2791.00]: Job job_107 starting job execution, in [(4, 0), (4, 1), (4, 2), (4, 3)]
+2025-11-11 19:40:32.248 | DEBUG    | geth_si.jobs.job_proc:run:19 - [2791.00]: Job job_43 starting job execution, in [(4, 4), (4, 5)]
+2025-11-11 19:40:32.248 | DEBUG    | geth_si.jobs.job_proc:run:19 - [2791.00]: Job job_53 starting job execution, in [(4, 6), (4, 7)]
+2025-11-11 19:40:32.249 | DEBUG    | geth_si.jobs.job_proc:run:90 - [2796.91]: Job job_101 finished
+2025-11-11 19:40:32.250 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_74 | Name: job_74 | Type: gcn_ogbn-products | Min GPUs: 8 | Max GPUs: 8 | Target epochs: 800 | Total samples: 800
+2025-11-11 19:40:32.250 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [2799.00]: Job job_74 submitted
+2025-11-11 19:40:32.250 | DEBUG    | geth_si.jobs.job_proc:run:25 - [2799.26]: Job job_43 finished worker initialization
+2025-11-11 19:40:32.250 | DEBUG    | geth_si.jobs.job_proc:run:35 - [2799.26]: Job job_43 finished waiting for assigned gpus
+2025-11-11 19:40:32.250 | DEBUG    | geth_si.jobs.job_proc:run:39 - [2799.26]: Job job_43 speed calculated: 4.41
+2025-11-11 19:40:32.252 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_90 | Name: job_90 | Type: gat_ogbn-products | Min GPUs: 6 | Max GPUs: 8 | Target epochs: 1500 | Total samples: 1500
+2025-11-11 19:40:32.252 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [2808.00]: Job job_90 submitted
+2025-11-11 19:40:32.253 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_122 | Name: job_122 | Type: gcn_ogbn-products | Min GPUs: 2 | Max GPUs: 8 | Target epochs: 500 | Total samples: 500
+2025-11-11 19:40:32.253 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [2812.00]: Job job_122 submitted
+2025-11-11 19:40:32.253 | DEBUG    | geth_si.jobs.job_proc:run:25 - [2813.62]: Job job_107 finished worker initialization
+2025-11-11 19:40:32.253 | DEBUG    | geth_si.jobs.job_proc:run:35 - [2813.62]: Job job_107 finished waiting for assigned gpus
+2025-11-11 19:40:32.254 | DEBUG    | geth_si.jobs.job_proc:run:39 - [2813.62]: Job job_107 speed calculated: 16.57
+2025-11-11 19:40:32.255 | DEBUG    | geth_si.jobs.job_proc:run:25 - [2817.53]: Job job_53 finished worker initialization
+2025-11-11 19:40:32.255 | DEBUG    | geth_si.jobs.job_proc:run:35 - [2817.53]: Job job_53 finished waiting for assigned gpus
+2025-11-11 19:40:32.255 | DEBUG    | geth_si.jobs.job_proc:run:39 - [2817.53]: Job job_53 speed calculated: 0.71
+2025-11-11 19:40:32.263 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_54 | Name: job_54 | Type: gcn_reddit | Min GPUs: 2 | Max GPUs: 8 | Target epochs: 800 | Total samples: 800
+2025-11-11 19:40:32.263 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [2847.00]: Job job_54 submitted
+2025-11-11 19:40:32.264 | DEBUG    | geth_si.jobs.job_proc:run:90 - [2853.51]: Job job_45 finished
+2025-11-11 19:40:32.272 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_67 | Name: job_67 | Type: sage_ogbn-products | Min GPUs: 8 | Max GPUs: 8 | Target epochs: 800 | Total samples: 800
+2025-11-11 19:40:32.272 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [2882.00]: Job job_67 submitted
+2025-11-11 19:40:32.275 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_30 | Name: job_30 | Type: gin_ogbn-products | Min GPUs: 8 | Max GPUs: 8 | Target epochs: 800 | Total samples: 800
+2025-11-11 19:40:32.275 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [2897.00]: Job job_30 submitted
+2025-11-11 19:40:32.277 | DEBUG    | geth_si.jobs.job_proc:run:90 - [2904.15]: Job job_107 finished
+2025-11-11 19:40:32.279 | DEBUG    | geth_si.jobs.job_proc:run:90 - [2912.52]: Job job_43 finished
+2025-11-11 19:40:32.281 | DEBUG    | geth_si.jobs.job_proc:run:90 - [2923.15]: Job job_72 finished
+2025-11-11 19:40:32.281 | DEBUG    | geth_si.jobs.job_proc:run:19 - [2924.00]: Job job_125 starting job execution, in [(7, 0), (7, 1), (7, 2), (7, 3), (7, 4), (7, 5), (7, 6), (7, 7)]
+2025-11-11 19:40:32.281 | DEBUG    | geth_si.jobs.job_proc:run:19 - [2924.00]: Job job_124 starting job execution, in [(1, 0), (1, 1), (1, 2), (1, 3)]
+2025-11-11 19:40:32.282 | DEBUG    | geth_si.jobs.job_proc:run:90 - [2927.90]: Job job_88 finished
+2025-11-11 19:40:32.285 | DEBUG    | geth_si.jobs.job_proc:run:25 - [2946.80]: Job job_124 finished worker initialization
+2025-11-11 19:40:32.285 | DEBUG    | geth_si.jobs.job_proc:run:35 - [2946.80]: Job job_124 finished waiting for assigned gpus
+2025-11-11 19:40:32.285 | DEBUG    | geth_si.jobs.job_proc:run:39 - [2946.80]: Job job_124 speed calculated: 17.81
+2025-11-11 19:40:32.285 | DEBUG    | geth_si.jobs.job_proc:run:25 - [2947.93]: Job job_125 finished worker initialization
+2025-11-11 19:40:32.285 | DEBUG    | geth_si.jobs.job_proc:run:35 - [2947.93]: Job job_125 finished waiting for assigned gpus
+2025-11-11 19:40:32.285 | DEBUG    | geth_si.jobs.job_proc:run:39 - [2947.93]: Job job_125 speed calculated: 30.59
+2025-11-11 19:40:32.293 | DEBUG    | geth_si.jobs.job_proc:run:90 - [2973.26]: Job job_145 finished
+2025-11-11 19:40:32.293 | DEBUG    | geth_si.jobs.job_proc:run:19 - [2974.00]: Job job_94 starting job execution, in [(5, 0), (5, 1), (5, 2), (5, 3), (5, 4), (5, 5), (5, 6), (5, 7)]
+2025-11-11 19:40:32.293 | DEBUG    | geth_si.jobs.job_proc:run:19 - [2974.00]: Job job_41 starting job execution, in [(0, 3), (0, 4)]
+2025-11-11 19:40:32.293 | DEBUG    | geth_si.jobs.job_proc:run:19 - [2974.00]: Job job_48 starting job execution, in [(4, 0), (4, 1), (4, 2), (4, 3), (4, 4), (4, 5)]
+2025-11-11 19:40:32.293 | DEBUG    | geth_si.jobs.job_proc:run:90 - [2974.07]: Job job_125 finished
+2025-11-11 19:40:32.294 | DEBUG    | geth_si.jobs.job_proc:run:19 - [2975.00]: Job job_139 starting job execution, in [(7, 0), (7, 1), (7, 2), (7, 3), (7, 4), (7, 5), (7, 6), (7, 7)]
+2025-11-11 19:40:32.294 | DEBUG    | geth_si.jobs.job_proc:run:19 - [2975.00]: Job job_55 starting job execution, in [(1, 4), (1, 5)]
+2025-11-11 19:40:32.295 | DEBUG    | geth_si.jobs.job_proc:run:90 - [2980.32]: Job job_9 finished
+2025-11-11 19:40:32.296 | DEBUG    | geth_si.jobs.job_proc:run:90 - [2986.87]: Job job_39 finished
+2025-11-11 19:40:32.296 | DEBUG    | geth_si.jobs.job_proc:run:25 - [2987.20]: Job job_139 finished worker initialization
+2025-11-11 19:40:32.296 | DEBUG    | geth_si.jobs.job_proc:run:35 - [2987.20]: Job job_139 finished waiting for assigned gpus
+2025-11-11 19:40:32.296 | DEBUG    | geth_si.jobs.job_proc:run:39 - [2987.20]: Job job_139 speed calculated: 6.99
+2025-11-11 19:40:32.298 | DEBUG    | geth_si.jobs.job_proc:run:25 - [2996.97]: Job job_41 finished worker initialization
+2025-11-11 19:40:32.298 | DEBUG    | geth_si.jobs.job_proc:run:35 - [2996.97]: Job job_41 finished waiting for assigned gpus
+2025-11-11 19:40:32.298 | DEBUG    | geth_si.jobs.job_proc:run:39 - [2996.97]: Job job_41 speed calculated: 1.06
+2025-11-11 19:40:32.298 | DEBUG    | geth_si.jobs.job_proc:run:25 - [2998.21]: Job job_55 finished worker initialization
+2025-11-11 19:40:32.298 | DEBUG    | geth_si.jobs.job_proc:run:35 - [2998.21]: Job job_55 finished waiting for assigned gpus
+2025-11-11 19:40:32.298 | DEBUG    | geth_si.jobs.job_proc:run:39 - [2998.21]: Job job_55 speed calculated: 9.49
+2025-11-11 19:40:32.299 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_24 | Name: job_24 | Type: gin_ogbn-products | Min GPUs: 4 | Max GPUs: 8 | Target epochs: 500 | Total samples: 500
+2025-11-11 19:40:32.299 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [2999.00]: Job job_24 submitted
+2025-11-11 19:40:32.299 | DEBUG    | geth_si.jobs.job_proc:run:25 - [2999.69]: Job job_48 finished worker initialization
+2025-11-11 19:40:32.299 | DEBUG    | geth_si.jobs.job_proc:run:35 - [2999.69]: Job job_48 finished waiting for assigned gpus
+2025-11-11 19:40:32.299 | DEBUG    | geth_si.jobs.job_proc:run:39 - [2999.69]: Job job_48 speed calculated: 8.04
+2025-11-11 19:40:32.299 | DEBUG    | geth_si.jobs.job_proc:run:25 - [3000.95]: Job job_94 finished worker initialization
+2025-11-11 19:40:32.300 | DEBUG    | geth_si.jobs.job_proc:run:35 - [3000.95]: Job job_94 finished waiting for assigned gpus
+2025-11-11 19:40:32.300 | DEBUG    | geth_si.jobs.job_proc:run:39 - [3000.95]: Job job_94 speed calculated: 6.53
+2025-11-11 19:40:32.303 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_36 | Name: job_36 | Type: sage_ogbn-products | Min GPUs: 4 | Max GPUs: 8 | Target epochs: 1500 | Total samples: 1500
+2025-11-11 19:40:32.303 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [3013.00]: Job job_36 submitted
+2025-11-11 19:40:32.308 | DEBUG    | geth_si.jobs.job_proc:run:90 - [3031.03]: Job job_124 finished
+2025-11-11 19:40:32.310 | DEBUG    | geth_si.jobs.job_proc:run:90 - [3042.61]: Job job_5 finished
+2025-11-11 19:40:32.311 | DEBUG    | geth_si.jobs.job_proc:run:90 - [3047.39]: Job job_34 finished
+2025-11-11 19:40:32.311 | DEBUG    | geth_si.jobs.job_proc:run:19 - [3048.00]: Job job_136 starting job execution, in [(1, 0), (1, 1), (1, 2), (1, 3), (1, 6), (1, 7)]
+2025-11-11 19:40:32.311 | DEBUG    | geth_si.jobs.job_proc:run:19 - [3048.00]: Job job_100 starting job execution, in [(0, 2), (0, 5)]
+2025-11-11 19:40:32.312 | DEBUG    | geth_si.jobs.job_proc:run:19 - [3048.00]: Job job_44 starting job execution, in [(2, 4)]
+2025-11-11 19:40:32.312 | DEBUG    | geth_si.jobs.job_proc:run:19 - [3048.00]: Job job_87 starting job execution, in [(2, 5)]
+2025-11-11 19:40:32.312 | DEBUG    | geth_si.jobs.job_proc:run:19 - [3048.00]: Job job_99 starting job execution, in [(2, 6)]
+2025-11-11 19:40:32.312 | DEBUG    | geth_si.jobs.job_proc:run:25 - [3052.32]: Job job_100 finished worker initialization
+2025-11-11 19:40:32.313 | DEBUG    | geth_si.jobs.job_proc:run:35 - [3052.32]: Job job_100 finished waiting for assigned gpus
+2025-11-11 19:40:32.313 | DEBUG    | geth_si.jobs.job_proc:run:39 - [3052.32]: Job job_100 speed calculated: 11.57
+2025-11-11 19:40:32.313 | DEBUG    | geth_si.jobs.job_proc:run:25 - [3055.93]: Job job_44 finished worker initialization
+2025-11-11 19:40:32.314 | DEBUG    | geth_si.jobs.job_proc:run:35 - [3055.93]: Job job_44 finished waiting for assigned gpus
+2025-11-11 19:40:32.314 | DEBUG    | geth_si.jobs.job_proc:run:39 - [3055.93]: Job job_44 speed calculated: 4.21
+2025-11-11 19:40:32.314 | DEBUG    | geth_si.jobs.job_proc:run:25 - [3057.67]: Job job_136 finished worker initialization
+2025-11-11 19:40:32.314 | DEBUG    | geth_si.jobs.job_proc:run:35 - [3057.67]: Job job_136 finished waiting for assigned gpus
+2025-11-11 19:40:32.314 | DEBUG    | geth_si.jobs.job_proc:run:39 - [3057.67]: Job job_136 speed calculated: 3.87
+2025-11-11 19:40:32.318 | DEBUG    | geth_si.jobs.job_proc:run:25 - [3072.70]: Job job_99 finished worker initialization
+2025-11-11 19:40:32.318 | DEBUG    | geth_si.jobs.job_proc:run:35 - [3072.70]: Job job_99 finished waiting for assigned gpus
+2025-11-11 19:40:32.318 | DEBUG    | geth_si.jobs.job_proc:run:39 - [3072.70]: Job job_99 speed calculated: 2.69
+2025-11-11 19:40:32.318 | DEBUG    | geth_si.jobs.job_proc:run:25 - [3074.18]: Job job_87 finished worker initialization
+2025-11-11 19:40:32.318 | DEBUG    | geth_si.jobs.job_proc:run:35 - [3074.18]: Job job_87 finished waiting for assigned gpus
+2025-11-11 19:40:32.319 | DEBUG    | geth_si.jobs.job_proc:run:39 - [3074.18]: Job job_87 speed calculated: 0.59
+2025-11-11 19:40:32.321 | DEBUG    | geth_si.jobs.job_proc:run:90 - [3082.50]: Job job_55 finished
+2025-11-11 19:40:32.322 | DEBUG    | geth_si.jobs.job_proc:run:90 - [3086.73]: Job job_6 finished
+2025-11-11 19:40:32.322 | DEBUG    | geth_si.jobs.job_proc:run:19 - [3087.00]: Job job_74 starting job execution, in [(3, 0), (3, 1), (3, 2), (3, 3), (3, 4), (3, 5), (3, 6), (3, 7)]
+2025-11-11 19:40:32.322 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_79 | Name: job_79 | Type: gcn_ogbn-products | Min GPUs: 4 | Max GPUs: 8 | Target epochs: 1500 | Total samples: 1500
+2025-11-11 19:40:32.322 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [3089.00]: Job job_79 submitted
+2025-11-11 19:40:32.323 | DEBUG    | geth_si.jobs.job_proc:run:90 - [3092.05]: Job job_52 finished
+2025-11-11 19:40:32.325 | DEBUG    | geth_si.jobs.job_proc:run:90 - [3099.21]: Job job_48 finished
+2025-11-11 19:40:32.325 | DEBUG    | geth_si.jobs.job_proc:run:19 - [3100.00]: Job job_90 starting job execution, in [(4, 0), (4, 1), (4, 2), (4, 3), (4, 4), (4, 5)]
+2025-11-11 19:40:32.325 | DEBUG    | geth_si.jobs.job_proc:run:19 - [3100.00]: Job job_122 starting job execution, in [(1, 4), (1, 5)]
+2025-11-11 19:40:32.325 | DEBUG    | geth_si.jobs.job_proc:run:19 - [3100.00]: Job job_54 starting job execution, in [(2, 0), (2, 1)]
+2025-11-11 19:40:32.327 | DEBUG    | geth_si.jobs.job_proc:run:25 - [3108.92]: Job job_74 finished worker initialization
+2025-11-11 19:40:32.327 | DEBUG    | geth_si.jobs.job_proc:run:35 - [3108.92]: Job job_74 finished waiting for assigned gpus
+2025-11-11 19:40:32.327 | DEBUG    | geth_si.jobs.job_proc:run:39 - [3108.92]: Job job_74 speed calculated: 26.58
+2025-11-11 19:40:32.330 | DEBUG    | geth_si.jobs.job_proc:run:25 - [3121.69]: Job job_90 finished worker initialization
+2025-11-11 19:40:32.330 | DEBUG    | geth_si.jobs.job_proc:run:35 - [3121.69]: Job job_90 finished waiting for assigned gpus
+2025-11-11 19:40:32.330 | DEBUG    | geth_si.jobs.job_proc:run:39 - [3121.69]: Job job_90 speed calculated: 2.66
+2025-11-11 19:40:32.331 | DEBUG    | geth_si.jobs.job_proc:run:25 - [3123.21]: Job job_122 finished worker initialization
+2025-11-11 19:40:32.331 | DEBUG    | geth_si.jobs.job_proc:run:35 - [3123.21]: Job job_122 finished waiting for assigned gpus
+2025-11-11 19:40:32.331 | DEBUG    | geth_si.jobs.job_proc:run:39 - [3123.21]: Job job_122 speed calculated: 9.49
+2025-11-11 19:40:32.331 | DEBUG    | geth_si.jobs.job_proc:run:90 - [3123.42]: Job job_94 finished
+2025-11-11 19:40:32.331 | DEBUG    | geth_si.jobs.job_proc:run:19 - [3124.00]: Job job_67 starting job execution, in [(5, 0), (5, 1), (5, 2), (5, 3), (5, 4), (5, 5), (5, 6), (5, 7)]
+2025-11-11 19:40:32.332 | DEBUG    | geth_si.jobs.job_proc:run:25 - [3126.75]: Job job_54 finished worker initialization
+2025-11-11 19:40:32.332 | DEBUG    | geth_si.jobs.job_proc:run:35 - [3126.75]: Job job_54 finished waiting for assigned gpus
+2025-11-11 19:40:32.332 | DEBUG    | geth_si.jobs.job_proc:run:39 - [3126.75]: Job job_54 speed calculated: 6.13
+2025-11-11 19:40:32.333 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_38 | Name: job_38 | Type: sage_yelp | Min GPUs: 4 | Max GPUs: 8 | Target epochs: 1500 | Total samples: 1500
+2025-11-11 19:40:32.333 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [3131.00]: Job job_38 submitted
+2025-11-11 19:40:32.334 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_3 | Name: job_3 | Type: gin_reddit | Min GPUs: 8 | Max GPUs: 8 | Target epochs: 800 | Total samples: 800
+2025-11-11 19:40:32.334 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [3132.00]: Job job_3 submitted
+2025-11-11 19:40:32.334 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_56 | Name: job_56 | Type: gcn_reddit | Min GPUs: 1 | Max GPUs: 8 | Target epochs: 800 | Total samples: 800
+2025-11-11 19:40:32.334 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [3132.00]: Job job_56 submitted
+2025-11-11 19:40:32.334 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_102 | Name: job_102 | Type: sage_yelp | Min GPUs: 6 | Max GPUs: 8 | Target epochs: 800 | Total samples: 800
+2025-11-11 19:40:32.334 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [3132.00]: Job job_102 submitted
+2025-11-11 19:40:32.334 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_106 | Name: job_106 | Type: gin_ogbn-products | Min GPUs: 1 | Max GPUs: 8 | Target epochs: 500 | Total samples: 500
+2025-11-11 19:40:32.334 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [3132.00]: Job job_106 submitted
+2025-11-11 19:40:32.335 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_25 | Name: job_25 | Type: sage_ogbn-products | Min GPUs: 6 | Max GPUs: 8 | Target epochs: 500 | Total samples: 500
+2025-11-11 19:40:32.335 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [3134.00]: Job job_25 submitted
+2025-11-11 19:40:32.336 | DEBUG    | geth_si.jobs.job_proc:run:90 - [3139.02]: Job job_74 finished
+2025-11-11 19:40:32.337 | DEBUG    | geth_si.jobs.job_proc:run:19 - [3140.00]: Job job_30 starting job execution, in [(3, 0), (3, 1), (3, 2), (3, 3), (3, 4), (3, 5), (3, 6), (3, 7)]
+2025-11-11 19:40:32.337 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_51 | Name: job_51 | Type: gat_reddit | Min GPUs: 2 | Max GPUs: 8 | Target epochs: 500 | Total samples: 500
+2025-11-11 19:40:32.337 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [3143.00]: Job job_51 submitted
+2025-11-11 19:40:32.338 | DEBUG    | geth_si.jobs.job_proc:run:25 - [3146.81]: Job job_67 finished worker initialization
+2025-11-11 19:40:32.338 | DEBUG    | geth_si.jobs.job_proc:run:35 - [3146.81]: Job job_67 finished waiting for assigned gpus
+2025-11-11 19:40:32.338 | DEBUG    | geth_si.jobs.job_proc:run:39 - [3146.81]: Job job_67 speed calculated: 13.14
+2025-11-11 19:40:32.342 | DEBUG    | geth_si.jobs.job_proc:run:25 - [3163.93]: Job job_30 finished worker initialization
+2025-11-11 19:40:32.342 | DEBUG    | geth_si.jobs.job_proc:run:35 - [3163.93]: Job job_30 finished waiting for assigned gpus
+2025-11-11 19:40:32.342 | DEBUG    | geth_si.jobs.job_proc:run:39 - [3163.93]: Job job_30 speed calculated: 30.59
+2025-11-11 19:40:32.344 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_142 | Name: job_142 | Type: gin_ogbn-products | Min GPUs: 4 | Max GPUs: 8 | Target epochs: 1500 | Total samples: 1500
+2025-11-11 19:40:32.344 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [3169.00]: Job job_142 submitted
+2025-11-11 19:40:32.345 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_61 | Name: job_61 | Type: gcn_reddit | Min GPUs: 1 | Max GPUs: 8 | Target epochs: 1500 | Total samples: 1500
+2025-11-11 19:40:32.345 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [3170.00]: Job job_61 submitted
+2025-11-11 19:40:32.346 | DEBUG    | geth_si.jobs.job_proc:run:90 - [3174.70]: Job job_44 finished
+2025-11-11 19:40:32.347 | DEBUG    | geth_si.jobs.job_proc:run:90 - [3175.89]: Job job_122 finished
+2025-11-11 19:40:32.349 | DEBUG    | geth_si.jobs.job_proc:run:90 - [3181.96]: Job job_100 finished
+2025-11-11 19:40:32.351 | DEBUG    | geth_si.jobs.job_proc:run:90 - [3190.07]: Job job_30 finished
+2025-11-11 19:40:32.351 | DEBUG    | geth_si.jobs.job_proc:run:19 - [3191.00]: Job job_24 starting job execution, in [(3, 0), (3, 1), (3, 2), (3, 3)]
+2025-11-11 19:40:32.351 | DEBUG    | geth_si.jobs.job_proc:run:19 - [3191.00]: Job job_36 starting job execution, in [(3, 4), (3, 5), (3, 6), (3, 7)]
+2025-11-11 19:40:32.353 | DEBUG    | geth_si.jobs.job_proc:run:90 - [3201.86]: Job job_139 finished
+2025-11-11 19:40:32.353 | DEBUG    | geth_si.jobs.job_proc:run:19 - [3202.00]: Job job_79 starting job execution, in [(7, 0), (7, 1), (7, 2), (7, 3)]
+2025-11-11 19:40:32.353 | DEBUG    | geth_si.jobs.job_proc:run:19 - [3202.00]: Job job_38 starting job execution, in [(7, 4), (7, 5), (7, 6), (7, 7)]
+2025-11-11 19:40:32.354 | DEBUG    | geth_si.jobs.job_proc:run:90 - [3207.68]: Job job_67 finished
+2025-11-11 19:40:32.354 | DEBUG    | geth_si.jobs.job_proc:run:19 - [3208.00]: Job job_3 starting job execution, in [(5, 0), (5, 1), (5, 2), (5, 3), (5, 4), (5, 5), (5, 6), (5, 7)]
+2025-11-11 19:40:32.354 | DEBUG    | geth_si.jobs.job_proc:run:19 - [3208.00]: Job job_56 starting job execution, in [(0, 2)]
+2025-11-11 19:40:32.354 | DEBUG    | geth_si.jobs.job_proc:run:25 - [3210.56]: Job job_38 finished worker initialization
+2025-11-11 19:40:32.354 | DEBUG    | geth_si.jobs.job_proc:run:35 - [3210.56]: Job job_38 finished waiting for assigned gpus
+2025-11-11 19:40:32.354 | DEBUG    | geth_si.jobs.job_proc:run:39 - [3210.56]: Job job_38 speed calculated: 3.12
+2025-11-11 19:40:32.355 | DEBUG    | geth_si.jobs.job_proc:run:25 - [3213.80]: Job job_24 finished worker initialization
+2025-11-11 19:40:32.355 | DEBUG    | geth_si.jobs.job_proc:run:35 - [3213.80]: Job job_24 finished waiting for assigned gpus
+2025-11-11 19:40:32.355 | DEBUG    | geth_si.jobs.job_proc:run:39 - [3213.80]: Job job_24 speed calculated: 17.81
+2025-11-11 19:40:32.355 | DEBUG    | geth_si.jobs.job_proc:run:25 - [3214.90]: Job job_36 finished worker initialization
+2025-11-11 19:40:32.355 | DEBUG    | geth_si.jobs.job_proc:run:35 - [3214.90]: Job job_36 finished waiting for assigned gpus
+2025-11-11 19:40:32.355 | DEBUG    | geth_si.jobs.job_proc:run:39 - [3214.90]: Job job_36 speed calculated: 8.34
+2025-11-11 19:40:32.356 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_138 | Name: job_138 | Type: gcn_yelp | Min GPUs: 8 | Max GPUs: 8 | Target epochs: 800 | Total samples: 800
+2025-11-11 19:40:32.356 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [3217.00]: Job job_138 submitted
+2025-11-11 19:40:32.357 | DEBUG    | geth_si.jobs.job_proc:run:25 - [3224.62]: Job job_79 finished worker initialization
+2025-11-11 19:40:32.357 | DEBUG    | geth_si.jobs.job_proc:run:35 - [3224.62]: Job job_79 finished waiting for assigned gpus
+2025-11-11 19:40:32.358 | DEBUG    | geth_si.jobs.job_proc:run:39 - [3224.62]: Job job_79 speed calculated: 16.57
+2025-11-11 19:40:32.359 | DEBUG    | geth_si.jobs.job_proc:run:25 - [3232.38]: Job job_56 finished worker initialization
+2025-11-11 19:40:32.359 | DEBUG    | geth_si.jobs.job_proc:run:35 - [3232.38]: Job job_56 finished waiting for assigned gpus
+2025-11-11 19:40:32.359 | DEBUG    | geth_si.jobs.job_proc:run:39 - [3232.38]: Job job_56 speed calculated: 5.31
+2025-11-11 19:40:32.360 | DEBUG    | geth_si.jobs.job_proc:run:25 - [3235.18]: Job job_3 finished worker initialization
+2025-11-11 19:40:32.360 | DEBUG    | geth_si.jobs.job_proc:run:35 - [3235.18]: Job job_3 finished waiting for assigned gpus
+2025-11-11 19:40:32.360 | DEBUG    | geth_si.jobs.job_proc:run:39 - [3235.18]: Job job_3 speed calculated: 7.42
+2025-11-11 19:40:32.361 | DEBUG    | geth_si.jobs.job_proc:run:90 - [3237.19]: Job job_91 finished
+2025-11-11 19:40:32.362 | DEBUG    | geth_si.jobs.job_proc:run:90 - [3241.88]: Job job_24 finished
+2025-11-11 19:40:32.365 | DEBUG    | geth_si.jobs.job_proc:run:90 - [3252.31]: Job job_78 finished
+2025-11-11 19:40:32.365 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_98 | Name: job_98 | Type: gat_ogbn-products | Min GPUs: 2 | Max GPUs: 8 | Target epochs: 500 | Total samples: 500
+2025-11-11 19:40:32.366 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [3256.00]: Job job_98 submitted
+2025-11-11 19:40:32.366 | DEBUG    | geth_si.jobs.job_proc:run:90 - [3257.30]: Job job_54 finished
+2025-11-11 19:40:32.366 | DEBUG    | geth_si.jobs.job_proc:run:19 - [3258.00]: Job job_102 starting job execution, in [(2, 0), (2, 1), (2, 2), (2, 3), (2, 4), (2, 7)]
+2025-11-11 19:40:32.366 | DEBUG    | geth_si.jobs.job_proc:run:19 - [3258.00]: Job job_106 starting job execution, in [(0, 0)]
+2025-11-11 19:40:32.367 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_111 | Name: job_111 | Type: gcn_reddit | Min GPUs: 4 | Max GPUs: 8 | Target epochs: 800 | Total samples: 800
+2025-11-11 19:40:32.368 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [3264.00]: Job job_111 submitted
+2025-11-11 19:40:32.368 | DEBUG    | geth_si.jobs.job_proc:run:90 - [3264.33]: Job job_136 finished
+2025-11-11 19:40:32.368 | DEBUG    | geth_si.jobs.job_proc:run:19 - [3265.00]: Job job_25 starting job execution, in [(1, 0), (1, 1), (1, 2), (1, 3), (1, 4), (1, 5)]
+2025-11-11 19:40:32.368 | DEBUG    | geth_si.jobs.job_proc:run:19 - [3265.00]: Job job_51 starting job execution, in [(0, 1), (0, 5)]
+2025-11-11 19:40:32.368 | DEBUG    | geth_si.jobs.job_proc:run:19 - [3265.00]: Job job_142 starting job execution, in [(3, 0), (3, 1), (3, 2), (3, 3)]
+2025-11-11 19:40:32.368 | DEBUG    | geth_si.jobs.job_proc:run:19 - [3265.00]: Job job_61 starting job execution, in [(1, 6)]
+2025-11-11 19:40:32.369 | DEBUG    | geth_si.jobs.job_proc:run:25 - [3267.67]: Job job_102 finished worker initialization
+2025-11-11 19:40:32.369 | DEBUG    | geth_si.jobs.job_proc:run:35 - [3267.67]: Job job_102 finished waiting for assigned gpus
+2025-11-11 19:40:32.369 | DEBUG    | geth_si.jobs.job_proc:run:39 - [3267.67]: Job job_102 speed calculated: 3.87
+2025-11-11 19:40:32.369 | DEBUG    | geth_si.jobs.job_proc:run:90 - [3269.32]: Job job_32 finished
+2025-11-11 19:40:32.372 | DEBUG    | geth_si.jobs.job_proc:run:25 - [3282.89]: Job job_106 finished worker initialization
+2025-11-11 19:40:32.372 | DEBUG    | geth_si.jobs.job_proc:run:35 - [3282.89]: Job job_106 finished waiting for assigned gpus
+2025-11-11 19:40:32.372 | DEBUG    | geth_si.jobs.job_proc:run:39 - [3282.89]: Job job_106 speed calculated: 5.48
+2025-11-11 19:40:32.373 | DEBUG    | geth_si.jobs.job_proc:run:25 - [3286.49]: Job job_25 finished worker initialization
+2025-11-11 19:40:32.373 | DEBUG    | geth_si.jobs.job_proc:run:35 - [3286.49]: Job job_25 finished waiting for assigned gpus
+2025-11-11 19:40:32.373 | DEBUG    | geth_si.jobs.job_proc:run:39 - [3286.49]: Job job_25 speed calculated: 10.02
+2025-11-11 19:40:32.373 | DEBUG    | geth_si.jobs.job_proc:run:25 - [3287.80]: Job job_142 finished worker initialization
+2025-11-11 19:40:32.373 | DEBUG    | geth_si.jobs.job_proc:run:35 - [3287.80]: Job job_142 finished waiting for assigned gpus
+2025-11-11 19:40:32.373 | DEBUG    | geth_si.jobs.job_proc:run:39 - [3287.80]: Job job_142 speed calculated: 17.81
+2025-11-11 19:40:32.374 | DEBUG    | geth_si.jobs.job_proc:run:25 - [3289.38]: Job job_61 finished worker initialization
+2025-11-11 19:40:32.374 | DEBUG    | geth_si.jobs.job_proc:run:35 - [3289.38]: Job job_61 finished waiting for assigned gpus
+2025-11-11 19:40:32.374 | DEBUG    | geth_si.jobs.job_proc:run:39 - [3289.38]: Job job_61 speed calculated: 5.31
+2025-11-11 19:40:32.375 | DEBUG    | geth_si.jobs.job_proc:run:25 - [3291.53]: Job job_51 finished worker initialization
+2025-11-11 19:40:32.375 | DEBUG    | geth_si.jobs.job_proc:run:35 - [3291.53]: Job job_51 finished waiting for assigned gpus
+2025-11-11 19:40:32.375 | DEBUG    | geth_si.jobs.job_proc:run:39 - [3291.53]: Job job_51 speed calculated: 0.71
+2025-11-11 19:40:32.380 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_81 | Name: job_81 | Type: gin_reddit | Min GPUs: 6 | Max GPUs: 8 | Target epochs: 800 | Total samples: 800
+2025-11-11 19:40:32.380 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [3309.00]: Job job_81 submitted
+2025-11-11 19:40:32.382 | DEBUG    | geth_si.jobs.job_proc:run:90 - [3315.15]: Job job_79 finished
+2025-11-11 19:40:32.383 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_80 | Name: job_80 | Type: gcn_reddit | Min GPUs: 6 | Max GPUs: 8 | Target epochs: 1500 | Total samples: 1500
+2025-11-11 19:40:32.383 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [3316.00]: Job job_80 submitted
+2025-11-11 19:40:32.384 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_66 | Name: job_66 | Type: gin_reddit | Min GPUs: 2 | Max GPUs: 8 | Target epochs: 1500 | Total samples: 1500
+2025-11-11 19:40:32.384 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [3320.00]: Job job_66 submitted
+2025-11-11 19:40:32.388 | DEBUG    | geth_si.jobs.job_proc:run:90 - [3336.38]: Job job_25 finished
+2025-11-11 19:40:32.388 | DEBUG    | geth_si.jobs.job_proc:run:90 - [3336.89]: Job job_49 finished
+2025-11-11 19:40:32.389 | DEBUG    | geth_si.jobs.job_proc:run:19 - [3337.00]: Job job_138 starting job execution, in [(6, 0), (6, 1), (6, 2), (6, 3), (6, 4), (6, 5), (6, 6), (6, 7)]
+2025-11-11 19:40:32.389 | DEBUG    | geth_si.jobs.job_proc:run:19 - [3337.00]: Job job_98 starting job execution, in [(0, 6), (0, 7)]
+2025-11-11 19:40:32.389 | DEBUG    | geth_si.jobs.job_proc:run:19 - [3337.00]: Job job_111 starting job execution, in [(1, 0), (1, 1), (1, 2), (1, 3)]
+2025-11-11 19:40:32.390 | DEBUG    | geth_si.jobs.job_proc:run:90 - [3342.96]: Job job_3 finished
+2025-11-11 19:40:32.390 | DEBUG    | geth_si.jobs.job_proc:run:19 - [3343.00]: Job job_81 starting job execution, in [(5, 0), (5, 1), (5, 2), (5, 3), (5, 4), (5, 5)]
+2025-11-11 19:40:32.392 | DEBUG    | geth_si.jobs.job_proc:run:25 - [3349.20]: Job job_138 finished worker initialization
+2025-11-11 19:40:32.392 | DEBUG    | geth_si.jobs.job_proc:run:35 - [3349.20]: Job job_138 finished waiting for assigned gpus
+2025-11-11 19:40:32.392 | DEBUG    | geth_si.jobs.job_proc:run:39 - [3349.20]: Job job_138 speed calculated: 6.99
+2025-11-11 19:40:32.393 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_62 | Name: job_62 | Type: sage_yelp | Min GPUs: 4 | Max GPUs: 8 | Target epochs: 500 | Total samples: 500
+2025-11-11 19:40:32.393 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [3355.00]: Job job_62 submitted
+2025-11-11 19:40:32.394 | DEBUG    | geth_si.jobs.job_proc:run:25 - [3359.97]: Job job_98 finished worker initialization
+2025-11-11 19:40:32.394 | DEBUG    | geth_si.jobs.job_proc:run:35 - [3359.97]: Job job_98 finished waiting for assigned gpus
+2025-11-11 19:40:32.394 | DEBUG    | geth_si.jobs.job_proc:run:39 - [3359.97]: Job job_98 speed calculated: 1.06
+2025-11-11 19:40:32.395 | DEBUG    | geth_si.jobs.job_proc:run:25 - [3363.25]: Job job_111 finished worker initialization
+2025-11-11 19:40:32.395 | DEBUG    | geth_si.jobs.job_proc:run:35 - [3363.25]: Job job_111 finished waiting for assigned gpus
+2025-11-11 19:40:32.395 | DEBUG    | geth_si.jobs.job_proc:run:39 - [3363.25]: Job job_111 speed calculated: 8.29
+2025-11-11 19:40:32.397 | DEBUG    | geth_si.jobs.job_proc:run:25 - [3368.69]: Job job_81 finished worker initialization
+2025-11-11 19:40:32.397 | DEBUG    | geth_si.jobs.job_proc:run:35 - [3368.69]: Job job_81 finished waiting for assigned gpus
+2025-11-11 19:40:32.397 | DEBUG    | geth_si.jobs.job_proc:run:39 - [3368.69]: Job job_81 speed calculated: 8.04
+2025-11-11 19:40:32.398 | DEBUG    | geth_si.jobs.job_proc:run:90 - [3372.03]: Job job_142 finished
+2025-11-11 19:40:32.398 | DEBUG    | geth_si.jobs.job_proc:run:90 - [3374.13]: Job job_106 finished
+2025-11-11 19:40:32.400 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_140 | Name: job_140 | Type: gin_ogbn-products | Min GPUs: 2 | Max GPUs: 8 | Target epochs: 500 | Total samples: 500
+2025-11-11 19:40:32.400 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [3381.00]: Job job_140 submitted
+2025-11-11 19:40:32.400 | DEBUG    | geth_si.jobs.job_proc:run:90 - [3383.05]: Job job_56 finished
+2025-11-11 19:40:32.402 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_35 | Name: job_35 | Type: gat_reddit | Min GPUs: 2 | Max GPUs: 8 | Target epochs: 800 | Total samples: 800
+2025-11-11 19:40:32.402 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [3393.00]: Job job_35 submitted
+2025-11-11 19:40:32.403 | DEBUG    | geth_si.jobs.job_proc:run:90 - [3394.68]: Job job_36 finished
+2025-11-11 19:40:32.403 | DEBUG    | geth_si.jobs.job_proc:run:19 - [3395.00]: Job job_80 starting job execution, in [(3, 0), (3, 1), (3, 2), (3, 3), (3, 4), (3, 5)]
+2025-11-11 19:40:32.403 | DEBUG    | geth_si.jobs.job_proc:run:19 - [3395.00]: Job job_66 starting job execution, in [(0, 0), (0, 2)]
+2025-11-11 19:40:32.403 | DEBUG    | geth_si.jobs.job_proc:run:19 - [3395.00]: Job job_62 starting job execution, in [(7, 0), (7, 1), (7, 2), (7, 3)]
+2025-11-11 19:40:32.403 | DEBUG    | geth_si.jobs.job_proc:run:19 - [3395.00]: Job job_140 starting job execution, in [(1, 4), (1, 5)]
+2025-11-11 19:40:32.403 | DEBUG    | geth_si.jobs.job_proc:run:19 - [3395.00]: Job job_35 starting job execution, in [(3, 6), (3, 7)]
+2025-11-11 19:40:32.404 | DEBUG    | geth_si.jobs.job_proc:run:25 - [3403.56]: Job job_62 finished worker initialization
+2025-11-11 19:40:32.405 | DEBUG    | geth_si.jobs.job_proc:run:35 - [3403.56]: Job job_62 finished waiting for assigned gpus
+2025-11-11 19:40:32.405 | DEBUG    | geth_si.jobs.job_proc:run:39 - [3403.56]: Job job_62 speed calculated: 3.12
+2025-11-11 19:40:32.407 | DEBUG    | geth_si.jobs.job_proc:run:25 - [3419.45]: Job job_140 finished worker initialization
+2025-11-11 19:40:32.407 | DEBUG    | geth_si.jobs.job_proc:run:35 - [3419.45]: Job job_140 finished waiting for assigned gpus
+2025-11-11 19:40:32.407 | DEBUG    | geth_si.jobs.job_proc:run:39 - [3419.45]: Job job_140 speed calculated: 10.20
+2025-11-11 19:40:32.408 | DEBUG    | geth_si.jobs.job_proc:run:25 - [3421.26]: Job job_80 finished worker initialization
+2025-11-11 19:40:32.408 | DEBUG    | geth_si.jobs.job_proc:run:35 - [3421.26]: Job job_80 finished waiting for assigned gpus
+2025-11-11 19:40:32.408 | DEBUG    | geth_si.jobs.job_proc:run:39 - [3421.26]: Job job_80 speed calculated: 7.17
+2025-11-11 19:40:32.408 | DEBUG    | geth_si.jobs.job_proc:run:25 - [3421.53]: Job job_35 finished worker initialization
+2025-11-11 19:40:32.408 | DEBUG    | geth_si.jobs.job_proc:run:35 - [3421.53]: Job job_35 finished waiting for assigned gpus
+2025-11-11 19:40:32.408 | DEBUG    | geth_si.jobs.job_proc:run:39 - [3421.53]: Job job_35 speed calculated: 0.71
+2025-11-11 19:40:32.408 | DEBUG    | geth_si.jobs.job_proc:run:25 - [3421.90]: Job job_66 finished worker initialization
+2025-11-11 19:40:32.408 | DEBUG    | geth_si.jobs.job_proc:run:35 - [3421.90]: Job job_66 finished waiting for assigned gpus
+2025-11-11 19:40:32.408 | DEBUG    | geth_si.jobs.job_proc:run:39 - [3421.90]: Job job_66 speed calculated: 6.54
+2025-11-11 19:40:32.412 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_11 | Name: job_11 | Type: gin_yelp | Min GPUs: 4 | Max GPUs: 8 | Target epochs: 1500 | Total samples: 1500
+2025-11-11 19:40:32.412 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [3439.00]: Job job_11 submitted
+2025-11-11 19:40:32.417 | DEBUG    | geth_si.jobs.job_proc:run:90 - [3459.72]: Job job_111 finished
+2025-11-11 19:40:32.418 | DEBUG    | geth_si.jobs.job_proc:run:19 - [3460.00]: Job job_11 starting job execution, in [(1, 0), (1, 1), (1, 2), (1, 3)]
+2025-11-11 19:40:32.418 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_86 | Name: job_86 | Type: gat_ogbn-products | Min GPUs: 4 | Max GPUs: 8 | Target epochs: 500 | Total samples: 500
+2025-11-11 19:40:32.418 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [3461.00]: Job job_86 submitted
+2025-11-11 19:40:32.419 | DEBUG    | geth_si.jobs.job_proc:run:90 - [3463.68]: Job job_138 finished
+2025-11-11 19:40:32.419 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_112 | Name: job_112 | Type: gin_reddit | Min GPUs: 1 | Max GPUs: 8 | Target epochs: 800 | Total samples: 800
+2025-11-11 19:40:32.419 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [3464.00]: Job job_112 submitted
+2025-11-11 19:40:32.419 | DEBUG    | geth_si.jobs.job_proc:run:19 - [3464.00]: Job job_86 starting job execution, in [(6, 0), (6, 1), (6, 2), (6, 3)]
+2025-11-11 19:40:32.419 | DEBUG    | geth_si.jobs.job_proc:run:19 - [3464.00]: Job job_112 starting job execution, in [(1, 7)]
+2025-11-11 19:40:32.420 | DEBUG    | geth_si.jobs.job_proc:run:90 - [3467.19]: Job job_41 finished
+2025-11-11 19:40:32.420 | DEBUG    | geth_si.jobs.job_proc:run:90 - [3468.21]: Job job_81 finished
+2025-11-11 19:40:32.420 | DEBUG    | geth_si.jobs.job_proc:run:90 - [3468.48]: Job job_140 finished
+2025-11-11 19:40:32.420 | DEBUG    | geth_si.jobs.job_proc:run:25 - [3469.50]: Job job_11 finished worker initialization
+2025-11-11 19:40:32.420 | DEBUG    | geth_si.jobs.job_proc:run:35 - [3469.50]: Job job_11 finished waiting for assigned gpus
+2025-11-11 19:40:32.420 | DEBUG    | geth_si.jobs.job_proc:run:39 - [3469.50]: Job job_11 speed calculated: 5.40
+2025-11-11 19:40:32.421 | DEBUG    | geth_si.jobs.job_proc:run:90 - [3474.33]: Job job_102 finished
+2025-11-11 19:40:32.422 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_95 | Name: job_95 | Type: sage_yelp | Min GPUs: 2 | Max GPUs: 8 | Target epochs: 500 | Total samples: 500
+2025-11-11 19:40:32.422 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [3481.00]: Job job_95 submitted
+2025-11-11 19:40:32.422 | DEBUG    | geth_si.jobs.job_proc:run:19 - [3481.00]: Job job_95 starting job execution, in [(0, 3), (0, 4)]
+2025-11-11 19:40:32.423 | DEBUG    | geth_si.jobs.job_proc:run:25 - [3487.89]: Job job_86 finished worker initialization
+2025-11-11 19:40:32.423 | DEBUG    | geth_si.jobs.job_proc:run:35 - [3487.89]: Job job_86 finished waiting for assigned gpus
+2025-11-11 19:40:32.423 | DEBUG    | geth_si.jobs.job_proc:run:39 - [3487.89]: Job job_86 speed calculated: 1.98
+2025-11-11 19:40:32.424 | DEBUG    | geth_si.jobs.job_proc:run:25 - [3488.77]: Job job_112 finished worker initialization
+2025-11-11 19:40:32.424 | DEBUG    | geth_si.jobs.job_proc:run:35 - [3488.77]: Job job_112 finished waiting for assigned gpus
+2025-11-11 19:40:32.424 | DEBUG    | geth_si.jobs.job_proc:run:39 - [3488.77]: Job job_112 speed calculated: 5.34
+2025-11-11 19:40:32.424 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_4 | Name: job_4 | Type: gcn_ogbn-products | Min GPUs: 8 | Max GPUs: 8 | Target epochs: 500 | Total samples: 500
+2025-11-11 19:40:32.424 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [3489.00]: Job job_4 submitted
+2025-11-11 19:40:32.424 | DEBUG    | geth_si.jobs.job_proc:run:19 - [3489.00]: Job job_4 starting job execution, in [(5, 0), (5, 1), (5, 2), (5, 3), (5, 4), (5, 5), (5, 6), (5, 7)]
+2025-11-11 19:40:32.424 | DEBUG    | geth_si.jobs.job_proc:run:25 - [3489.21]: Job job_95 finished worker initialization
+2025-11-11 19:40:32.424 | DEBUG    | geth_si.jobs.job_proc:run:35 - [3489.21]: Job job_95 finished waiting for assigned gpus
+2025-11-11 19:40:32.424 | DEBUG    | geth_si.jobs.job_proc:run:39 - [3489.21]: Job job_95 speed calculated: 2.32
+2025-11-11 19:40:32.426 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_147 | Name: job_147 | Type: gin_yelp | Min GPUs: 2 | Max GPUs: 8 | Target epochs: 800 | Total samples: 800
+2025-11-11 19:40:32.426 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [3496.00]: Job job_147 submitted
+2025-11-11 19:40:32.426 | DEBUG    | geth_si.jobs.job_proc:run:19 - [3496.00]: Job job_147 starting job execution, in [(1, 4), (1, 5)]
+2025-11-11 19:40:32.427 | DEBUG    | geth_si.jobs.job_proc:run:25 - [3504.26]: Job job_147 finished worker initialization
+2025-11-11 19:40:32.427 | DEBUG    | geth_si.jobs.job_proc:run:35 - [3504.26]: Job job_147 finished waiting for assigned gpus
+2025-11-11 19:40:32.427 | DEBUG    | geth_si.jobs.job_proc:run:39 - [3504.26]: Job job_147 speed calculated: 3.80
+2025-11-11 19:40:32.428 | DEBUG    | geth_si.jobs.job_proc:run:25 - [3510.92]: Job job_4 finished worker initialization
+2025-11-11 19:40:32.429 | DEBUG    | geth_si.jobs.job_proc:run:35 - [3510.92]: Job job_4 finished waiting for assigned gpus
+2025-11-11 19:40:32.429 | DEBUG    | geth_si.jobs.job_proc:run:39 - [3510.92]: Job job_4 speed calculated: 26.58
+2025-11-11 19:40:32.430 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_110 | Name: job_110 | Type: sage_ogbn-products | Min GPUs: 6 | Max GPUs: 8 | Target epochs: 800 | Total samples: 800
+2025-11-11 19:40:32.430 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [3515.00]: Job job_110 submitted
+2025-11-11 19:40:32.430 | DEBUG    | geth_si.jobs.job_proc:run:19 - [3515.00]: Job job_110 starting job execution, in [(2, 0), (2, 1), (2, 2), (2, 3), (2, 4), (2, 7)]
+2025-11-11 19:40:32.431 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_69 | Name: job_69 | Type: gcn_ogbn-products | Min GPUs: 6 | Max GPUs: 8 | Target epochs: 800 | Total samples: 800
+2025-11-11 19:40:32.432 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [3521.00]: Job job_69 submitted
+2025-11-11 19:40:32.433 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_60 | Name: job_60 | Type: gat_ogbn-products | Min GPUs: 1 | Max GPUs: 8 | Target epochs: 1500 | Total samples: 1500
+2025-11-11 19:40:32.433 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [3528.00]: Job job_60 submitted
+2025-11-11 19:40:32.434 | DEBUG    | geth_si.jobs.job_proc:run:90 - [3529.73]: Job job_4 finished
+2025-11-11 19:40:32.434 | DEBUG    | geth_si.jobs.job_proc:run:19 - [3530.00]: Job job_69 starting job execution, in [(5, 0), (5, 1), (5, 2), (5, 3), (5, 4), (5, 5)]
+2025-11-11 19:40:32.434 | DEBUG    | geth_si.jobs.job_proc:run:19 - [3530.00]: Job job_60 starting job execution, in [(5, 6)]
+2025-11-11 19:40:32.435 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_18 | Name: job_18 | Type: sage_reddit | Min GPUs: 8 | Max GPUs: 8 | Target epochs: 800 | Total samples: 800
+2025-11-11 19:40:32.435 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [3534.00]: Job job_18 submitted
+2025-11-11 19:40:32.435 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_114 | Name: job_114 | Type: gin_ogbn-products | Min GPUs: 6 | Max GPUs: 8 | Target epochs: 500 | Total samples: 500
+2025-11-11 19:40:32.435 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [3535.00]: Job job_114 submitted
+2025-11-11 19:40:32.436 | DEBUG    | geth_si.jobs.job_proc:run:25 - [3536.49]: Job job_110 finished worker initialization
+2025-11-11 19:40:32.436 | DEBUG    | geth_si.jobs.job_proc:run:35 - [3536.49]: Job job_110 finished waiting for assigned gpus
+2025-11-11 19:40:32.436 | DEBUG    | geth_si.jobs.job_proc:run:39 - [3536.49]: Job job_110 speed calculated: 10.02
+2025-11-11 19:40:32.439 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_65 | Name: job_65 | Type: gcn_yelp | Min GPUs: 2 | Max GPUs: 8 | Target epochs: 1500 | Total samples: 1500
+2025-11-11 19:40:32.439 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [3553.00]: Job job_65 submitted
+2025-11-11 19:40:32.440 | DEBUG    | geth_si.jobs.job_proc:run:25 - [3553.64]: Job job_69 finished worker initialization
+2025-11-11 19:40:32.440 | DEBUG    | geth_si.jobs.job_proc:run:35 - [3553.64]: Job job_69 finished waiting for assigned gpus
+2025-11-11 19:40:32.440 | DEBUG    | geth_si.jobs.job_proc:run:39 - [3553.64]: Job job_69 speed calculated: 20.01
+2025-11-11 19:40:32.441 | DEBUG    | geth_si.jobs.job_proc:run:25 - [3556.18]: Job job_60 finished worker initialization
+2025-11-11 19:40:32.441 | DEBUG    | geth_si.jobs.job_proc:run:35 - [3556.18]: Job job_60 finished waiting for assigned gpus
+2025-11-11 19:40:32.441 | DEBUG    | geth_si.jobs.job_proc:run:39 - [3556.18]: Job job_60 speed calculated: 0.59
+2025-11-11 19:40:32.443 | DEBUG    | geth_si.jobs.job_proc:run:90 - [3563.84]: Job job_62 finished
+2025-11-11 19:40:32.445 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_63 | Name: job_63 | Type: gat_yelp | Min GPUs: 1 | Max GPUs: 8 | Target epochs: 500 | Total samples: 500
+2025-11-11 19:40:32.445 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [3570.00]: Job job_63 submitted
+2025-11-11 19:40:32.445 | DEBUG    | geth_si.jobs.job_proc:run:90 - [3571.90]: Job job_61 finished
+2025-11-11 19:40:32.445 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_117 | Name: job_117 | Type: gin_yelp | Min GPUs: 8 | Max GPUs: 8 | Target epochs: 800 | Total samples: 800
+2025-11-11 19:40:32.445 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [3572.00]: Job job_117 submitted
+2025-11-11 19:40:32.446 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_92 | Name: job_92 | Type: gcn_yelp | Min GPUs: 8 | Max GPUs: 8 | Target epochs: 800 | Total samples: 800
+2025-11-11 19:40:32.446 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [3573.00]: Job job_92 submitted
+2025-11-11 19:40:32.446 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_105 | Name: job_105 | Type: gat_yelp | Min GPUs: 2 | Max GPUs: 8 | Target epochs: 500 | Total samples: 500
+2025-11-11 19:40:32.446 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [3574.00]: Job job_105 submitted
+2025-11-11 19:40:32.446 | DEBUG    | geth_si.simulation.engine:_delayed_submission:92 - Job ID: job_83 | Name: job_83 | Type: gcn_ogbn-products | Min GPUs: 6 | Max GPUs: 8 | Target epochs: 1500 | Total samples: 1500
+2025-11-11 19:40:32.446 | DEBUG    | geth_si.simulation.engine:_delayed_submission:93 - [3575.00]: Job job_83 submitted
+2025-11-11 19:40:32.451 | DEBUG    | geth_si.jobs.job_proc:run:90 - [3593.63]: Job job_69 finished
+2025-11-11 19:40:32.455 | DEBUG    | geth_si.jobs.job_proc:run:90 - [3616.31]: Job job_110 finished
+2025-11-11 19:40:32.457 | DEBUG    | geth_si.jobs.job_proc:run:90 - [3629.77]: Job job_99 finished
+2025-11-11 19:40:32.458 | DEBUG    | geth_si.jobs.job_proc:run:90 - [3630.53]: Job job_80 finished
+2025-11-11 19:40:32.459 | DEBUG    | geth_si.jobs.job_proc:run:90 - [3638.60]: Job job_112 finished
+2025-11-11 19:40:32.460 | DEBUG    | geth_si.jobs.job_proc:run:90 - [3651.12]: Job job_66 finished
+2025-11-11 19:40:32.463 | DEBUG    | geth_si.jobs.job_proc:run:90 - [3685.89]: Job job_90 finished
+2025-11-11 19:40:32.464 | DEBUG    | geth_si.jobs.job_proc:run:90 - [3691.41]: Job job_38 finished
+2025-11-11 19:40:32.464 | DEBUG    | geth_si.jobs.job_proc:run:19 - [3692.00]: Job job_18 starting job execution, in [(7, 0), (7, 1), (7, 2), (7, 3), (7, 4), (7, 5), (7, 6), (7, 7)]
+2025-11-11 19:40:32.464 | DEBUG    | geth_si.jobs.job_proc:run:19 - [3692.00]: Job job_114 starting job execution, in [(2, 0), (2, 1), (2, 2), (2, 3), (2, 4), (2, 6)]
+2025-11-11 19:40:32.464 | DEBUG    | geth_si.jobs.job_proc:run:19 - [3692.00]: Job job_65 starting job execution, in [(0, 0), (0, 2)]
+2025-11-11 19:40:32.464 | DEBUG    | geth_si.jobs.job_proc:run:19 - [3692.00]: Job job_63 starting job execution, in [(1, 6)]
+2025-11-11 19:40:32.465 | DEBUG    | geth_si.jobs.job_proc:run:25 - [3700.19]: Job job_63 finished worker initialization
+2025-11-11 19:40:32.465 | DEBUG    | geth_si.jobs.job_proc:run:35 - [3700.19]: Job job_63 finished waiting for assigned gpus
+2025-11-11 19:40:32.465 | DEBUG    | geth_si.jobs.job_proc:run:39 - [3700.19]: Job job_63 speed calculated: 0.64
+2025-11-11 19:40:32.465 | DEBUG    | geth_si.jobs.job_proc:run:25 - [3700.26]: Job job_65 finished worker initialization
+2025-11-11 19:40:32.465 | DEBUG    | geth_si.jobs.job_proc:run:35 - [3700.26]: Job job_65 finished waiting for assigned gpus
+2025-11-11 19:40:32.465 | DEBUG    | geth_si.jobs.job_proc:run:39 - [3700.26]: Job job_65 speed calculated: 4.41
+2025-11-11 19:40:32.466 | DEBUG    | geth_si.jobs.job_proc:run:90 - [3704.52]: Job job_95 finished
+2025-11-11 19:40:32.467 | DEBUG    | geth_si.jobs.job_proc:run:25 - [3714.58]: Job job_114 finished worker initialization
+2025-11-11 19:40:32.467 | DEBUG    | geth_si.jobs.job_proc:run:35 - [3714.58]: Job job_114 finished waiting for assigned gpus
+2025-11-11 19:40:32.467 | DEBUG    | geth_si.jobs.job_proc:run:39 - [3714.58]: Job job_114 speed calculated: 22.50
+2025-11-11 19:40:32.467 | DEBUG    | geth_si.jobs.job_proc:run:90 - [3714.75]: Job job_147 finished
+2025-11-11 19:40:32.468 | DEBUG    | geth_si.jobs.job_proc:run:25 - [3719.88]: Job job_18 finished worker initialization
+2025-11-11 19:40:32.468 | DEBUG    | geth_si.jobs.job_proc:run:35 - [3719.88]: Job job_18 finished waiting for assigned gpus
+2025-11-11 19:40:32.468 | DEBUG    | geth_si.jobs.job_proc:run:39 - [3719.88]: Job job_18 speed calculated: 4.52
+2025-11-11 19:40:32.470 | DEBUG    | geth_si.jobs.job_proc:run:90 - [3736.80]: Job job_114 finished
+2025-11-11 19:40:32.471 | DEBUG    | geth_si.jobs.job_proc:run:90 - [3740.22]: Job job_86 finished
+2025-11-11 19:40:32.471 | DEBUG    | geth_si.jobs.job_proc:run:19 - [3741.00]: Job job_117 starting job execution, in [(6, 0), (6, 1), (6, 2), (6, 3), (6, 4), (6, 5), (6, 6), (6, 7)]
+2025-11-11 19:40:32.472 | DEBUG    | geth_si.jobs.job_proc:run:90 - [3747.42]: Job job_11 finished
+2025-11-11 19:40:32.472 | DEBUG    | geth_si.jobs.job_proc:run:25 - [3752.72]: Job job_117 finished worker initialization
+2025-11-11 19:40:32.472 | DEBUG    | geth_si.jobs.job_proc:run:35 - [3752.72]: Job job_117 finished waiting for assigned gpus
+2025-11-11 19:40:32.472 | DEBUG    | geth_si.jobs.job_proc:run:39 - [3752.72]: Job job_117 speed calculated: 7.36
+2025-11-11 19:40:32.478 | DEBUG    | geth_si.jobs.job_proc:run:90 - [3830.19]: Job job_98 finished
+2025-11-11 19:40:32.481 | DEBUG    | geth_si.jobs.job_proc:run:90 - [3861.38]: Job job_117 finished
+2025-11-11 19:40:32.481 | DEBUG    | geth_si.jobs.job_proc:run:19 - [3862.00]: Job job_92 starting job execution, in [(6, 0), (6, 1), (6, 2), (6, 3), (6, 4), (6, 5), (6, 6), (6, 7)]
+2025-11-11 19:40:32.481 | DEBUG    | geth_si.jobs.job_proc:run:19 - [3862.00]: Job job_105 starting job execution, in [(0, 3), (0, 4)]
+2025-11-11 19:40:32.481 | DEBUG    | geth_si.jobs.job_proc:run:19 - [3862.00]: Job job_83 starting job execution, in [(1, 0), (1, 1), (1, 2), (1, 3), (1, 4), (1, 5)]
+2025-11-11 19:40:32.482 | DEBUG    | geth_si.jobs.job_proc:run:25 - [3870.23]: Job job_105 finished worker initialization
+2025-11-11 19:40:32.482 | DEBUG    | geth_si.jobs.job_proc:run:35 - [3870.23]: Job job_105 finished waiting for assigned gpus
+2025-11-11 19:40:32.482 | DEBUG    | geth_si.jobs.job_proc:run:39 - [3870.23]: Job job_105 speed calculated: 0.80
+2025-11-11 19:40:32.482 | DEBUG    | geth_si.jobs.job_proc:run:25 - [3874.20]: Job job_92 finished worker initialization
+2025-11-11 19:40:32.482 | DEBUG    | geth_si.jobs.job_proc:run:35 - [3874.20]: Job job_92 finished waiting for assigned gpus
+2025-11-11 19:40:32.482 | DEBUG    | geth_si.jobs.job_proc:run:39 - [3874.20]: Job job_92 speed calculated: 6.99
+2025-11-11 19:40:32.483 | DEBUG    | geth_si.jobs.job_proc:run:25 - [3885.64]: Job job_83 finished worker initialization
+2025-11-11 19:40:32.483 | DEBUG    | geth_si.jobs.job_proc:run:35 - [3885.64]: Job job_83 finished waiting for assigned gpus
+2025-11-11 19:40:32.483 | DEBUG    | geth_si.jobs.job_proc:run:39 - [3885.64]: Job job_83 speed calculated: 20.01
+2025-11-11 19:40:32.485 | DEBUG    | geth_si.jobs.job_proc:run:90 - [3896.86]: Job job_18 finished
+2025-11-11 19:40:32.487 | DEBUG    | geth_si.jobs.job_proc:run:90 - [3916.82]: Job job_87 finished
+2025-11-11 19:40:32.489 | DEBUG    | geth_si.jobs.job_proc:run:90 - [3938.03]: Job job_53 finished
+2025-11-11 19:40:32.492 | DEBUG    | geth_si.jobs.job_proc:run:90 - [3960.62]: Job job_83 finished
+2025-11-11 19:40:32.494 | DEBUG    | geth_si.jobs.job_proc:run:90 - [3988.68]: Job job_92 finished
+2025-11-11 19:40:32.494 | DEBUG    | geth_si.jobs.job_proc:run:90 - [3991.84]: Job job_51 finished
+2025-11-11 19:40:32.495 | DEBUG    | geth_si.jobs.job_proc:run:90 - [4040.05]: Job job_65 finished
+2025-11-11 19:40:32.502 | DEBUG    | geth_si.jobs.job_proc:run:90 - [4480.56]: Job job_63 finished
+2025-11-11 19:40:32.502 | DEBUG    | geth_si.jobs.job_proc:run:90 - [4493.31]: Job job_105 finished
+2025-11-11 19:40:32.502 | DEBUG    | geth_si.jobs.job_proc:run:90 - [4542.03]: Job job_35 finished
+2025-11-11 19:40:32.514 | DEBUG    | geth_si.jobs.job_proc:run:90 - [6084.11]: Job job_60 finished
+2025-11-11 19:40:32.514 | INFO     | geth_si.simulation.engine:job_monitor:139 - [6094.00]: No activity detected for 10 seconds, terminating simulation
+naive NAIVE
+Seed 300 fifo Simulation Results:
+Total Runtime: 6094.00 seconds
+Avg Completion Time: 459.97 seconds
+Completed Jobs: 150
+

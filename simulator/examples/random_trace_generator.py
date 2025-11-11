@@ -129,8 +129,13 @@ def generate_nonhomogeneous_poisson_timestamps(lambda_base, n, start_time=-1, se
             timestamps.append(current_time - start_time) # generate relative time
     return timestamps
 
-trace_csv_path = "/workspace/simulator/pai.csv"
-# trace_csv_path = "/workspace/simulator/ms.csv"
+import os
+
+if os.environ.get('TRACE', 'MS') == 'MS':
+    trace_csv_path = "/workspace/simulator/ms.csv"
+else:
+    trace_csv_path = "/workspace/simulator/pai.csv"
+
 trace_csv = pd.read_csv(trace_csv_path, parse_dates=["timestamp"])
 trace_csv = trace_csv.sort_values("timestamp")
 
