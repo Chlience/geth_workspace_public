@@ -11,6 +11,8 @@ pip install simpy
 配置运行时环境：
 
 ```bash
+su wpb
+source /workspace/scripts/env_vars.sh
 cd /workspace/gccl/build && make install
 cd /workspace/ragdoll && ./build.sh
 cd /workspace/geth && pip install -e .
@@ -101,4 +103,15 @@ env BEFORE_SCALE_LIMIT=5 TRACE=MS python3 examples/run_all_parallel.py --seed_be
 env BEFORE_SCALE_LIMIT=5 TRACE=MS python3 examples/run_all_parallel.py --seed_begin 852 --seed_end 852 --task_num_begin 210 --task_num_end 210 --log_dir logs_ms
 env BEFORE_SCALE_LIMIT=5 TRACE=MS python3 examples/run_all_parallel.py --seed_begin 300 --seed_end 300 --task_num_begin 150 --task_num_end 150 --log_dir logs_ms
 python3 examples/extract_log_runtime.py --log_dir logs_ms
+```
+
+## Scale 性能对比实验
+
+```bash
+cd /workspace/plot/ckpt_perf
+./run_all_ckpt.sh
+./run_all_elastic.sh
+python3 proc_data.py
+cd /workspace/plot/overall_results
+python3 read_data.py --ckpt_perf /workspace/ckpt_perf/ckpt_perf.json --results_dir /workspace/results
 ```
