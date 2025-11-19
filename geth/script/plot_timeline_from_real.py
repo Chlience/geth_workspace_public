@@ -144,6 +144,7 @@ def plot_task_timeline(real_data):
 def main():
     parser = argparse.ArgumentParser(description='Visualize task execution timeline from log file.')
     parser.add_argument('log_file', help='Path to the log file')
+    parser.add_argument('--name', default='ElasGNN')
     parser.add_argument('--output', default='timeline_real.png', 
                        help='Output image path (default: timeline_real.png)')
     args = parser.parse_args()
@@ -170,12 +171,8 @@ def main():
         real_jct = real['finish_time'] - simu['submit_time']
         simu_jcts.append(simu_jct)
         real_jcts.append(real_jct)
-        
-        print(f"Task: {task_name}, Type: {simu['task_type']}",
-            f"\n\tSimu Submit: {simu['submit_time']:.2f}s, Simu Create: {simu['create_time']:.2f}s, Simu Finished: {simu['finish_time']:.2f}s, Simu JCT: {simu_jct:.2f}s, Assigns: [[{simu['assigned_gpus_finish_time']:.2f}s, {len(simu['initial_gpus'])}], {[[x[0], len(x[1])] for x in simu.get('scales', [])]}]",
-            f"\n\tReal Submit: {real['submit_time']:.2f}s, Real Create: {real['create_time']:.2f}s, Real Finished: {real['finish_time']:.2f}s, Real JCT: {real_jct:.2f}s, Assigns: [[{real['assigned_gpus_finish_time']:.2f}s, {len(simu['initial_gpus'])}], {real.get('scales', [])}]")
     print("\nSummary:")
-    print(f"Log file: {args.log_file}")
+    print(f"Name: {args.name}")
     
     average_simu_jct = sum(simu_jcts) / len(simu_jcts)
     average_real_jct = sum(real_jcts) / len(real_jcts)
@@ -191,9 +188,9 @@ def main():
     print(f"Real Make Span:        {phy_end_time:.2f}s")
     print(f"Make Span Error:       {(phy_end_time - simu_end_time) / phy_end_time:.2%}")
     
-    fig = plot_task_timeline(real_data)
-    fig.savefig(args.output, dpi=300, bbox_inches='tight')
-    print(f"Timeline saved to {args.output}")
+    # fig = plot_task_timeline(real_data)
+    # fig.savefig(args.output, dpi=300, bbox_inches='tight')
+    # print(f"Timeline saved to {args.output}")
 
 if __name__ == "__main__":
     main()

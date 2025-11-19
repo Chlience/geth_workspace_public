@@ -100,8 +100,5 @@ if __name__ == "__main__":
     with open(args.output, 'w') as f:
         json.dump(jobs, f, indent=2)
     print(f"Successfully parsed and saved to {args.output}")
-        
-    for job_id, job_info in jobs.items():
-        print(f"{job_info},")
     
     
