@@ -20,16 +20,7 @@ cd /workspace/geth && pip install -e .
 
 ## 模拟器性能测试实验
 
-使用模拟器在单机八卡上随机生成任务，并给出不同调度方案下的模拟运行结果。
-结果保存在 `/workspace/simulator/logs/` 目录下：
-
-```bash
-cd /workspace/simulator
-env TRACE=PAI python3 examples/run_all_parallel.py --seed_begin 26 --seed_end 26 --phy
-python3 examples/extract_log_runtime.py
-```
-
-将模拟器的调度方案转化为实际运行的任务格式：
+使用模拟器在单机八卡上随机生成任务，并给出不同调度方案下的模拟运行结果：
 
 ```bash
 /workspace/scripts/run_simu_test.sh
