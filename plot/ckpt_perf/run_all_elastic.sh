@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # gat
 
 mkdir -p results/gat_reddit/
