@@ -6,7 +6,7 @@ import argparse
 def process_log_file(log_text):
     # 编译正则表达式来匹配日志行中的时间戳
     time_pattern = re.compile(r'(\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}\.\d{3})')
-    begin_pattern = re.compile(r'__main__:run_task:59')
+    begin_pattern = re.compile(r'__main__:run_task:60')
     
     exclude_patterns = [
         'geth.base.zmq_link',

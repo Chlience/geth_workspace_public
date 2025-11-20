@@ -5,7 +5,7 @@
 安装模拟器依赖：
 
 ```bash
-pip install simpy
+pip install simpy ansi_strip
 ```
 
 配置运行时环境：
