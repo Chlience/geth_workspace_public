@@ -2,12 +2,6 @@
 
 ## 环境配置
 
-安装模拟器依赖：
-
-```bash
-pip install simpy ansi_strip
-```
-
 配置运行时环境：
 
 ```bash
@@ -16,6 +10,7 @@ source /workspace/scripts/env_vars.sh
 cd /workspace/gccl/build && make install
 cd /workspace/ragdoll && ./build.sh
 cd /workspace/geth && pip install -e .
+pip install simpy strip_ansi
 ```
 
 ## 模拟器性能测试实验
