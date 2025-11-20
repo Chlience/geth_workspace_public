@@ -7,7 +7,7 @@ import json
 
 def parse_task_simu_info(log_lines):
     # 正则表达式匹配 job 信息
-    pattern = r"DEBUG\s+\|\s+__main__:run_task:59\s+\-\s+\[\s+\d+\.\d+\]:\s+(\{.*?\})"
+    pattern = r"DEBUG\s+\|\s+__main__:run_task:60\s+\-\s+\[\s+\d+\.\d+\]:\s+(\{.*?\})"
     log_content = ''.join(log_lines)
     matches = re.findall(pattern, log_content, re.DOTALL)
     
@@ -145,6 +145,7 @@ def main():
     parser = argparse.ArgumentParser(description='Visualize task execution timeline from log file.')
     parser.add_argument('log_file', help='Path to the log file')
     parser.add_argument('--name', default='ElasGNN')
+    parser.add_argument('--pre_scale', action='store_true')
     parser.add_argument('--output', default='timeline_real.png', 
                        help='Output image path (default: timeline_real.png)')
     args = parser.parse_args()
@@ -159,13 +160,21 @@ def main():
     simu_info = parse_task_simu_info(log_lines)
     real_data = parse_task_real_info(log_lines)
     
-    real_data = dict(sorted(real_data.items(), key=lambda item: (item[1]['assigned_gpus_finish_time'], item[1]['finish_time'])))
+    real_data = dict(sorted(real_data.items(), key=lambda item: item[1]['create_time']))
+    
+    # if args.pre_scale:
+    #     real_data = dict(sorted(real_data.items(), key=lambda item: (item[1]['assigned_gpus_finish_time'], item[1]['finish_time'])))
+    # else:
+    #     real_data = dict(sorted(real_data.items(), key=lambda item: (item[1]['create_time'], item[1]['finish_time'])))
     
     simu_jcts = []
     real_jcts = []
     for task_name in real_data.keys():
         simu = simu_info[task_name]
         real = real_data[task_name]
+        if 'finish_time' not in real:
+            print(f"Warning: Task {task_name} has no finish_time in real data, skipping.")
+            continue
         real['submit_time'] = simu['submit_time']
         simu_jct = simu['finish_time'] - simu['submit_time']
         real_jct = real['finish_time'] - simu['submit_time']
