@@ -1,0 +1,179 @@
+2025-08-01 08:23:15.975 | DEBUG    | geth_si.simulation.engine:_delayed_submission:80 - Job ID: job_0 | Name: job_0 | Type: gin_ogbn-arxiv | Min GPUs: 2 | Max GPUs: 8 | Target epochs: 1500 | Total samples: 1500
+2025-08-01 08:23:15.975 | DEBUG    | geth_si.simulation.engine:_delayed_submission:81 - [6.00]: Job job_0 submitted
+2025-08-01 08:23:15.975 | DEBUG    | geth_si.simulation.engine:_delayed_submission:80 - Job ID: job_6 | Name: job_6 | Type: gin_yelp | Min GPUs: 2 | Max GPUs: 8 | Target epochs: 800 | Total samples: 800
+2025-08-01 08:23:15.975 | DEBUG    | geth_si.simulation.engine:_delayed_submission:81 - [6.00]: Job job_6 submitted
+2025-08-01 08:23:15.975 | DEBUG    | geth_si.jobs.job_proc:run:19 - [6.00]: Job job_0 starting job execution, in [(0, 0), (0, 1)]
+2025-08-01 08:23:15.975 | DEBUG    | geth_si.jobs.job_proc:run:19 - [6.00]: Job job_6 starting job execution, in [(0, 2), (0, 3)]
+2025-08-01 08:23:15.975 | DEBUG    | geth_si.jobs.job_proc:run:25 - [10.32]: Job job_0 finished worker initialization
+2025-08-01 08:23:15.975 | DEBUG    | geth_si.jobs.job_proc:run:35 - [10.32]: Job job_0 finished waiting for assigned gpus
+2025-08-01 08:23:15.975 | DEBUG    | geth_si.jobs.job_proc:run:39 - [10.32]: Job job_0 speed calculated: 11.57
+2025-08-01 08:23:15.975 | DEBUG    | geth_si.simulation.engine:_delayed_submission:80 - Job ID: job_2 | Name: job_2 | Type: gcn_reddit | Min GPUs: 6 | Max GPUs: 8 | Target epochs: 1500 | Total samples: 1500
+2025-08-01 08:23:15.976 | DEBUG    | geth_si.simulation.engine:_delayed_submission:81 - [10.80]: Job job_2 submitted
+2025-08-01 08:23:15.976 | DEBUG    | geth_si.jobs.job_proc:run:25 - [14.26]: Job job_6 finished worker initialization
+2025-08-01 08:23:15.976 | DEBUG    | geth_si.jobs.job_proc:run:35 - [14.26]: Job job_6 finished waiting for assigned gpus
+2025-08-01 08:23:15.976 | DEBUG    | geth_si.jobs.job_proc:run:39 - [14.26]: Job job_6 speed calculated: 3.80
+2025-08-01 08:23:15.978 | DEBUG    | geth_si.jobs.job_proc:handle_interrupt:108 - [31.00]: Job job_0 scale from [(0, 0), (0, 1)] to [(0, 0), (0, 1), (0, 4), (0, 5), (0, 6), (0, 7)]
+2025-08-01 08:23:15.978 | DEBUG    | geth_si.jobs.job_proc:handle_interrupt:109 - [31.00]: Job job_0 continuing at original speed 11.57 with 2 GPUs, for 3.15s during environment setup
+2025-08-01 08:23:15.978 | DEBUG    | geth_si.jobs.job_proc:run:63 - [34.20]: Job job_0 pausing for 1.34s during scaling operation
+2025-08-01 08:23:15.978 | DEBUG    | geth_si.jobs.job_proc:run:71 - [35.54]: Job job_0 recover after scaling operation, running at new speed: 20.44 with 6 GPUs
+2025-08-01 08:23:15.983 | DEBUG    | geth_si.jobs.job_proc:run:19 - [81.00]: Job job_2 starting job execution, in [(0, 0), (0, 1), (0, 4), (0, 5), (0, 6), (0, 7)]
+2025-08-01 08:23:15.985 | DEBUG    | geth_si.jobs.job_proc:run:90 - [95.41]: Job job_0 finished
+2025-08-01 08:23:15.985 | DEBUG    | geth_si.jobs.job_proc:run:25 - [107.26]: Job job_2 finished worker initialization
+2025-08-01 08:23:15.985 | DEBUG    | geth_si.jobs.job_proc:run:35 - [107.26]: Job job_2 finished waiting for assigned gpus
+2025-08-01 08:23:15.985 | DEBUG    | geth_si.jobs.job_proc:run:39 - [107.26]: Job job_2 speed calculated: 7.17
+2025-08-01 08:23:15.992 | DEBUG    | geth_si.jobs.job_proc:run:90 - [224.75]: Job job_6 finished
+2025-08-01 08:23:15.997 | DEBUG    | geth_si.simulation.engine:_delayed_submission:80 - Job ID: job_17 | Name: job_17 | Type: gin_ogbn-products | Min GPUs: 6 | Max GPUs: 8 | Target epochs: 500 | Total samples: 500
+2025-08-01 08:23:15.997 | DEBUG    | geth_si.simulation.engine:_delayed_submission:81 - [301.20]: Job job_17 submitted
+2025-08-01 08:23:15.997 | DEBUG    | geth_si.jobs.job_proc:run:19 - [302.00]: Job job_17 starting job execution, in [(0, 0), (0, 1), (0, 2), (0, 3), (0, 4), (0, 5)]
+2025-08-01 08:23:15.998 | DEBUG    | geth_si.jobs.job_proc:run:90 - [316.53]: Job job_2 finished
+2025-08-01 08:23:15.998 | DEBUG    | geth_si.jobs.job_proc:run:25 - [324.58]: Job job_17 finished worker initialization
+2025-08-01 08:23:15.998 | DEBUG    | geth_si.jobs.job_proc:run:35 - [324.58]: Job job_17 finished waiting for assigned gpus
+2025-08-01 08:23:15.998 | DEBUG    | geth_si.jobs.job_proc:run:39 - [324.58]: Job job_17 speed calculated: 22.50
+2025-08-01 08:23:16.000 | DEBUG    | geth_si.jobs.job_proc:run:90 - [346.80]: Job job_17 finished
+2025-08-01 08:23:16.001 | DEBUG    | geth_si.simulation.engine:_delayed_submission:80 - Job ID: job_1 | Name: job_1 | Type: gin_reddit | Min GPUs: 6 | Max GPUs: 8 | Target epochs: 500 | Total samples: 500
+2025-08-01 08:23:16.001 | DEBUG    | geth_si.simulation.engine:_delayed_submission:81 - [372.60]: Job job_1 submitted
+2025-08-01 08:23:16.001 | DEBUG    | geth_si.jobs.job_proc:run:19 - [373.00]: Job job_1 starting job execution, in [(0, 0), (0, 1), (0, 2), (0, 3), (0, 4), (0, 5)]
+2025-08-01 08:23:16.001 | DEBUG    | geth_si.jobs.job_proc:run:25 - [398.69]: Job job_1 finished worker initialization
+2025-08-01 08:23:16.001 | DEBUG    | geth_si.jobs.job_proc:run:35 - [398.69]: Job job_1 finished waiting for assigned gpus
+2025-08-01 08:23:16.001 | DEBUG    | geth_si.jobs.job_proc:run:39 - [398.69]: Job job_1 speed calculated: 8.04
+2025-08-01 08:23:16.005 | DEBUG    | geth_si.jobs.job_proc:run:90 - [460.89]: Job job_1 finished
+2025-08-01 08:23:16.005 | DEBUG    | geth_si.simulation.engine:_delayed_submission:80 - Job ID: job_15 | Name: job_15 | Type: sage_ogbn-products | Min GPUs: 6 | Max GPUs: 8 | Target epochs: 500 | Total samples: 500
+2025-08-01 08:23:16.005 | DEBUG    | geth_si.simulation.engine:_delayed_submission:81 - [468.00]: Job job_15 submitted
+2025-08-01 08:23:16.005 | DEBUG    | geth_si.jobs.job_proc:run:19 - [468.00]: Job job_15 starting job execution, in [(0, 0), (0, 1), (0, 2), (0, 3), (0, 4), (0, 5)]
+2025-08-01 08:23:16.006 | DEBUG    | geth_si.jobs.job_proc:run:25 - [489.49]: Job job_15 finished worker initialization
+2025-08-01 08:23:16.006 | DEBUG    | geth_si.jobs.job_proc:run:35 - [489.49]: Job job_15 finished waiting for assigned gpus
+2025-08-01 08:23:16.006 | DEBUG    | geth_si.jobs.job_proc:run:39 - [489.49]: Job job_15 speed calculated: 10.02
+2025-08-01 08:23:16.007 | DEBUG    | geth_si.jobs.job_proc:handle_interrupt:108 - [510.00]: Job job_15 scale from [(0, 0), (0, 1), (0, 2), (0, 3), (0, 4), (0, 5)] to [(0, 0), (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7)]
+2025-08-01 08:23:16.007 | DEBUG    | geth_si.jobs.job_proc:handle_interrupt:109 - [510.00]: Job job_15 continuing at original speed 10.02 with 6 GPUs, for 6.66s during environment setup
+2025-08-01 08:23:16.007 | DEBUG    | geth_si.jobs.job_proc:run:63 - [516.68]: Job job_15 pausing for 5.26s during scaling operation
+2025-08-01 08:23:16.007 | DEBUG    | geth_si.jobs.job_proc:run:71 - [521.95]: Job job_15 recover after scaling operation, running at new speed: 13.14 with 8 GPUs
+2025-08-01 08:23:16.009 | DEBUG    | geth_si.jobs.job_proc:run:90 - [539.29]: Job job_15 finished
+2025-08-01 08:23:16.010 | DEBUG    | geth_si.simulation.engine:_delayed_submission:80 - Job ID: job_13 | Name: job_13 | Type: gin_ogbn-products | Min GPUs: 1 | Max GPUs: 8 | Target epochs: 500 | Total samples: 500
+2025-08-01 08:23:16.010 | DEBUG    | geth_si.simulation.engine:_delayed_submission:81 - [617.40]: Job job_13 submitted
+2025-08-01 08:23:16.010 | DEBUG    | geth_si.jobs.job_proc:run:19 - [618.00]: Job job_13 starting job execution, in [(0, 0)]
+2025-08-01 08:23:16.010 | DEBUG    | geth_si.jobs.job_proc:run:25 - [642.89]: Job job_13 finished worker initialization
+2025-08-01 08:23:16.010 | DEBUG    | geth_si.jobs.job_proc:run:35 - [642.89]: Job job_13 finished waiting for assigned gpus
+2025-08-01 08:23:16.010 | DEBUG    | geth_si.jobs.job_proc:run:39 - [642.89]: Job job_13 speed calculated: 5.48
+2025-08-01 08:23:16.011 | DEBUG    | geth_si.jobs.job_proc:handle_interrupt:108 - [663.00]: Job job_13 scale from [(0, 0)] to [(0, 0), (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7)]
+2025-08-01 08:23:16.011 | DEBUG    | geth_si.jobs.job_proc:handle_interrupt:109 - [663.00]: Job job_13 continuing at original speed 5.48 with 1 GPUs, for 6.76s during environment setup
+2025-08-01 08:23:16.011 | DEBUG    | geth_si.jobs.job_proc:run:63 - [669.93]: Job job_13 pausing for 5.32s during scaling operation
+2025-08-01 08:23:16.012 | DEBUG    | geth_si.jobs.job_proc:run:71 - [675.25]: Job job_13 recover after scaling operation, running at new speed: 30.59 with 8 GPUs
+2025-08-01 08:23:16.013 | DEBUG    | geth_si.jobs.job_proc:run:90 - [686.76]: Job job_13 finished
+2025-08-01 08:23:16.015 | DEBUG    | geth_si.simulation.engine:_delayed_submission:80 - Job ID: job_14 | Name: job_14 | Type: gcn_yelp | Min GPUs: 8 | Max GPUs: 8 | Target epochs: 1500 | Total samples: 1500
+2025-08-01 08:23:16.015 | DEBUG    | geth_si.simulation.engine:_delayed_submission:81 - [910.20]: Job job_14 submitted
+2025-08-01 08:23:16.015 | DEBUG    | geth_si.jobs.job_proc:run:19 - [911.00]: Job job_14 starting job execution, in [(0, 0), (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7)]
+2025-08-01 08:23:16.016 | DEBUG    | geth_si.jobs.job_proc:run:25 - [923.20]: Job job_14 finished worker initialization
+2025-08-01 08:23:16.016 | DEBUG    | geth_si.jobs.job_proc:run:35 - [923.20]: Job job_14 finished waiting for assigned gpus
+2025-08-01 08:23:16.016 | DEBUG    | geth_si.jobs.job_proc:run:39 - [923.20]: Job job_14 speed calculated: 6.99
+2025-08-01 08:23:16.023 | DEBUG    | geth_si.simulation.engine:_delayed_submission:80 - Job ID: job_11 | Name: job_11 | Type: gin_reddit | Min GPUs: 4 | Max GPUs: 8 | Target epochs: 500 | Total samples: 500
+2025-08-01 08:23:16.023 | DEBUG    | geth_si.simulation.engine:_delayed_submission:81 - [1086.60]: Job job_11 submitted
+2025-08-01 08:23:16.023 | DEBUG    | geth_si.simulation.engine:_delayed_submission:80 - Job ID: job_18 | Name: job_18 | Type: gcn_reddit | Min GPUs: 6 | Max GPUs: 8 | Target epochs: 1500 | Total samples: 1500
+2025-08-01 08:23:16.023 | DEBUG    | geth_si.simulation.engine:_delayed_submission:81 - [1093.20]: Job job_18 submitted
+2025-08-01 08:23:16.025 | DEBUG    | geth_si.jobs.job_proc:run:19 - [1123.00]: Job job_11 starting job execution, in [(0, 0), (0, 1), (0, 2), (0, 3)]
+2025-08-01 08:23:16.025 | DEBUG    | geth_si.jobs.job_proc:run:90 - [1137.86]: Job job_14 finished
+2025-08-01 08:23:16.026 | DEBUG    | geth_si.jobs.job_proc:run:25 - [1149.19]: Job job_11 finished worker initialization
+2025-08-01 08:23:16.026 | DEBUG    | geth_si.jobs.job_proc:run:35 - [1149.19]: Job job_11 finished waiting for assigned gpus
+2025-08-01 08:23:16.026 | DEBUG    | geth_si.jobs.job_proc:run:39 - [1149.19]: Job job_11 speed calculated: 9.09
+2025-08-01 08:23:16.028 | DEBUG    | geth_si.simulation.engine:_delayed_submission:80 - Job ID: job_10 | Name: job_10 | Type: sage_yelp | Min GPUs: 6 | Max GPUs: 8 | Target epochs: 800 | Total samples: 800
+2025-08-01 08:23:16.028 | DEBUG    | geth_si.simulation.engine:_delayed_submission:81 - [1179.60]: Job job_10 submitted
+2025-08-01 08:23:16.029 | DEBUG    | geth_si.jobs.job_proc:run:19 - [1190.00]: Job job_10 starting job execution, in [(0, 0), (0, 1), (0, 2), (0, 3), (0, 4), (0, 5)]
+2025-08-01 08:23:16.030 | DEBUG    | geth_si.jobs.job_proc:run:25 - [1199.67]: Job job_10 finished worker initialization
+2025-08-01 08:23:16.030 | DEBUG    | geth_si.jobs.job_proc:run:90 - [1204.18]: Job job_11 finished
+2025-08-01 08:23:16.030 | DEBUG    | geth_si.jobs.job_proc:run:35 - [1204.18]: Job job_10 finished waiting for assigned gpus
+2025-08-01 08:23:16.030 | DEBUG    | geth_si.jobs.job_proc:run:39 - [1204.18]: Job job_10 speed calculated: 3.87
+2025-08-01 08:23:16.032 | DEBUG    | geth_si.jobs.job_proc:handle_interrupt:108 - [1225.00]: Job job_10 scale from [(0, 0), (0, 1), (0, 2), (0, 3), (0, 4), (0, 5)] to [(0, 0), (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7)]
+2025-08-01 08:23:16.032 | DEBUG    | geth_si.jobs.job_proc:handle_interrupt:109 - [1225.00]: Job job_10 continuing at original speed 3.87 with 6 GPUs, for 3.28s during environment setup
+2025-08-01 08:23:16.032 | DEBUG    | geth_si.jobs.job_proc:run:63 - [1228.36]: Job job_10 pausing for 2.70s during scaling operation
+2025-08-01 08:23:16.032 | DEBUG    | geth_si.jobs.job_proc:run:71 - [1231.06]: Job job_10 recover after scaling operation, running at new speed: 4.14 with 8 GPUs
+2025-08-01 08:23:16.036 | DEBUG    | geth_si.simulation.engine:_delayed_submission:80 - Job ID: job_4 | Name: job_4 | Type: sage_ogbn-products | Min GPUs: 2 | Max GPUs: 8 | Target epochs: 1500 | Total samples: 1500
+2025-08-01 08:23:16.036 | DEBUG    | geth_si.simulation.engine:_delayed_submission:81 - [1332.00]: Job job_4 submitted
+2025-08-01 08:23:16.036 | DEBUG    | geth_si.simulation.engine:_delayed_submission:80 - Job ID: job_9 | Name: job_9 | Type: sage_yelp | Min GPUs: 8 | Max GPUs: 8 | Target epochs: 800 | Total samples: 800
+2025-08-01 08:23:16.036 | DEBUG    | geth_si.simulation.engine:_delayed_submission:81 - [1341.60]: Job job_9 submitted
+2025-08-01 08:23:16.038 | DEBUG    | geth_si.jobs.job_proc:run:19 - [1387.00]: Job job_9 starting job execution, in [(0, 0), (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7)]
+2025-08-01 08:23:16.039 | DEBUG    | geth_si.jobs.job_proc:run:25 - [1398.43]: Job job_9 finished worker initialization
+2025-08-01 08:23:16.039 | DEBUG    | geth_si.jobs.job_proc:run:90 - [1401.68]: Job job_10 finished
+2025-08-01 08:23:16.039 | DEBUG    | geth_si.jobs.job_proc:run:35 - [1401.68]: Job job_9 finished waiting for assigned gpus
+2025-08-01 08:23:16.039 | DEBUG    | geth_si.jobs.job_proc:run:39 - [1401.68]: Job job_9 speed calculated: 4.14
+2025-08-01 08:23:16.041 | DEBUG    | geth_si.simulation.engine:_delayed_submission:80 - Job ID: job_12 | Name: job_12 | Type: gat_reddit | Min GPUs: 8 | Max GPUs: 8 | Target epochs: 800 | Total samples: 800
+2025-08-01 08:23:16.041 | DEBUG    | geth_si.simulation.engine:_delayed_submission:81 - [1435.20]: Job job_12 submitted
+2025-08-01 08:23:16.043 | DEBUG    | geth_si.simulation.engine:_delayed_submission:80 - Job ID: job_8 | Name: job_8 | Type: gin_ogbn-products | Min GPUs: 1 | Max GPUs: 8 | Target epochs: 1500 | Total samples: 1500
+2025-08-01 08:23:16.043 | DEBUG    | geth_si.simulation.engine:_delayed_submission:81 - [1473.60]: Job job_8 submitted
+2025-08-01 08:23:16.048 | DEBUG    | geth_si.jobs.job_proc:run:19 - [1580.00]: Job job_18 starting job execution, in [(0, 0), (0, 1), (0, 2), (0, 3), (0, 4), (0, 5)]
+2025-08-01 08:23:16.048 | DEBUG    | geth_si.jobs.job_proc:run:19 - [1580.00]: Job job_8 starting job execution, in [(0, 6)]
+2025-08-01 08:23:16.048 | DEBUG    | geth_si.jobs.job_proc:run:90 - [1594.76]: Job job_9 finished
+2025-08-01 08:23:16.049 | DEBUG    | geth_si.jobs.job_proc:run:25 - [1604.89]: Job job_8 finished worker initialization
+2025-08-01 08:23:16.049 | DEBUG    | geth_si.jobs.job_proc:run:35 - [1604.89]: Job job_8 finished waiting for assigned gpus
+2025-08-01 08:23:16.049 | DEBUG    | geth_si.jobs.job_proc:run:39 - [1604.89]: Job job_8 speed calculated: 5.48
+2025-08-01 08:23:16.049 | DEBUG    | geth_si.jobs.job_proc:run:25 - [1606.26]: Job job_18 finished worker initialization
+2025-08-01 08:23:16.049 | DEBUG    | geth_si.jobs.job_proc:run:35 - [1606.26]: Job job_18 finished waiting for assigned gpus
+2025-08-01 08:23:16.049 | DEBUG    | geth_si.jobs.job_proc:run:39 - [1606.26]: Job job_18 speed calculated: 7.17
+2025-08-01 08:23:16.051 | DEBUG    | geth_si.jobs.job_proc:handle_interrupt:108 - [1625.00]: Job job_8 scale from [(0, 6)] to [(0, 6), (0, 7)]
+2025-08-01 08:23:16.051 | DEBUG    | geth_si.jobs.job_proc:handle_interrupt:109 - [1625.00]: Job job_8 continuing at original speed 5.48 with 1 GPUs, for 10.10s during environment setup
+2025-08-01 08:23:16.052 | DEBUG    | geth_si.simulation.engine:_delayed_submission:80 - Job ID: job_3 | Name: job_3 | Type: gat_reddit | Min GPUs: 2 | Max GPUs: 8 | Target epochs: 1500 | Total samples: 1500
+2025-08-01 08:23:16.052 | DEBUG    | geth_si.simulation.engine:_delayed_submission:81 - [1633.20]: Job job_3 submitted
+2025-08-01 08:23:16.052 | DEBUG    | geth_si.jobs.job_proc:run:63 - [1635.22]: Job job_8 pausing for 3.84s during scaling operation
+2025-08-01 08:23:16.052 | DEBUG    | geth_si.jobs.job_proc:run:71 - [1639.05]: Job job_8 recover after scaling operation, running at new speed: 10.20 with 2 GPUs
+2025-08-01 08:23:16.056 | DEBUG    | geth_si.simulation.engine:_delayed_submission:80 - Job ID: job_7 | Name: job_7 | Type: sage_reddit | Min GPUs: 4 | Max GPUs: 8 | Target epochs: 500 | Total samples: 500
+2025-08-01 08:23:16.057 | DEBUG    | geth_si.simulation.engine:_delayed_submission:81 - [1687.80]: Job job_7 submitted
+2025-08-01 08:23:16.063 | DEBUG    | geth_si.jobs.job_proc:run:19 - [1755.00]: Job job_4 starting job execution, in [(0, 6), (0, 7)]
+2025-08-01 08:23:16.063 | DEBUG    | geth_si.simulation.engine:_delayed_submission:80 - Job ID: job_5 | Name: job_5 | Type: gcn_ogbn-products | Min GPUs: 8 | Max GPUs: 8 | Target epochs: 500 | Total samples: 500
+2025-08-01 08:23:16.063 | DEBUG    | geth_si.simulation.engine:_delayed_submission:81 - [1761.60]: Job job_5 submitted
+2025-08-01 08:23:16.064 | DEBUG    | geth_si.jobs.job_proc:run:90 - [1769.87]: Job job_8 finished
+2025-08-01 08:23:16.065 | DEBUG    | geth_si.jobs.job_proc:run:25 - [1779.57]: Job job_4 finished worker initialization
+2025-08-01 08:23:16.065 | DEBUG    | geth_si.jobs.job_proc:run:35 - [1779.57]: Job job_4 finished waiting for assigned gpus
+2025-08-01 08:23:16.065 | DEBUG    | geth_si.jobs.job_proc:run:39 - [1779.57]: Job job_4 speed calculated: 4.83
+2025-08-01 08:23:16.066 | DEBUG    | geth_si.jobs.job_proc:run:19 - [1801.00]: Job job_7 starting job execution, in [(0, 0), (0, 1), (0, 2), (0, 3)]
+2025-08-01 08:23:16.066 | DEBUG    | geth_si.jobs.job_proc:run:19 - [1801.00]: Job job_3 starting job execution, in [(0, 4), (0, 5)]
+2025-08-01 08:23:16.067 | DEBUG    | geth_si.jobs.job_proc:run:90 - [1815.53]: Job job_18 finished
+2025-08-01 08:23:16.068 | DEBUG    | geth_si.jobs.job_proc:run:25 - [1827.22]: Job job_7 finished worker initialization
+2025-08-01 08:23:16.068 | DEBUG    | geth_si.jobs.job_proc:run:35 - [1827.22]: Job job_7 finished waiting for assigned gpus
+2025-08-01 08:23:16.068 | DEBUG    | geth_si.jobs.job_proc:run:39 - [1827.22]: Job job_7 speed calculated: 5.34
+2025-08-01 08:23:16.068 | DEBUG    | geth_si.jobs.job_proc:run:25 - [1827.53]: Job job_3 finished worker initialization
+2025-08-01 08:23:16.068 | DEBUG    | geth_si.jobs.job_proc:run:35 - [1827.53]: Job job_3 finished waiting for assigned gpus
+2025-08-01 08:23:16.068 | DEBUG    | geth_si.jobs.job_proc:run:39 - [1827.53]: Job job_3 speed calculated: 0.71
+2025-08-01 08:23:16.069 | DEBUG    | geth_si.simulation.engine:_delayed_submission:80 - Job ID: job_19 | Name: job_19 | Type: sage_reddit | Min GPUs: 4 | Max GPUs: 8 | Target epochs: 500 | Total samples: 500
+2025-08-01 08:23:16.069 | DEBUG    | geth_si.simulation.engine:_delayed_submission:81 - [1831.20]: Job job_19 submitted
+2025-08-01 08:23:16.074 | DEBUG    | geth_si.jobs.job_proc:run:19 - [1906.00]: Job job_19 starting job execution, in [(0, 0), (0, 1), (0, 2), (0, 3)]
+2025-08-01 08:23:16.075 | DEBUG    | geth_si.jobs.job_proc:run:90 - [1920.84]: Job job_7 finished
+2025-08-01 08:23:16.075 | DEBUG    | geth_si.jobs.job_proc:run:25 - [1932.22]: Job job_19 finished worker initialization
+2025-08-01 08:23:16.076 | DEBUG    | geth_si.jobs.job_proc:run:35 - [1932.22]: Job job_19 finished waiting for assigned gpus
+2025-08-01 08:23:16.076 | DEBUG    | geth_si.jobs.job_proc:run:39 - [1932.22]: Job job_19 speed calculated: 5.34
+2025-08-01 08:23:16.081 | DEBUG    | geth_si.jobs.job_proc:handle_interrupt:108 - [2016.00]: Job job_3 scale from [(0, 4), (0, 5)] to [(0, 4), (0, 5), (0, 0), (0, 1), (0, 2), (0, 3)]
+2025-08-01 08:23:16.081 | DEBUG    | geth_si.jobs.job_proc:handle_interrupt:109 - [2016.00]: Job job_3 continuing at original speed 0.71 with 2 GPUs, for 7.24s during environment setup
+2025-08-01 08:23:16.082 | DEBUG    | geth_si.jobs.job_proc:run:90 - [2025.84]: Job job_19 finished
+2025-08-01 08:23:16.082 | DEBUG    | geth_si.jobs.job_proc:run:63 - [2025.84]: Job job_3 pausing for 3.29s during scaling operation
+2025-08-01 08:23:16.082 | DEBUG    | geth_si.jobs.job_proc:run:71 - [2029.12]: Job job_3 recover after scaling operation, running at new speed: 1.23 with 6 GPUs
+2025-08-01 08:23:16.084 | DEBUG    | geth_si.simulation.engine:_delayed_submission:80 - Job ID: job_16 | Name: job_16 | Type: gat_reddit | Min GPUs: 1 | Max GPUs: 8 | Target epochs: 1500 | Total samples: 1500
+2025-08-01 08:23:16.084 | DEBUG    | geth_si.simulation.engine:_delayed_submission:81 - [2054.40]: Job job_16 submitted
+2025-08-01 08:23:16.085 | DEBUG    | geth_si.jobs.job_proc:run:19 - [2076.00]: Job job_16 starting job execution, in [(0, 6)]
+2025-08-01 08:23:16.085 | DEBUG    | geth_si.jobs.job_proc:handle_interrupt:108 - [2080.00]: Job job_3 scale from [(0, 4), (0, 5), (0, 0), (0, 1), (0, 2), (0, 3)] to [(0, 4), (0, 5), (0, 0), (0, 1), (0, 2), (0, 3), (0, 7)]
+2025-08-01 08:23:16.085 | DEBUG    | geth_si.jobs.job_proc:handle_interrupt:109 - [2080.00]: Job job_3 continuing at original speed 1.23 with 6 GPUs, for 7.27s during environment setup
+2025-08-01 08:23:16.086 | DEBUG    | geth_si.jobs.job_proc:run:90 - [2089.91]: Job job_4 finished
+2025-08-01 08:23:16.086 | DEBUG    | geth_si.jobs.job_proc:run:63 - [2089.91]: Job job_3 pausing for 3.48s during scaling operation
+2025-08-01 08:23:16.086 | DEBUG    | geth_si.jobs.job_proc:run:71 - [2093.40]: Job job_3 recover after scaling operation, running at new speed: 1.27 with 7 GPUs
+2025-08-01 08:23:16.087 | DEBUG    | geth_si.jobs.job_proc:run:25 - [2100.78]: Job job_16 finished worker initialization
+2025-08-01 08:23:16.087 | DEBUG    | geth_si.jobs.job_proc:run:35 - [2100.78]: Job job_16 finished waiting for assigned gpus
+2025-08-01 08:23:16.087 | DEBUG    | geth_si.jobs.job_proc:run:39 - [2100.78]: Job job_16 speed calculated: 0.49
+2025-08-01 08:23:16.122 | DEBUG    | geth_si.jobs.job_proc:handle_interrupt:108 - [3098.00]: Job job_16 scale from [(0, 6)] to [(0, 6), (0, 0), (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 7)]
+2025-08-01 08:23:16.122 | DEBUG    | geth_si.jobs.job_proc:handle_interrupt:109 - [3098.00]: Job job_16 continuing at original speed 0.49 with 1 GPUs, for 7.09s during environment setup
+2025-08-01 08:23:16.123 | DEBUG    | geth_si.jobs.job_proc:run:90 - [3107.27]: Job job_3 finished
+2025-08-01 08:23:16.123 | DEBUG    | geth_si.jobs.job_proc:run:63 - [3107.27]: Job job_16 pausing for 3.99s during scaling operation
+2025-08-01 08:23:16.123 | DEBUG    | geth_si.jobs.job_proc:run:71 - [3111.26]: Job job_16 recover after scaling operation, running at new speed: 1.28 with 8 GPUs
+2025-08-01 08:23:16.147 | DEBUG    | geth_si.jobs.job_proc:run:19 - [3888.00]: Job job_5 starting job execution, in [(0, 0), (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7)]
+2025-08-01 08:23:16.147 | DEBUG    | geth_si.jobs.job_proc:run:90 - [3902.56]: Job job_16 finished
+2025-08-01 08:23:16.147 | DEBUG    | geth_si.jobs.job_proc:run:25 - [3909.92]: Job job_5 finished worker initialization
+2025-08-01 08:23:16.147 | DEBUG    | geth_si.jobs.job_proc:run:35 - [3909.92]: Job job_5 finished waiting for assigned gpus
+2025-08-01 08:23:16.147 | DEBUG    | geth_si.jobs.job_proc:run:39 - [3909.92]: Job job_5 speed calculated: 26.58
+2025-08-01 08:23:16.148 | DEBUG    | geth_si.jobs.job_proc:run:19 - [3914.00]: Job job_12 starting job execution, in [(0, 0), (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7)]
+2025-08-01 08:23:16.149 | DEBUG    | geth_si.jobs.job_proc:run:90 - [3928.73]: Job job_5 finished
+2025-08-01 08:23:16.149 | DEBUG    | geth_si.jobs.job_proc:run:25 - [3940.02]: Job job_12 finished worker initialization
+2025-08-01 08:23:16.149 | DEBUG    | geth_si.jobs.job_proc:run:35 - [3940.02]: Job job_12 finished waiting for assigned gpus
+2025-08-01 08:23:16.150 | DEBUG    | geth_si.jobs.job_proc:run:39 - [3940.02]: Job job_12 speed calculated: 1.28
+2025-08-01 08:23:16.164 | DEBUG    | geth_si.jobs.job_proc:run:90 - [4566.79]: Job job_12 finished
+2025-08-01 08:23:16.164 | INFO     | geth_si.simulation.engine:job_monitor:127 - [4576.00]: No activity detected for 10 seconds, terminating simulation
+geth GETH
+Seed 26 elastic_pre_sjf Simulation Results:
+Total Runtime: 4576.00 seconds
+Avg Completion Time: 626.70 seconds
+Completed Jobs: 20
+
