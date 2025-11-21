@@ -51,7 +51,6 @@ def main():
     
     configurations = [
         ("elastic_pre_sjf", "geth"),
-        ("elastic_pre", "geth"),
         ("sjf", "naive"),
         ("fifo", "naive"),
     ]

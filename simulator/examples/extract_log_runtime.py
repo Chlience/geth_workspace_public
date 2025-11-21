@@ -10,39 +10,28 @@ log_dir = args.log_dir
 
 output = {}
 
-pattern = re.compile(r'(elastic_pre_sjf_|elastic_pre_|sjf_|fifo_|)?simulation_seed_(\d+)\.log')
-pattern_with_task = re.compile(r'(elastic_pre_sjf_|elastic_pre_|sjf_|fifo_|)?simulation_seed_(\d+)_task_(\d+)\.log')
+pattern = re.compile(r'(elasgnn_|sjf_|yarn-cs_|)?simulation_(\d+)\.log')
 runtime_pattern = re.compile(r'Total Runtime: ([\d.]+) seconds')
 avg_pattern = re.compile(r'Avg Completion Time: ([\d.]+) seconds')
 
 with_task = False
 for fname in os.listdir(log_dir):
-    m = pattern_with_task.fullmatch(fname)
+    m = pattern.fullmatch(fname)
     if m:
+        if with_task:
+            print(f"Can't deal with both task and non-task logs in the same directory: {fname}")
+            continue
         print("Processing task log:", fname)
-        with_task = True
         prefix = m.group(1) or ''
         seed = m.group(2)
-        task_num = m.group(3)
     else:
-        m = pattern.fullmatch(fname)
-        if m:
-            if with_task:
-                print(f"Can't deal with both task and non-task logs in the same directory: {fname}")
-                continue
-            print("Processing task log:", fname)
-            prefix = m.group(1) or ''
-            seed = m.group(2)
-        else:
-            continue
-    if prefix == 'elastic_pre_sjf_':
-        log_type = 'elastic_pre_sjf'
-    elif prefix == 'elastic_pre_':
-        log_type = 'elastic_pre'
+        continue
+    if prefix == 'elasgnn_':
+        log_type = 'elasgnn'
     elif prefix == 'sjf_':
         log_type = 'sjf'
     else:
-        log_type = 'fifo'
+        log_type = 'yarn'
     path = os.path.join(log_dir, fname)
     with open(path, 'r') as f:
         lines = f.readlines()
@@ -61,18 +50,10 @@ for fname in os.listdir(log_dir):
             break
     if seed not in output:
         output[seed] = {}
-    if with_task:
-        if task_num not in output[seed]:
-            output[seed][task_num] = {}
-        output[seed][task_num][log_type] = {
-            'total_runtime': total_runtime,
-            'avg_completion_time': avg_completion_time
-        }
-    else:
-        output[seed][log_type] = {
-            'total_runtime': total_runtime,
-            'avg_completion_time': avg_completion_time
-        }
+    output[seed][log_type] = {
+        'total_runtime': total_runtime,
+        'avg_completion_time': avg_completion_time
+    }
 
 with open(os.path.join(log_dir, 'runtime_summary.json'), 'w') as f:
     json.dump(output, f, indent=2)
@@ -82,69 +63,63 @@ speedup_list = []
 if with_task:
     for seed, tasks in output.items():
         for task_num, v in tasks.items():
-            elastic_pre_sjf = v.get('elastic_pre_sjf')
-            elastic_pre = v.get('elastic_pre')
+            elasgnn = v.get('elasgnn')
             sjf = v.get('sjf')
-            fifo = v.get('fifo')
-            if fifo and elastic_pre_sjf and elastic_pre_sjf['total_runtime'] and fifo['total_runtime']:
-                speedup_total_elastic_pre_sjf_over_fifo = fifo['total_runtime'] / elastic_pre_sjf['total_runtime']
-                speedup_avg_elastic_pre_sjf_over_fifo = fifo['avg_completion_time'] / elastic_pre_sjf['avg_completion_time']
-                speedup_total_elastic_pre_sjf_over_sjf = sjf['total_runtime'] / elastic_pre_sjf['total_runtime']
-                speedup_avg_elastic_pre_sjf_over_sjf = sjf['avg_completion_time'] / elastic_pre_sjf['avg_completion_time']
+            yarn = v.get('yarn')
+            if yarn and elasgnn and elasgnn['total_runtime'] and yarn['total_runtime']:
+                speedup_total_elasgnn_over_yarn = yarn['total_runtime'] / elasgnn['total_runtime']
+                speedup_avg_elasgnn_over_yarn = yarn['avg_completion_time'] / elasgnn['avg_completion_time']
+                speedup_total_elasgnn_over_sjf = sjf['total_runtime'] / elasgnn['total_runtime']
+                speedup_avg_elasgnn_over_sjf = sjf['avg_completion_time'] / elasgnn['avg_completion_time']
                 speedup_list.append({
                     'seed': seed,
                     'task_num': task_num,
-                    'total_elastic_pre_sjf_runtime': elastic_pre_sjf['total_runtime'],
-                    'total_pre_runtime': elastic_pre['total_runtime'],
+                    'total_elasgnn_runtime': elasgnn['total_runtime'],
                     'total_sjf_runtime': sjf['total_runtime'],
-                    'total_fifo_runtime': fifo['total_runtime'],
-                    'avg_elastic_pre_sjf_runtime': elastic_pre_sjf['avg_completion_time'],
-                    'avg_elastic_pre_runtime': elastic_pre['avg_completion_time'],
+                    'total_yarn_runtime': yarn['total_runtime'],
+                    'avg_elasgnn_runtime': elasgnn['avg_completion_time'],
                     'avg_sjf_runtime': sjf['avg_completion_time'],
-                    'avg_fifo_runtime': fifo['avg_completion_time'],
-                    'speedup_total_elastic_pre_sjf_over_fifo': speedup_total_elastic_pre_sjf_over_fifo,
-                    'speedup_avg_elastic_pre_sjf_over_fifo': speedup_avg_elastic_pre_sjf_over_fifo,
-                    "speedup_total_elastic_pre_sjf_over_sjf": speedup_total_elastic_pre_sjf_over_sjf,
-                    "speedup_avg_elastic_pre_sjf_over_sjf": speedup_avg_elastic_pre_sjf_over_sjf
+                    'avg_yarn_runtime': yarn['avg_completion_time'],
+                    'speedup_total_elasgnn_over_yarn': speedup_total_elasgnn_over_yarn,
+                    'speedup_avg_elasgnn_over_yarn': speedup_avg_elasgnn_over_yarn,
+                    "speedup_total_elasgnn_over_sjf": speedup_total_elasgnn_over_sjf,
+                    "speedup_avg_elasgnn_over_sjf": speedup_avg_elasgnn_over_sjf
                 })
 else:
     for seed, v in output.items():
-        elastic_pre_sjf = v.get('elastic_pre_sjf')
-        elastic_pre = v.get('elastic_pre')
+        elasgnn = v.get('elasgnn')
         sjf = v.get('sjf')
-        fifo = v.get('fifo')
-        if fifo and elastic_pre_sjf and elastic_pre_sjf['total_runtime'] and fifo['total_runtime']:
-            speedup_total_elastic_pre_sjf_over_fifo = fifo['total_runtime'] / elastic_pre_sjf['total_runtime']
-            speedup_avg_elastic_pre_sjf_over_fifo = fifo['avg_completion_time'] / elastic_pre_sjf['avg_completion_time']
-            speedup_total_elastic_pre_sjf_over_sjf = sjf['total_runtime'] / elastic_pre_sjf['total_runtime']
-            speedup_avg_elastic_pre_sjf_over_sjf = sjf['avg_completion_time'] / elastic_pre_sjf['avg_completion_time']
+        yarn = v.get('yarn')
+        if yarn and elasgnn and elasgnn['total_runtime'] and yarn['total_runtime']:
+            speedup_total_elasgnn_over_yarn = yarn['total_runtime'] / elasgnn['total_runtime']
+            speedup_avg_elasgnn_over_yarn = yarn['avg_completion_time'] / elasgnn['avg_completion_time']
+            speedup_total_elasgnn_over_sjf = sjf['total_runtime'] / elasgnn['total_runtime']
+            speedup_avg_elasgnn_over_sjf = sjf['avg_completion_time'] / elasgnn['avg_completion_time']
             speedup_list.append({
                 'seed': seed,
-                'total_elastic_pre_sjf_runtime': elastic_pre_sjf['total_runtime'],
-                'total_pre_runtime': elastic_pre['total_runtime'],
+                'total_elasgnn_runtime': elasgnn['total_runtime'],
                 'total_sjf_runtime': sjf['total_runtime'],
-                'total_fifo_runtime': fifo['total_runtime'],
-                'avg_elastic_pre_sjf_runtime': elastic_pre_sjf['avg_completion_time'],
-                'avg_elastic_pre_runtime': elastic_pre['avg_completion_time'],
+                'total_yarn_runtime': yarn['total_runtime'],
+                'avg_elasgnn_runtime': elasgnn['avg_completion_time'],
                 'avg_sjf_runtime': sjf['avg_completion_time'],
-                'avg_fifo_runtime': fifo['avg_completion_time'],
-                'speedup_total_elastic_pre_sjf_over_fifo': speedup_total_elastic_pre_sjf_over_fifo,
-                'speedup_avg_elastic_pre_sjf_over_fifo': speedup_avg_elastic_pre_sjf_over_fifo,
-                "speedup_total_elastic_pre_sjf_over_sjf": speedup_total_elastic_pre_sjf_over_sjf,
-                "speedup_avg_elastic_pre_sjf_over_sjf": speedup_avg_elastic_pre_sjf_over_sjf
+                'avg_yarn_runtime': yarn['avg_completion_time'],
+                'speedup_total_elasgnn_over_yarn': speedup_total_elasgnn_over_yarn,
+                'speedup_avg_elasgnn_over_yarn': speedup_avg_elasgnn_over_yarn,
+                "speedup_total_elasgnn_over_sjf": speedup_total_elasgnn_over_sjf,
+                "speedup_avg_elasgnn_over_sjf": speedup_avg_elasgnn_over_sjf
             })
 
-speedup_list.sort(key=lambda x: x['speedup_total_elastic_pre_sjf_over_sjf'], reverse=True)
+speedup_list.sort(key=lambda x: x['speedup_total_elasgnn_over_sjf'], reverse=True)
 
-with open(os.path.join(log_dir, 'runtime_speedup_sorted.json'), 'w') as f:
-    json.dump(speedup_list, f, indent=2)
+# with open(os.path.join(log_dir, 'runtime_speedup_sorted.json'), 'w') as f:
+#     json.dump(speedup_list, f, indent=2)
 
-# speedup_list 只保留 speedup_total_elastic_pre_sjf_over_sjf 大于 1.3 的项
-speedup_list = [item for item in speedup_list if item['speedup_total_elastic_pre_sjf_over_sjf'] > 1.3]
-speedup_list.sort(key=lambda x: x['speedup_avg_elastic_pre_sjf_over_fifo'], reverse=True)
+# speedup_list 只保留 speedup_total_elasgnn_over_sjf 大于 1.3 的项
+speedup_list = [item for item in speedup_list if item['speedup_total_elasgnn_over_sjf'] > 1.3]
+speedup_list.sort(key=lambda x: x['speedup_avg_elasgnn_over_yarn'], reverse=True)
 
 with open(os.path.join(log_dir, 'runtime_speedup_sorted_special.json'), 'w') as f:
     json.dump(speedup_list, f, indent=2)
 
-print(f"speedup 结果已保存到 {os.path.join(log_dir, 'runtime_speedup_sorted.json')}")
-print(f"speedup special 结果已保存到 {os.path.join(log_dir, 'runtime_speedup_sorted_special.json')}")
+# print(f"speedup 结果已保存到 {os.path.join(log_dir, 'runtime_speedup_sorted.json')}")
+print(f"Results has been saved to {os.path.join(log_dir, 'runtime_speedup.json')}")
