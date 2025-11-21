@@ -56,8 +56,6 @@ python3 tests/st/train.py /workspace/simulator/logs_simu/yarn-cs.json
 
 ## 模拟器大实验
 
-### PAI 数据集实验
-
 ```bash
 /workspace/scripts/run_simu_full_test.sh
 ```
