@@ -18,12 +18,9 @@ with_task = False
 for fname in os.listdir(log_dir):
     m = pattern.fullmatch(fname)
     if m:
-        if with_task:
-            print(f"Can't deal with both task and non-task logs in the same directory: {fname}")
-            continue
         print("Processing task log:", fname)
         prefix = m.group(1) or ''
-        seed = m.group(2)
+        rank = m.group(2)
     else:
         continue
     if prefix == 'elasgnn_':
@@ -48,66 +45,40 @@ for fname in os.listdir(log_dir):
                 avg_completion_time = float(m2.group(1))
         if total_runtime is not None and avg_completion_time is not None:
             break
-    if seed not in output:
-        output[seed] = {}
-    output[seed][log_type] = {
+    if rank not in output:
+        output[rank] = {}
+    output[rank][log_type] = {
         'total_runtime': total_runtime,
         'avg_completion_time': avg_completion_time
     }
 
-with open(os.path.join(log_dir, 'runtime_summary.json'), 'w') as f:
-    json.dump(output, f, indent=2)
+# with open(os.path.join(log_dir, 'runtime_summary.json'), 'w') as f:
+#     json.dump(output, f, indent=2)
 
 # 计算speedup并排序
 speedup_list = []
-if with_task:
-    for seed, tasks in output.items():
-        for task_num, v in tasks.items():
-            elasgnn = v.get('elasgnn')
-            sjf = v.get('sjf')
-            yarn = v.get('yarn')
-            if yarn and elasgnn and elasgnn['total_runtime'] and yarn['total_runtime']:
-                speedup_total_elasgnn_over_yarn = yarn['total_runtime'] / elasgnn['total_runtime']
-                speedup_avg_elasgnn_over_yarn = yarn['avg_completion_time'] / elasgnn['avg_completion_time']
-                speedup_total_elasgnn_over_sjf = sjf['total_runtime'] / elasgnn['total_runtime']
-                speedup_avg_elasgnn_over_sjf = sjf['avg_completion_time'] / elasgnn['avg_completion_time']
-                speedup_list.append({
-                    'seed': seed,
-                    'task_num': task_num,
-                    'total_elasgnn_runtime': elasgnn['total_runtime'],
-                    'total_sjf_runtime': sjf['total_runtime'],
-                    'total_yarn_runtime': yarn['total_runtime'],
-                    'avg_elasgnn_runtime': elasgnn['avg_completion_time'],
-                    'avg_sjf_runtime': sjf['avg_completion_time'],
-                    'avg_yarn_runtime': yarn['avg_completion_time'],
-                    'speedup_total_elasgnn_over_yarn': speedup_total_elasgnn_over_yarn,
-                    'speedup_avg_elasgnn_over_yarn': speedup_avg_elasgnn_over_yarn,
-                    "speedup_total_elasgnn_over_sjf": speedup_total_elasgnn_over_sjf,
-                    "speedup_avg_elasgnn_over_sjf": speedup_avg_elasgnn_over_sjf
-                })
-else:
-    for seed, v in output.items():
-        elasgnn = v.get('elasgnn')
-        sjf = v.get('sjf')
-        yarn = v.get('yarn')
-        if yarn and elasgnn and elasgnn['total_runtime'] and yarn['total_runtime']:
-            speedup_total_elasgnn_over_yarn = yarn['total_runtime'] / elasgnn['total_runtime']
-            speedup_avg_elasgnn_over_yarn = yarn['avg_completion_time'] / elasgnn['avg_completion_time']
-            speedup_total_elasgnn_over_sjf = sjf['total_runtime'] / elasgnn['total_runtime']
-            speedup_avg_elasgnn_over_sjf = sjf['avg_completion_time'] / elasgnn['avg_completion_time']
-            speedup_list.append({
-                'seed': seed,
-                'total_elasgnn_runtime': elasgnn['total_runtime'],
-                'total_sjf_runtime': sjf['total_runtime'],
-                'total_yarn_runtime': yarn['total_runtime'],
-                'avg_elasgnn_runtime': elasgnn['avg_completion_time'],
-                'avg_sjf_runtime': sjf['avg_completion_time'],
-                'avg_yarn_runtime': yarn['avg_completion_time'],
-                'speedup_total_elasgnn_over_yarn': speedup_total_elasgnn_over_yarn,
-                'speedup_avg_elasgnn_over_yarn': speedup_avg_elasgnn_over_yarn,
-                "speedup_total_elasgnn_over_sjf": speedup_total_elasgnn_over_sjf,
-                "speedup_avg_elasgnn_over_sjf": speedup_avg_elasgnn_over_sjf
-            })
+for rank, v in output.items():
+    elasgnn = v.get('elasgnn')
+    sjf = v.get('sjf')
+    yarn = v.get('yarn')
+    if yarn and elasgnn and elasgnn['total_runtime'] and yarn['total_runtime']:
+        speedup_total_elasgnn_over_yarn = yarn['total_runtime'] / elasgnn['total_runtime']
+        speedup_avg_elasgnn_over_yarn = yarn['avg_completion_time'] / elasgnn['avg_completion_time']
+        speedup_total_elasgnn_over_sjf = sjf['total_runtime'] / elasgnn['total_runtime']
+        speedup_avg_elasgnn_over_sjf = sjf['avg_completion_time'] / elasgnn['avg_completion_time']
+        speedup_list.append({
+            'rank': rank,
+            'total_elasgnn_runtime': elasgnn['total_runtime'],
+            'total_sjf_runtime': sjf['total_runtime'],
+            'total_yarn_runtime': yarn['total_runtime'],
+            'avg_elasgnn_runtime': elasgnn['avg_completion_time'],
+            'avg_sjf_runtime': sjf['avg_completion_time'],
+            'avg_yarn_runtime': yarn['avg_completion_time'],
+            'speedup_total_elasgnn_over_yarn': speedup_total_elasgnn_over_yarn,
+            'speedup_avg_elasgnn_over_yarn': speedup_avg_elasgnn_over_yarn,
+            "speedup_total_elasgnn_over_sjf": speedup_total_elasgnn_over_sjf,
+            "speedup_avg_elasgnn_over_sjf": speedup_avg_elasgnn_over_sjf
+        })
 
 speedup_list.sort(key=lambda x: x['speedup_total_elasgnn_over_sjf'], reverse=True)
 
@@ -118,8 +89,7 @@ speedup_list.sort(key=lambda x: x['speedup_total_elasgnn_over_sjf'], reverse=Tru
 speedup_list = [item for item in speedup_list if item['speedup_total_elasgnn_over_sjf'] > 1.3]
 speedup_list.sort(key=lambda x: x['speedup_avg_elasgnn_over_yarn'], reverse=True)
 
-with open(os.path.join(log_dir, 'runtime_speedup_sorted_special.json'), 'w') as f:
+with open(os.path.join(log_dir, 'runtime_speedup.json'), 'w') as f:
     json.dump(speedup_list, f, indent=2)
 
-# print(f"speedup 结果已保存到 {os.path.join(log_dir, 'runtime_speedup_sorted.json')}")
 print(f"Results has been saved to {os.path.join(log_dir, 'runtime_speedup.json')}")
