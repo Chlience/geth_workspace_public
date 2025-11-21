@@ -27,19 +27,16 @@ pip install simpy strip_ansi
 cd /workspace/geth
 mkdir results
 
-# elastic_pre_sjf
-script results/elastic_pre_sjf_phy.log
-env GETH_ENABLE_PRESCALE=1 python3 tests/st/train.py /workspace/simulator/logs_simu/elastic_pre_sjf.json
+script results/elasgnn_phy.log
+env GETH_ENABLE_PRESCALE=1 python3 tests/st/train.py /workspace/simulator/logs_simu/elasgnn.json
 # Ctrl+D exit script
 
-# sjf
 script results/sjf_phy.log
 python3 tests/st/train.py /workspace/simulator/logs_simu/sjf.json
 # Ctrl+D exit script
 
-# fifo
-script results/fifo_phy.log
-python3 tests/st/train.py /workspace/simulator/logs_simu/fifo.json
+script results/yarn-cs_phy.log
+python3 tests/st/train.py /workspace/simulator/logs_simu/yarn-cs.json
 # Ctrl+D exit script
 ```
 
