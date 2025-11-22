@@ -1,5 +1,7 @@
 #!/bin/bash
 
+cd /workspace/geth
+
 # gat
 
 mkdir -p results/gat_reddit/
