@@ -672,7 +672,7 @@ class TaskScaleChain(GethTaskChain):
         if op.args[0].running is False:
             agent = self.agent_manager.get_agent_by_zmq_id(dealer_id)
             logger.debug(f"Agent {dealer_id} reported training finished")
-            assert self.stage == 3
+            assert self.stage == 4
             assert agent in self.old_agents
             self.zmq_server.send(
                 agent.zmq_id(),
